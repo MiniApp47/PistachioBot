@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             name: 'WHATSAPP 📞',
-            url: 'https://signal.me/#eu/KfmX6EgJFZHTkDLzVkTI5r8YYw3zKqniUPB3hIcGbpVrVWIQiVVG3awZu0ES0SiP',
-            id: 'signal',
+            url: 'https://wa.me/33626127557',
+            id: 'whatsapp',
             className: 'whatsapp', // Il faudra peut-être ajouter ce CSS (Jaune)
             text: "WHATSAPP 📞"
         },
