@@ -100,14 +100,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Nouveauté',
                     products: [
                         {
-                            id: 'Og',
+                            id: '',
                             flag: '🇪🇸',
-                            name: '🧽 OG KUSH & BUBAA KUSH 🧽',
-                            farm: 'No Farm',
+                            name: '🧽  🧽',
+                            farm: '',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductOg.png', // ⚠️ A changer
-                            video: 'VideoOg.mov',
+                            video: '.mov',
                             description: '- Jaune crémeux comme on aime avec bonne défonce  🚬 \n -super odeur de bonne plante 🌱 quand on connais les deux fleur d’où il vien on comprend🏆🪴 🏆 \n - Saison 2025 ⌛️',
                             tarifs: [
                                 { weight: '10g', price: 40.00 },
@@ -128,17 +128,20 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Exclusif',
                     products: [
                         {
-                            id: 'ExempleCanada',
+                            id: '_Purple Bud 🦄♒️',
                             flag: '🇨🇦',
-                            name: '🇨🇦 Pink Kush',
-                            farm: 'CALI CANADIES',
+                            name: '_Purple Bud 🦄♒️',
+                            farm: '',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'Rupture.png', // ⚠️ A changer
-                            video: '',
-                            description: 'Import Canada \n Gas & Sweet',
+                            image: 'ProductBud.png', // ⚠️ A changer
+                            video: 'VideoBud.mov',
+                            description: 'Purple Bud est munie de puissantes génétiques au sein desquelles on retrouve l’Hindu Kush, la Purple Kush et une sativa jamaïcaine ainsi qu’une afghane inconnues. Avec ses couleurs éclatantes et séduisantes, la Purple Bud est une variété à dominance indica à la courte stature qui est un choix idéal pour les petits espaces.',
                             tarifs: [
-                                { weight: '3.5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 210.00 },
+                                { weight: '50g', price: 330.00 },
+                                { weight: '100g', price: 630.00 },
                             ]
                         }
                     ]
@@ -152,258 +155,279 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Wizard Trees & co',
                     products: [
                         {
-                            id: 'ZangBanger',
+                            id: '👨‍🍳RAIBOW',
                             flag: '🇺🇸',
-                            name: '🍇 Zang Banger 🌪',
-                            farm: '🔮 Wizard trees 🔮',
+                            name: '👨‍🍳RAIBOW RUNTZ 🌈',
+                            farm: '🏠Growers choice',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ZangBangerProduct.jpg',
-                            video: 'VideoCali2.mp4',
-                            description: 'Ultra rare - 27.33% THC \n ( Sherbanger #22 x Zangria )',
+                            image: 'ProductRaibow.jpg',
+                            video: 'VideoRaibow.mov',
+                            description: '~ 🇺🇸Californienne \nUn bocal de pépites en or au bout de l’arc-en-ciel ? La Rainbow Runtz est un hybride étonnant aux saveurs incroyables et sucrées et à la teneur en THC gigantesque⚡️⚡️⚡️',
                             tarifs: [
-                                { weight: '3,5g', price: 120.00 },
+                                { weight: '1BAG \n (3,5gr)', price: 40.00 },
+                                { weight: '2BAGS \n (7gr)', price: 70.00 },
+                                { weight: '3BAGS \n (10,5gr)', price: 110.00 },
+
                             ]
                         },
-                        {
-                            id: 'PotionNew',
+                         {
+                            id: 'PotiGIRLonNew',
                             flag: '🇺🇸',
-                            name: '🧪 Potion ☢️',
-                            farm: '🔮 Wizard trees 🔮',
+                            name: 'GIRL SCOUT COOKIES  🍪 💃',
+                            farm: '🏠Growers choice',
                             promoEligible: false,
                             type: 'Weed',
-                            image: 'PotionNewProduct.jpg',
-                            video: 'PotionNewSong.MP4',
-                            description: '( Limelight x Blackmagic )',
+                            image: 'ProductGirl.png',
+                            video: 'VideoGirl.mov',
+                            description: 'Comme de nombreuses autres bonnes variétés de cannabis, la Girl Scout Cookies a ses origines sur la côte ouest des États-Unis. Ce croisement entre l’OG Kush et une F1 Durban Poison est d’abord devenu très populaire en Californie et peu après s’est imposé en Europe et dans le reste du monde.✅',
                             tarifs: [
-                                { weight: '3,5g', price: 120.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 210.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 640.00 },
                             ]
-                        },
-                        // J'ai mis la Bubblegum ici aussi car c'est de la US
-                        {
-                            id: 'BUBBLEGUM',
-                            flag: '🇺🇸',
-                            name: '🫧 BUBBLEGUM 🫧',
-                            farm: 'BackPackSelection ✅',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductBubble.jpg',
-                            video: 'VideoBubble.mp4',
-                            description: 'SUPERDOPE GENETICS',
-                            tarifs: [
-                                { weight: '5g', price: 80.00 },
-                                { weight: '10g', price: 150.00 },
-                            ]
-                        }
+                        } 
                     ]
                 }
             ]
         },
 
         // ============================================================
-    // CATEGORIE 2 : HASH 🍫
-    // ============================================================
-    {
-        id: 'HASH',
-        name: '🍫 HASH',
-        type: 'Hash',
-        quality: '🍫 Hashish',
-        image: 'CategExctra.png', 
+        // CATEGORIE 2 : HASH 🍫
+        // ============================================================
+        {
+            id: 'HASH',
+            name: '🍫 HASH',
+            type: 'Hash',
+            quality: '🍫 Hashish',
+            image: 'CategExctra.png',
 
-        farms: [
-            // 1. JAUNE CRÉMEUX 🍯
-            {
-                id: 'JAUNE_CREMEUX',
-                name: 'JAUNE CRÉMEUX 🍯',
-                image: '', 
-                badgeText: 'Classique',
-                products: [
-                    {
-                        id: 'Og',
-                        flag: '🇪🇸',
-                        name: '🧽 OG KUSH & BUBAA KUSH 🧽',
-                        farm: 'No Farm',
-                        promoEligible: true,
-                        type: 'Hash',
-                        image: 'ProductOg.jpg',
-                        video: 'VideoOg.mov',
-                        description: '🧽Jaune mousseux top crème 🧽⬇️ \n\n - Jaune crémeux comme on aime avec bonne défonce  🚬 \n -super odeur de bonne plante 🌱',
-                        tarifs: [
-                            { weight: '10g', price: 40.00 },
-                            { weight: '25g', price: 100.00 },
-                            { weight: '50g', price: 160.00 },
-                            { weight: '100g', price: 280.00 },
-                        ]
-                    }
-                ]
-            },
+            farms: [
+                // 1. JAUNE CRÉMEUX 🍯
+                {
+                    id: 'JAUNE_CREMEUX',
+                    name: 'JAUNE CRÉMEUX 🍯',
+                    image: '',
+                    badgeText: 'Classique',
+                    products: [
+                        {
+                            id: 'Og',
+                            flag: '🇪🇸',
+                            name: '🧽 OG KUSH & BUBAA KUSH 🧽',
+                            farm: 'No Farm',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductOg.jpg',
+                            video: 'VideoOg.mov',
+                            description: '🧽Jaune mousseux top crème 🧽⬇️ \n\n - Jaune crémeux comme on aime avec bonne défonce  🚬 \n -super odeur de bonne plante 🌱',
+                            tarifs: [
+                                { weight: '10g', price: 40.00 },
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 160.00 },
+                                { weight: '100g', price: 280.00 },
+                            ]
+                        }
+                    ]
+                },
 
-            // 2. CALI MOUSSE 🧬 (Nouvelle entrée distincte)
-            {
-                id: 'CALI_MOUSSE_BTN',
-                name: 'CALI MOUSSE 🧬',
-                image: '', // Mets l'image qui correspond au Cali Mousse
-                badgeText: 'Filtré',
-                products: [
-                    {
-                        id: 'CaliMousseProduct',
-                        flag: '🇲🇦',
-                        name: '🧬 Cali Mousse Filtré',
-                        farm: 'CALI MOUSSE', 
-                        promoEligible: true,
-                        type: 'Hash',
-                        image: 'Frosty2.png', // Image du produit
-                        video: '',
-                        description: 'Le classique Cali Mousse filtré x2.',
-                        tarifs: [
-                            { weight: '10g', price: 50.00 },
-                            { weight: '25g', price: 120.00 },
-                        ]
-                    }
-                ]
-            },
+                // 2. CALI MOUSSE 🧬 (Nouvelle entrée distincte)
+                {
+                    id: 'CALI_MOUSSE_BTN',
+                    name: 'CALI MOUSSE 🧬',
+                    image: '', // Mets l'image qui correspond au Cali Mousse
+                    badgeText: 'Filtré',
+                    products: [
+                        {
+                            id: 'CaliMousseProduct',
+                            flag: '🇲🇦',
+                            name: '🧬 Cali Mousse Filtré',
+                            farm: 'CALI MOUSSE',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'Frosty2.png', // Image du produit
+                            video: '',
+                            description: 'Le classique Cali Mousse filtré x2.',
+                            tarifs: [
+                                { weight: '10g', price: 50.00 },
+                                { weight: '25g', price: 120.00 },
+                            ]
+                        }
+                    ]
+                },
 
-            // 3. DRY SIFT HASH ⚡️ (J'ai mis la Barbara Punch ici)
-            {
-                id: 'DRY_SIFT',
-                name: 'DRY SIFT HASH ⚡️',
-                image: '',
-                badgeText: '90u',
-                products: [
-                    {
-                        id: 'feat',
-                        flag: '🇲🇦',
-                        name: 'Barbara punch 90u⚡️',
-                        farm: 'Goat Farmers 🐐🍀',
-                        promoEligible: true,
-                        type: 'Hash',
-                        image: 'Nejeu1.jpeg',
-                        video: 'VideoFeat.mov',
-                        description: 'Réel collaborations avec La farmz Goat farmers \n ( single source marocain de grande qualité )',
-                        tarifs: [
-                            { weight: '10g', price: 60.00 },
-                            { weight: '25g', price: 150.00 },
-                            { weight: '50g', price: 250.00 },
-                            { weight: '100g', price: 430.00 },
-                        ]
-                    }
-                ]
-            },
+                // 3. DRY SIFT HASH ⚡️ (J'ai mis la Barbara Punch ici)
+                {
+                    id: 'DRY_SIFT',
+                    name: 'DRY SIFT HASH ⚡️',
+                    image: '',
+                    badgeText: '90u',
+                    products: [
+                        {
+                            id: 'feat',
+                            flag: '🇲🇦',
+                            name: 'Barbara punch 90u⚡️',
+                            farm: 'Goat Farmers 🐐🍀',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'Nejeu1.jpeg',
+                            video: 'VideoFeat.mov',
+                            description: 'Réel collaborations avec La farmz Goat farmers \n ( single source marocain de grande qualité )',
+                            tarifs: [
+                                { weight: '10g', price: 60.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 430.00 },
+                            ]
+                        }
+                    ]
+                },
 
-            // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
-            {
-                id: '120U_PREMIUM',
-                name: '120U PREMIUM 🛖',
-                image: '',
-                badgeText: 'Top Qualité',
-                products: [
-                    {
-                        id: '120u',
-                        flag: '⚡️',
-                        name: '🛖 120u Premium 2026',
-                        farm: '🏠 DHF FARMZ 🥇',
-                        promoEligible: true,
-                        type: 'Hash',
-                        image: 'ProductPapaya.png', // Image principale (pour la liste)
-    
-                        // --- NOUVEAU : Liste des images pour la galerie ---
-                        images: [
-                            'ProductGrandDaddy.jpg',      // Photo 1
-                            'ProductPapaya.jpg',  // Photo 2 (Change le nom ici)
-                        ], 
-                        // --------------------------------------------------
-                    
-                        video: 'Videopapaya.mov', // La vidéo (Change le nom si besoin)
-                        description: 'Filtrage 120 microns - Top Qualité',
-                        
-                        // Tes options de goûts
-                        options: [
-                             "PAPAYA bomb 🥤🧨",
-                             "La Grandaddy ☔️☔️",
-                        ],
+                // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
+                {
+                    id: '120U_PREMIUM',
+                    name: '120U PREMIUM 🛖',
+                    image: '',
+                    badgeText: 'Top Qualité',
+                    products: [
+                        {
+                            id: '120u',
+                            flag: '⚡️',
+                            name: '🛖 120u Premium 2026',
+                            farm: '🏠 DHF FARMZ 🥇',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPapaya.png',
+                            images: [
+                                'ProductGrandDaddy.jpg',
+                                'ProductPapaya.jpg',
+                            ],
+                            video: 'VideoPapaya.mov',
+                            description: 'La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
 
-                        tarifs: [
-                            { weight: '1g', price: 30.00 },
-                            { weight: '5g', price: 140.00 },
-                        ]
-                    }
-                ]
-            },
+                            // 👇 NOUVELLE STRUCTURE
+                            variantTitle: 'Choisis ton goût 🥣 :',
+                            jars: [
+                                { name: 'PAPAYA BOMB', emoji: '🥤🧨', colorClass: 'style-red' },
+                                { name: 'LA GRANDADDY', emoji: '☔️☔️', colorClass: 'style-purple' }
+                            ],
 
-            // 5. FROZEN PREMIUM ❄️
-            {
-                id: 'FROZEN',
-                name: 'FROZEN PREMIUM ❄️',
-                image: '',
-                badgeText: 'Terps',
-                products: [
-                    {
-                        id: 'Frozen',
-                        flag: '❄️',
-                        name: '🧊 FROZEN PREMIUM',
-                        farm: 'Frozen Farm',
-                        promoEligible: true,
-                        type: 'Hash',
-                        image: 'Nejeu4.png',
-                        video: '',
-                        description: 'Frozen Sift - Terps explosifs',
-                        tarifs: [
-                            { weight: '1g', price: 40.00 },
-                        ]
-                    }
-                ]
-            },
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 210.00 },
+                                { weight: '50g', price: 300.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        }
+                    ]
+                },
 
-            // 6. STATIC MOROCCO 🇲🇦
-            {
-                id: 'STATIC_MOROCCO',
-                name: 'STATIC MOROCCO 🇲🇦',
-                image: '', // Mets une image de Static
-                badgeText: 'Tech',
-                products: [
-                    {
-                        id: 'StaticMorocco',
-                        flag: '🇲🇦',
-                        name: '⚡️ STATIC MOROCCO',
-                        farm: 'Static Tech',
-                        promoEligible: false,
-                        type: 'Hash',
-                        image: 'Rupture.png',
-                        video: '',
-                        description: 'Static Tech Made in Morocco',
-                        tarifs: [
-                            { weight: '1g', price: 50.00 },
-                        ]
-                    }
-                ]
-            },
+                // 5. FROZEN PREMIUM ❄️
+                {
+                    id: 'FROZEN',
+                    name: 'FROZEN PREMIUM ❄️',
+                    image: '',
+                    badgeText: 'Terps',
+                    products: [
+                        {
+                            id: 'Frozensift',
+                            flag: '🇲🇦',
+                            name: '🫒 Frozen sift ⚡️🏆',
+                            farm: 'Frozen Farm',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSift.jpg',
+                            videos: [
+                                'VideoSift.mov', // Ta 1ère vidéo
+                                'VideoSift2.mov'  // Ta 2ème vidéo
+                            ],
+                            description: '🏠 No FARMZ incroyable 🏆   \n Vous les connaissait déjà produit plus que satisfaisant 🥇\n  Sec pétante 🫡\n Défonce super présente ces pour les gros pec 🤓\n 130 chez nous 😋😋\n On me chuchote que sa les vend 170 en I.D.F 🤭🤭',
 
-            // 7. STATIC USA 🇺🇸
-            {
-                id: 'STATIC_USA',
-                name: 'STATIC USA 🇺🇸',
-                image: '',
-                badgeText: 'Exclusif',
-                products: [
-                    {
-                        id: 'StaticUSA',
-                        flag: '🇺🇸',
-                        name: '🗽 STATIC USA 🇺🇸',
-                        farm: 'ESTATICO',
-                        promoEligible: true,
-                        type: 'Hash',
-                        image: 'ProductOasis.jpg',
-                        video: 'VideoOasis.mp4',
-                        description: 'GOVERMENT OASIS \n STATIC-SIFT 139-73U',
-                        tarifs: [
-                            { weight: '1g', price: 50.00 },
-                            { weight: '5g', price: 230.00 },
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
+                            // 👇 NOUVELLE STRUCTURE
+                            variantTitle: 'Saveurs Frozen ❄️ :',
+                            jars: [
+                                { name: 'POISON', emoji: '💀', colorClass: 'style-purple' },
+                                { name: 'LEMON ACAÏ', emoji: '🍋', colorClass: 'style-yellow' },
+                                { name: 'ORANGE GROW', emoji: '🍊', colorClass: 'style-orange' },
+                                { name: 'OREOZ', emoji: '🍩', colorClass: 'style-brown' },
+                            ],
+
+                            tarifs: [
+                                { weight: '🫒x1', price: 130.00 },               
+                                { weight: '🫒x3', price: 350.00 },
+                                { weight: '🫒x5', price: 500.00 },
+
+
+                            ]
+                        }
+                    ]
+                },
+
+                // 6. STATIC MOROCCO 🇲🇦
+                {
+                    id: 'STATIC_MOROCCO',
+                    name: 'STATIC MOROCCO 🇲🇦',
+                    image: '', // Mets une image de Static
+                    badgeText: 'Saison 2026',
+                    products: [
+                        {
+                            id: 'FrozenSource',
+                            flag: '⚡️',
+                            name: '🇲🇦Frozen Sift Hash ⚡️🌬️',
+                            farm: 'LA SOURCE 🥇',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSource.png',
+                            videos: [
+                                'VideoSource.mov', // Ta 1ère vidéo
+                                'VideoSource2.mov'  // Ta 2ème vidéo
+                            ],
+                            description: '~ Saison 2026 🪐 \n La source 🏠 Nous à sortie un ❄️ magnifique 🔥 \n Le goût l’odeur tout et la 🏆 \n Juste les vidéo donne envie 😋',
+
+                            // 👇 NOUVELLE STRUCTURE
+                            variantTitle: 'Choisis ton goût 🥣 :',
+                            jars: [
+                                { name: 'Pink passion', emoji: '👛❤️‍🔥', colorClass: 'style-passion' },
+                                { name: 'Water melon ', emoji: '🍈 💦', colorClass: 'style-melon' }
+                            ],
+
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 370.00 },
+                            ]
+                        }
+                    ]
+                },
+
+                // 7. STATIC USA 🇺🇸
+                {
+                    id: 'STATIC_USA',
+                    name: 'STATIC USA 🇺🇸',
+                    image: '',
+                    badgeText: 'Exclusif',
+                    products: [
+                        {
+                            id: 'StaticUSA',
+                            flag: '🇺🇸',
+                            name: '🗽 Kevin breats 🇺🇸',
+                            farm: 'BLOOD&PRESS 🔱',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductKevin.png',
+                            video: 'VideoKevin.mov',
+                            description: '~Un hybride premium combinant la gourmandise crémeuse Forbidden et les notes sucrée de son fruit. 🍇   \n ~ En bouche ou à l’odeur on sent que sa était travailler avec amour 😍 🇺🇸\n ~Arômes sucrés, texture résineuse et pétante après mutation légère🌬️💨 et profil terpène riche🔥🧨 \n ~Déjà connue des habituer 🥇🏅🎖️',
+                            tarifs: [
+                                { weight: '1g', price: 40.00 },
+                                { weight: '3g', price: 100.00 },
+                                { weight: '10g', price: 320.00 },
+
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ];
 
     // --- VARIABLES D'ÉTAT ---
@@ -835,58 +859,70 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('product-page-title').innerText = product.name;
         const detailsContainer = document.getElementById('product-details-content');
     
-        // --- CONSTRUCTION DE LA GALERIE ---
-        // 1. On rassemble tout ce qu'on doit afficher (Images + Vidéo à la fin)
-        let mediaItems = [];
+        // --- GALERIE MEDIA (IMAGES + VIDEOS) ---
         
-        // Si on a un tableau 'images', on l'utilise, sinon on prend l'image unique
-        if (product.images && product.images.length > 0) {
-            mediaItems = [...product.images];
-        } else {
-            mediaItems = [product.image];
-        }
-    
-        // 2. On génère le HTML des images
+        // 1. Les Images
+        let mediaItems = product.images && product.images.length > 0 ? [...product.images] : [product.image];
         let galleryHTML = mediaItems.map(imgSrc => `
-            <div class="gallery-item">
-                <img src="${imgSrc}" alt="${product.name}">
-            </div>
+            <div class="gallery-item"><img src="${imgSrc}" alt="${product.name}"></div>
         `).join('');
-    
-        // 3. Si il y a une vidéo, on l'ajoute à la FIN de la galerie
-        if (product.video) {
+        
+        // 2. Les Vidéos (Nouveau système multiple OU Ancien système unique)
+        if (product.videos && product.videos.length > 0) {
+            // Cas : Plusieurs vidéos
+            product.videos.forEach(videoSrc => {
+                galleryHTML += `
+                    <div class="gallery-item">
+                        <video controls playsinline poster="${product.image}">
+                            <source src="${videoSrc}" type="video/mp4">
+                        </video>
+                    </div>`;
+            });
+        } else if (product.video) {
+            // Cas : Une seule vidéo (Fallback)
             galleryHTML += `
                 <div class="gallery-item">
                     <video controls playsinline poster="${product.image}">
                         <source src="${product.video}" type="video/mp4">
-                        Votre navigateur ne supporte pas la vidéo.
                     </video>
+                </div>`;
+        }
+
+        // --- CONSTRUCTION DES VARIANTES (BOUTONS) ---
+        let variantsHTML = '';
+        // On supporte soit 'jars' (nouveau système) soit 'options' (ancien système fallback)
+        if (product.jars && product.jars.length > 0) {
+            const buttonsHTML = product.jars.map((jar, index) => `
+                <div class="variant-btn ${index === 0 ? 'active ' + jar.colorClass : ''}" 
+                     data-name="${jar.name} ${jar.emoji}" 
+                     data-color-class="${jar.colorClass}">
+                    <span class="emoji">${jar.emoji}</span>
+                    <span class="text">${jar.name}</span>
+                </div>
+            `).join('');
+
+            variantsHTML = `
+                <div class="variant-selector-container">
+                    <div class="variant-title">${product.variantTitle || 'Choisir une option :'}</div>
+                    <div class="variant-grid">
+                        ${buttonsHTML}
+                    </div>
                 </div>
             `;
         }
-    
-        // --- LE RESTE (OPTIONS, DESCRIPTION, PRIX) ---
-        
-        // Gestion des options (Goûts)
-        let optionsHTML = '';
-        if (product.options && product.options.length > 0) {
-            optionsHTML = `
+        // Fallback ancien système (options string)
+        else if (product.options && product.options.length > 0) {
+            variantsHTML = `
                 <div class="product-options-container" style="margin-bottom: 15px;">
-                    <label style="color: #8e8e93; font-size: 0.9rem; margin-bottom: 5px; display:block;">Choisir une variété :</label>
-                    <select id="product-variant-select" style="width: 100%; padding: 12px; border-radius: 8px; background: #2c2c2e; color: white; border: 1px solid #3a3a3c; font-size: 1rem;">
+                    <label style="color: #8e8e93; font-size: 0.9rem; margin-bottom: 5px; display:block;">Choisir :</label>
+                    <select id="product-variant-select" style="width: 100%; padding: 12px; border-radius: 8px; background: #2c2c2e; color: white; border: 1px solid #3a3a3c;">
                         ${product.options.map(opt => `<option value="${opt}">${opt}</option>`).join('')}
                     </select>
                 </div>
             `;
         }
-    
-        // Description
-        let descriptionHTML = '';
-        if (product.description) {
-            descriptionHTML = `<p class="product-description">${product.description.replace(/\n/g, '<br>')}</p>`;
-        }
-    
-        // Tarifs
+
+        // --- TARIFS ---
         let tarifsHTML = product.tarifs.map(tarif => `
             <div class="tarif-item">
                 <div class="box-tarif">
@@ -898,29 +934,72 @@ document.addEventListener('DOMContentLoaded', function () {
                 </button>
             </div>
         `).join('');
-    
-        // --- INJECTION DU HTML ---
-        // Note : J'ai supprimé la balise <video> statique du HTML précédent pour la mettre dans le wrapper
-        
-        // Pour ne pas casser ton HTML actuel, on va masquer la vidéo d'origine si elle existe encore dans ton HTML statique
+
+        // --- DESCRIPTION ---
+        let descriptionHTML = product.description ? `<p class="product-description">${product.description.replace(/\n/g, '<br>')}</p>` : '';
+
+        // --- INJECTION ---
         const oldVideo = document.querySelector('#page-product .product-video');
-        if(oldVideo) oldVideo.style.display = 'none';
-    
+        if (oldVideo) oldVideo.style.display = 'none';
+
         detailsContainer.innerHTML = `
-            <div class="product-gallery-wrapper">
-                ${galleryHTML}
-            </div>
-            <div class="gallery-counter">Swipe pour voir la vidéo ➡️</div>
-    
+            <div class="product-gallery-wrapper">${galleryHTML}</div>
+            <div class="gallery-counter">Swipe ➡️</div>
             <div class="name">${product.name}</div>
             <div class="farm">${product.farm}</div>
             ${descriptionHTML}
-            ${optionsHTML}
+            ${variantsHTML}
             <h4 class="tarifs-title">💰 Tarifs disponibles :</h4>
+            <div class="tarifs-grid-container">
             ${tarifsHTML}
+        </div>
         `;
-        
+
         showPage('page-product');
+
+        // --- LOGIQUE JS : CLIC SUR LES VARIANTES ---
+        // Si on est sur le nouveau système "jars"
+        if (product.jars && product.jars.length > 0) {
+            const variantBtns = document.querySelectorAll('.variant-btn');
+            const cartBtns = document.querySelectorAll('.add-to-cart-btn');
+
+            // Fonction pour mettre à jour la couleur des boutons panier
+            const updateCartButtonsColor = (colorClass) => {
+                cartBtns.forEach(btn => {
+                    // On enlève toutes les anciennes classes de couleur
+                    btn.classList.remove('style-purple', 'style-red', 'style-green', 'style-yellow', 'style-orange', 'style-brown');
+                    // On ajoute la nouvelle
+                    if (colorClass) btn.classList.add(colorClass);
+                });
+            };
+
+            // Initialisation : on applique la couleur du 1er bouton (qui est active par défaut)
+            updateCartButtonsColor(product.jars[0].colorClass);
+
+            // Gestion du clic
+            variantBtns.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    // 1. Visuel bouton variante
+                    variantBtns.forEach(b => {
+                        b.classList.remove('active');
+                        // On retire aussi la classe couleur spécifique du bouton désactivé pour le remettre en gris
+                        const color = b.dataset.colorClass;
+                        b.classList.remove(color);
+                    });
+
+                    this.classList.add('active');
+                    this.classList.add(this.dataset.colorClass); // On remet la couleur vive
+
+                    // 2. Visuel boutons panier
+                    updateCartButtonsColor(this.dataset.colorClass);
+
+                    // 3. Petit retour haptique
+                    if (window.Telegram.WebApp.HapticFeedback) {
+                        window.Telegram.WebApp.HapticFeedback.selectionChanged();
+                    }
+                });
+            });
+        }
     }
 
     // Met à jour l'affichage du panier (inchangé)
@@ -954,118 +1033,113 @@ document.addEventListener('DOMContentLoaded', function () {
         updateCartCount();
     }
 
-    // Affiche la page de confirmation et gere les codes promo
-    function renderConfirmation() {
-        const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+  // Affiche la page de confirmation (VERSION WHATSAPP DIRECT)
+  function renderConfirmation() {
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
 
-        // --- Logique de calcul des prix ---
-        let subTotal = cart.reduce((sum, item) => sum + item.totalPrice, 0);
-        let discount = 0;
-        let discountableAmount = 0;
+    // --- Logique de calcul des prix (inchangée) ---
+    let subTotal = cart.reduce((sum, item) => sum + item.totalPrice, 0);
+    let discount = 0;
+    let discountableAmount = 0;
 
-        if (appliedPromo) {
-            const promo = validPromoCodes[appliedPromo];
-
-            if (promo.appliesTo === 'eligible') {
-                // Calcul sur les articles éligibles
-                cart.forEach(item => {
-                    const product = getProductById(item.productId);
-                    if (product && product.promoEligible) {
-                        discountableAmount += item.totalPrice;
-                    }
-                });
-            } else {
-                // Calcul sur tout le panier
-                discountableAmount = subTotal;
-            }
-
-            if (promo.type === 'percent') {
-                discount = (discountableAmount * promo.value) / 100;
-            } else { // 'fixed'
-                discount = promo.value;
-            }
-        }
-
-        // Assure que la réduc ne dépasse pas le montant
-        if (discount > subTotal) {
-            discount = subTotal;
-        }
-
-        const totalPrice = subTotal - discount;
-        // --- Fin de la logique de calcul ---
-
-        // Mise à jour du résumé (panier en haut)
-        document.getElementById('confirmation-items-count').innerText = `${totalItems} article${totalItems > 1 ? 's' : ''}`;
-        document.getElementById('confirmation-total-price').innerText = `${totalPrice.toFixed(2)}€`;
-
-        // Remplissage de la liste des articles (inchangé)
-        const itemsList = document.getElementById('confirmation-items-list');
-        itemsList.innerHTML = cart.map((item, index) => `
-             <div class="cart-item">
-                <img src="${item.image}" alt="${item.name}">
-                <div class="item-details">
-                    <div>${index + 1}. ${item.name}</div>
-                    <div>Quantité: ${item.quantity}x ${item.weight}</div>
-                    <div>Prix unitaire: ${item.unitPrice.toFixed(2)}€</div>
-                </div>
-            </div>
-        `).join('');
-
-        // Mise à jour de l'UI Promo
-        const promoInputContainer = document.getElementById('promo-input-container');
-        const promoAppliedContainer = document.getElementById('promo-applied-container');
-        if (appliedPromo) {
-            promoInputContainer.style.display = 'none';
-            promoAppliedContainer.style.display = 'flex';
-            document.getElementById('promo-applied-text').innerText = `Code "${appliedPromo}" appliqué !`;
+    if (appliedPromo) {
+        const promo = validPromoCodes[appliedPromo];
+        if (promo.appliesTo === 'eligible') {
+            cart.forEach(item => {
+                const product = getProductById(item.productId);
+                if (product && product.promoEligible) {
+                    discountableAmount += item.totalPrice;
+                }
+            });
         } else {
-            promoInputContainer.style.display = 'flex';
-            promoAppliedContainer.style.display = 'none';
-            document.getElementById('promo-code-input').value = ''; // Reset l'input
+            discountableAmount = subTotal;
         }
-
-        // Mise à jour de l'UI Paiement
-        document.querySelectorAll('.payment-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.method === paymentMethod);
-        });
-
-        // Mise à jour du résumé final
-        const summaryContainer = document.getElementById('confirmation-summary');
-        let summaryHTML = `
-            <div class="summary-line">
-                <span>Sous-total:</span>
-                <span>${subTotal.toFixed(2)}€</span>
-            </div>
-        `;
-        if (discount > 0) {
-            summaryHTML += `
-            <div class="summary-line discount">
-                <span>Réduction:</span>
-                <span>-${discount.toFixed(2)}€</span>
-            </div>
-            `;
+        if (promo.type === 'percent') {
+            discount = (discountableAmount * promo.value) / 100;
+        } else { 
+            discount = promo.value;
         }
-        summaryHTML += `
-            <div class="summary-line total">
-                <span>💰 Total final:</span>
-                <span>${totalPrice.toFixed(2)}€</span>
-            </div>
-        `;
-        summaryContainer.innerHTML = summaryHTML;
-
-        const copyBtn = document.getElementById('copy-order-btn');
-        const contactBtn = document.getElementById('confirm-order-button');
-
-        // État initial: Copier = Rouge (main), Contacter = Gris (secondary/disabled)
-        copyBtn.classList.add('main-action-btn');
-        copyBtn.classList.remove('secondary-action-btn');
-
-        contactBtn.classList.add('secondary-action-btn');
-        contactBtn.classList.remove('main-action-btn');
-        contactBtn.disabled = true; // On le re-verrouille
-
-        showPage('page-confirmation');
     }
+    if (discount > subTotal) discount = subTotal;
+    const totalPrice = subTotal - discount;
+    // --- Fin calcul ---
+
+    // Mise à jour du résumé
+    document.getElementById('confirmation-items-count').innerText = `${totalItems} article${totalItems > 1 ? 's' : ''}`;
+    document.getElementById('confirmation-total-price').innerText = `${totalPrice.toFixed(2)}€`;
+
+    // Liste des articles
+    const itemsList = document.getElementById('confirmation-items-list');
+    itemsList.innerHTML = cart.map((item, index) => `
+         <div class="cart-item">
+            <img src="${item.image}" alt="${item.name}">
+            <div class="item-details">
+                <div>${index + 1}. ${item.name}</div>
+                <div>Quantité: ${item.quantity}x ${item.weight}</div>
+                <div>Prix unitaire: ${item.unitPrice.toFixed(2)}€</div>
+            </div>
+        </div>
+    `).join('');
+
+    // UI Promo
+    const promoInputContainer = document.getElementById('promo-input-container');
+    const promoAppliedContainer = document.getElementById('promo-applied-container');
+    if (appliedPromo) {
+        promoInputContainer.style.display = 'none';
+        promoAppliedContainer.style.display = 'flex';
+        document.getElementById('promo-applied-text').innerText = `Code "${appliedPromo}" appliqué !`;
+    } else {
+        promoInputContainer.style.display = 'flex';
+        promoAppliedContainer.style.display = 'none';
+        document.getElementById('promo-code-input').value = ''; 
+    }
+
+    // UI Paiement
+    document.querySelectorAll('.payment-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.method === paymentMethod);
+    });
+
+    // Résumé final
+    const summaryContainer = document.getElementById('confirmation-summary');
+    let summaryHTML = `
+        <div class="summary-line">
+            <span>Sous-total:</span>
+            <span>${subTotal.toFixed(2)}€</span>
+        </div>
+    `;
+    if (discount > 0) {
+        summaryHTML += `
+        <div class="summary-line discount">
+            <span>Réduction:</span>
+            <span>-${discount.toFixed(2)}€</span>
+        </div>
+        `;
+    }
+    summaryHTML += `
+        <div class="summary-line total">
+            <span>💰 Total final:</span>
+            <span>${totalPrice.toFixed(2)}€</span>
+        </div>
+    `;
+    summaryContainer.innerHTML = summaryHTML;
+
+    // --- MODIFICATION POUR WHATSAPP DIRECT ---
+    const copyBtn = document.getElementById('copy-order-btn');
+    const contactBtn = document.getElementById('confirm-order-button');
+
+    // 1. On CACHE le bouton "Copier" car il ne sert plus
+    if(copyBtn) copyBtn.style.display = 'none';
+
+    // 2. On configure le bouton "Confirmer" pour être actif tout de suite
+    if(contactBtn) {
+        contactBtn.classList.remove('secondary-action-btn'); // Enlève le gris
+        contactBtn.classList.add('main-action-btn');      // Met le rouge (ou couleur principale)
+        contactBtn.disabled = false;                      // Active le clic
+        contactBtn.innerHTML = 'CONFIRMER SUR WHATSAPP 📞'; // Change le texte
+    }
+
+    showPage('page-confirmation');
+}
     // Affiche la page de contact (inchangé)
     function renderContactPage() {
         const linksContainer = document.getElementById('contact-links-container');
@@ -1480,16 +1554,21 @@ document.addEventListener('DOMContentLoaded', function () {
         if (target.closest('.add-to-cart-btn')) {
             const btn = target.closest('.add-to-cart-btn');
 
-            // On regarde s'il y a un sélecteur de variante sur la page
-            const variantSelect = document.getElementById('product-variant-select');
             let selectedVariant = null;
 
-            // Si le sélecteur existe, on prend sa valeur. Sinon, c'est null.
-            if (variantSelect) {
-                selectedVariant = variantSelect.value;
+            // CAS 1 : Nouveau système (Boutons JARs)
+            const activeVariantBtn = document.querySelector('.variant-btn.active');
+            if (activeVariantBtn) {
+                selectedVariant = activeVariantBtn.dataset.name;
+            }
+            // CAS 2 : Ancien système (Select) - Fallback
+            else {
+                const variantSelect = document.getElementById('product-variant-select');
+                if (variantSelect) {
+                    selectedVariant = variantSelect.value;
+                }
             }
 
-            // On passe la variante à la fonction addToCart
             addToCart(btn.dataset.productId, btn.dataset.weight, parseFloat(btn.dataset.price), selectedVariant);
         }
 
@@ -1533,43 +1612,28 @@ document.addEventListener('DOMContentLoaded', function () {
             showPage('page-cart');
         }
 
-        // Clic sur "Confirmer la commande" (VERSION POTATO)
-        /*    if (target.closest('#confirm-order-button')) {
-               // 1. Remplace 'TON_PSEUDO_POTATO' par ton VRAI pseudo Potato.
-               const targetPotatoUser = 'BPDiSPENSARY';
-   
-               let message = formatOrderMessage();
-               message = message.replace(//g, '');
-               const encodedMessage = encodeURIComponent(message);
-   
-              // 2. On construit le lien Potato.  https://dympt.org/ - `https://potato.im/p/u/${targetPotatoUser}?text=${encodedMessage}`;
-   
-               // (Utilise 'p/u/' pour un compte utilisateur, ou 'p/s/' pour un bot)
-               //const potatoUrl = `https://dympt.org/${targetPotatoUser}?text=${encodedMessage}`;
-               const potatoUrl = `https://dympt.org/${targetPotatoUser}`;
-   
-               // 3. On utilise la même fonction pour ouvrir le lien
-               tg.openLink(potatoUrl);
-           } */
+    // Clic sur "Confirmer la commande" (VERSION WHATSAPP DIRECT)
+    if (target.closest('#confirm-order-button')) {
 
-        // Clic sur "Confirmer la commande" (VERSION COPIER/COLLER - LA SEULE FIABLE)
-        if (target.closest('#confirm-order-button')) {
+        // 1. TON NUMÉRO WHATSAPP (Format international sans le +)
+        // Exemple : 33612345678 pour la France (06 12 34 56 78)
+        const myPhoneNumber = '33626127557'; 
 
-            const targetPotatoUser = 'BPDiSPENSARY';
+        // 2. On prépare le message
+        let message = formatOrderMessage();
+        
+        // Note : WhatsApp utilise les étoiles * pour le gras, donc on peut garder les * // Si tu veux enlever le gras, décommente la ligne ci-dessous :
+        // message = message.replace(/\*/g, '');
 
-            // 1. C'est le lien de profil qui MARCHE (vu dans ta vidéo)
-            const potatoUrl = `https://dympt.org/${targetPotatoUser}`;
+        // 3. On encode le message pour qu'il passe dans une URL (transforme les espaces en %20 etc.)
+        const encodedMessage = encodeURIComponent(message);
 
-            // 2. On prépare le message
-            let message = formatOrderMessage();
-            message = message.replace(/\*/g, '');
+        // 4. On crée le lien magique WhatsApp
+        const whatsappUrl = `https://wa.me/${myPhoneNumber}?text=${encodedMessage}`;
 
-            // 3. On copie le message dans le presse-papiers
-            copyToClipboard(message);
-
-            // 4. On ouvre le lien du PROFIL (qui, on le sait, marche)
-            tg.openLink(potatoUrl);
-        }
+        // 5. On ouvre WhatsApp
+        tg.openLink(whatsappUrl);
+    }
 
     });
 
