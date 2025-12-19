@@ -36,45 +36,62 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- CONFIGURATION DES LIENS DE CONTACT ---
     const contactLinks = [
         {
-            name: 'CANAL TELEGRAM ✈️',
+            name: 'SNAPCHAT 👻',
+            url: 'https://www.snapchat.com/add/pistachio.420',
+            id: 'snapchat',
+            className: 'snapchat', // Il faudra peut-être ajouter ce CSS (Jaune)
+            text: "SNAPCHAT 👻"
+        },
+        {
+            name: 'SIGNAL 📲',
+            url: 'https://signal.me/#eu/KfmX6EgJFZHTkDLzVkTI5r8YYw3zKqniUPB3hIcGbpVrVWIQiVVG3awZu0ES0SiP',
+            id: 'signal',
+            className: 'signal', // Il faudra peut-être ajouter ce CSS (Jaune)
+            text: "SIGNAL 📲"
+        },
+        {
+            name: 'WHATSAPP 📞',
+            url: 'https://signal.me/#eu/KfmX6EgJFZHTkDLzVkTI5r8YYw3zKqniUPB3hIcGbpVrVWIQiVVG3awZu0ES0SiP',
+            id: 'signal',
+            className: 'whatsapp', // Il faudra peut-être ajouter ce CSS (Jaune)
+            text: "WHATSAPP 📞"
+        },
+        {
+            name: 'TÉLÉGRAM 💙',
             url: 'https://t.me/+uEWNCmD4gKc3Mzg0',
-            icon: '#icon-telegram',
             id: 'telegram-main',
-            className: 'telegram-main', // Garde le style Bleu Telegram
-            text: "CANAL TELEGRAM ✈️"
+            className: 'telegram', // Garde le style Bleu Telegram
+            text: "TÉLÉGRAM 💙"
+        },
+        {
+            name: 'TÉLÉ SECOURS 💙',
+            url: 'https://t.me/+sH33CgV7N0AxZjI0',
+            id: 'telegram-secours',
+            className: 'secours',
+            text: "TÉLÉ SECOURS 💙"
         },
         {
             name: 'CANAL POTATO 🥔',
             url: 'https://dympt.org/pistachio420',
-            icon: '#icon-potato',
             id: 'potato-main',
-            className: 'potato-main', // Garde le style Marron/Doré Potato
+            className: 'potato', // Garde le style Marron/Doré Potato
             text: "CANAL POTATO 🥔"
         },
         {
-            name: 'RETOURS CLIENTS ⭐️',
+            name: 'RETOURS CLIENTS 🥔',
             url: 'https://dympt.org/RetourP420',
-            icon: '#icon-potato', // J'ai laissé l'icône Potato car c'est un lien dympt
             id: 'potato-feedback',
             className: 'potato', // Style standard ou tu peux remettre 'potato-main'
-            text: "RETOURS CLIENTS ⭐️"
+            text: "RETOURS CLIENTS 🥔"
         },
         {
             name: 'INSTAGRAM 📸',
             url: 'https://www.instagram.com/pis_tachio420',
-            icon: '#icon-instagram',
             id: 'instagram',
             className: 'instagram', // Style dégradé Insta
             text: "INSTAGRAM 📸"
-        },
-        {
-            name: 'SNAPCHAT 👻',
-            url: 'https://www.snapchat.com/add/pistachio.420',
-            icon: '#icon-snapchat', // ⚠️ Assure-toi d'avoir cet ID dans tes icônes SVG
-            id: 'snapchat',
-            className: 'snapchat', // Il faudra peut-être ajouter ce CSS (Jaune)
-            text: "SNAPCHAT 👻"
         }
+      
 
     ];
 
@@ -99,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '', // ⚠️ Mets une image ici (drapeau ou autre)
                     badgeText: 'Nouveauté',
                     products: [
-                        {
+                       /*  {
                             id: '',
                             flag: '🇪🇸',
                             name: '🧽  🧽',
@@ -116,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 280.00 },
 
                             ]
-                        }
+                        } */
                     ]
                 },
 
@@ -131,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: '_Purple Bud 🦄♒️',
                             flag: '🇨🇦',
                             name: '_Purple Bud 🦄♒️',
-                            farm: '',
+                            farm: '🌾 No Farm 🌾',
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductBud.png', // ⚠️ A changer
@@ -215,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Og',
                             flag: '🇪🇸',
                             name: '🧽 OG KUSH & BUBAA KUSH 🧽',
-                            farm: 'No Farm',
+                            farm: '🌾 No Farm 🌾',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductOg.jpg',
@@ -238,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '', // Mets l'image qui correspond au Cali Mousse
                     badgeText: 'Filtré',
                     products: [
-                        {
+                     /*    {
                             id: 'CaliMousseProduct',
                             flag: '🇲🇦',
                             name: '🧬 Cali Mousse Filtré',
@@ -252,11 +269,11 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 50.00 },
                                 { weight: '25g', price: 120.00 },
                             ]
-                        }
+                        } */
                     ]
                 },
 
-                // 3. DRY SIFT HASH ⚡️ (J'ai mis la Barbara Punch ici)
+                // 3. DRY SIFT HASH ⚡️ 
                 {
                     id: 'DRY_SIFT',
                     name: 'DRY SIFT HASH ⚡️',
@@ -270,7 +287,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'Goat Farmers 🐐🍀',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'Nejeu1.jpeg',
+                            image: 'ProductFeat.png',
                             video: 'VideoFeat.mov',
                             description: 'Réel collaborations avec La farmz Goat farmers \n ( single source marocain de grande qualité )',
                             tarifs: [
@@ -278,6 +295,34 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 150.00 },
                                 { weight: '50g', price: 250.00 },
                                 { weight: '100g', price: 430.00 },
+                            ]
+                        },
+                        {
+                            id: '220u',
+                            flag: '⚡️',
+                            name: '🛖 120u Premium 2026',
+                            farm: '🏠 KILOGRAMMES FARMZ 🥇🏆',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductKgf.png',
+                           /*  images: [
+                                'ProductGrandDaddy.jpg',
+                                'ProductPapaya.jpg',
+                            ], */
+                            video: 'VideoKgf.mov',
+                            description: 'K.G.F STATIC 🏆🥇 \n Un produit d’exception de la maison KGF 🏆 \n uJamais déçu 🥇 \n Goût plus fumette douce mes en même temp forte 💪\n Une odeur qui se dégage quand tu allume le joint wahouu 🔱🔱🔥 🏠🔥\n\n 190/220u ( Réal no fake )🔥',
+
+                            // 👇 NOUVELLE STRUCTURE
+                            variantTitle: 'Choisis ton goût 🥣 :',
+                            jars: [
+                                { name: 'CHEERY CAKE X ORANGE PUNCH', emoji: '🍒🍊', colorClass: 'style-red' },
+                                { name: 'LAMPONI', emoji: '✅', colorClass: 'style-brown' }
+                            ],
+
+                            tarifs: [
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 160.00 },
+                      
                             ]
                         }
                     ]
@@ -313,10 +358,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             ],
 
                             tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 210.00 },
-                                { weight: '50g', price: 300.00 },
-                                { weight: '100g', price: 450.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 190.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 470.00 },
                             ]
                         }
                     ]
@@ -333,7 +378,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Frozensift',
                             flag: '🇲🇦',
                             name: '🫒 Frozen sift ⚡️🏆',
-                            farm: 'Frozen Farm',
+                            farm: 'Frozen Farm ♻️',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductSift.jpg',
@@ -359,6 +404,37 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
                             ]
+                        },
+                        {
+                            id: 'FrozenSource',
+                            flag: '⚡️',
+                            name: '🇲🇦Frozen Sift Hash ⚡️🌬️',
+                            farm: 'LA SOURCE 🥇',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSource.png',
+                               images: [
+                                'ProductSource.png',
+                                'ProductSource2.jpg',
+                            ],
+                            videos: [
+                                'VideoSource.mov', // Ta 1ère vidéo
+                                'VideoSource2.mov'  // Ta 2ème vidéo
+                            ],
+                            description: '~ Saison 2026 🪐 \n La source 🏠 Nous à sortie un ❄️ magnifique 🔥 \n Le goût l’odeur tout et la 🏆 \n Juste les vidéo donne envie 😋',
+
+                            // 👇 NOUVELLE STRUCTURE
+                            variantTitle: 'Choisis ton goût 🥣 :',
+                            jars: [
+                                { name: 'Pink passion', emoji: '👛❤️‍🔥', colorClass: 'style-passion' },
+                                { name: 'Water melon ', emoji: '🍈 💦', colorClass: 'style-melon' }
+                            ],
+
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 370.00 },
+                            ]
                         }
                     ]
                 },
@@ -370,7 +446,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '', // Mets une image de Static
                     badgeText: 'Saison 2026',
                     products: [
-                        {
+                     /*    {
                             id: 'FrozenSource',
                             flag: '⚡️',
                             name: '🇲🇦Frozen Sift Hash ⚡️🌬️',
@@ -396,7 +472,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 250.00 },
                                 { weight: '50g', price: 370.00 },
                             ]
-                        }
+                        } */
                     ]
                 },
 
@@ -427,7 +503,46 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 }
             ]
-        }
+        },
+        // ============================================================
+    // CATEGORIE 3 : PACKS DE NOEL 🎄
+    // ============================================================
+    {
+        id: 'PACKS',
+        name: '🎁 PACKS DE NOEL 🎄',
+        type: 'Pack',
+        quality: '⭐️ Offres Spéciales', // S'affichera dans le filtre "Sélection du chef"
+        image: 'CategNoel.png', // ⚠️ Pense à mettre une image festive ici
+
+        // PAS DE FARMS, DIRECTEMENT LES PRODUITS
+        products: [
+            {
+                id: 'PackNoel2025',
+                flag: '🎅',
+                name: '🎄 MEGA PACK NOEL 🎁',
+                farm: '❄️ ÉDITION LIMITÉE ❄️',
+                promoEligible: false, // En général pas de code promo sur les packs déjà remisés
+                type: 'Pack',
+                image: '', // L'image du pack
+                video: '', // Tu peux mettre une vidéo de l'ensemble si tu as
+
+                // 'targetId' doit être l'ID EXACT du produit vers lequel tu veux aller
+                packContents: [
+                    { name: '5g : 🫒 Frozen sift 🔥', targetId: 'Frozensift' },
+                    { name: '5g : La Source Frozen ⚡️', targetId: 'FrozenSource' },
+                    { name: '5g : DHF 120u Filtré 🤯', targetId: '120u' },
+                    { name: '5g : Cali Top SHELF 🇺🇸', targetId: 'StaticUSA' } // J'ai mis StaticUSA en exemple, mets l'ID de ta Cali
+                ],
+                
+                // Description formatée avec les sauts de ligne
+                description: '🎅 LE CADEAU PARFAIT SOUS LE SAPIN !\n\n 🎁 BONUS : Plateaux & Feuilles RAW offerts !\n\n💰 VALEUR RÉELLE : 270€',
+                
+                tarifs: [
+                    { weight: 'LE PACK 📦', price: 220.00 },
+                ]
+            }
+        ]
+    }
     ];
 
     // --- VARIABLES D'ÉTAT ---
@@ -594,13 +709,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
             filterContainer.prepend(backButton);
 
-        } else if (currentView === 'simple_products') { // <-- NOUVEAU CAS POUR LES CATÉGORIES SIMPLES
+        } else if (currentView === 'simple_products') { 
+
+            updateFarmFilter(currentCategoryId);
 
             renderProductListSimple(currentCategoryId);
 
             // --- GESTION DES FILTRES ---
+            // 1. On AFFICHE la barre de recherche
             searchFilterWrapper.style.display = 'flex';
-            farmFilterWrapper.style.display = 'none';
+            
+            // 2. On AFFICHE le filtre Farm
+            farmFilterWrapper.style.display = 'flex'; 
+            
+            // 3. On CACHE le filtre Qualité ("Sélection du chef")
             qualityFilterWrapper.style.display = 'none';
 
             // --- AJOUT BOUTON RETOUR (vers Catégories) ---
@@ -609,7 +731,6 @@ document.addEventListener('DOMContentLoaded', function () {
             backButton.className = 'back-to-categories-btn';
             backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
 
-            // ICI J'AI REMIS LE STYLE CSS CORRECT
             backButton.style.cssText = `
             border: none;
             color: white;
@@ -627,7 +748,7 @@ document.addEventListener('DOMContentLoaded', function () {
             justify-content: space-between;
             align-items: center;
             background: linear-gradient(182deg, #480092, transparent);
-                        border-radius: 10px;`;
+            border-radius: 10px;`;
 
             filterContainer.prepend(backButton);
 
@@ -635,11 +756,13 @@ document.addEventListener('DOMContentLoaded', function () {
             productListContainer.style.gridTemplateColumns = 'repeat(2, 1fr)';
 
         } else if (currentView === 'products') {
+            updateFarmFilter(currentCategoryId, currentFarmId); 
+
             renderProductList(currentCategoryId, currentFarmId);
 
             // --- GESTION DES FILTRES (Vue Produit) ---
             searchFilterWrapper.style.display = 'flex';
-            farmFilterWrapper.style.display = 'none'; // On montre les filtres produits
+            farmFilterWrapper.style.display = 'flex'; // On montre les filtres produits
             qualityFilterWrapper.style.display = 'none'; // On cache la qualité
 
             // --- GESTION DU STYLE DE GRILLE ---
@@ -676,6 +799,60 @@ document.addEventListener('DOMContentLoaded', function () {
             filterContainer.prepend(backButton);
         }
     }
+
+// --- FONCTION MODIFIÉE : Filtre intelligent par Sous-Catégorie ---
+function updateFarmFilter(categoryId, subCategoryId = null) {
+    const category = appData.find(c => c.id === categoryId);
+    const farmFilter = document.getElementById('farm-filter');
+    
+    if (!category) return;
+
+    let availableFarms = [];
+
+    // CAS 1 : On est dans une sous-catégorie précise (ex: Cali USA)
+    if (subCategoryId && category.farms) {
+        const subCategory = category.farms.find(f => f.id === subCategoryId);
+        if (subCategory) {
+            subCategory.products.forEach(p => {
+                if (p.farm) availableFarms.push(p.farm);
+            });
+        }
+    } 
+    // CAS 2 : On est dans une catégorie globale ou simple (ex: Packs Noel ou tout voir)
+    else {
+        if (category.farms) {
+            // Si c'est une catégorie à tiroirs, on prend tout
+            category.farms.forEach(sub => {
+                sub.products.forEach(p => {
+                    if (p.farm) availableFarms.push(p.farm);
+                });
+            });
+        } else if (category.products) {
+            // Si c'est une catégorie simple
+            category.products.forEach(p => {
+                if (p.farm) availableFarms.push(p.farm);
+            });
+        }
+    }
+
+    // 2. On enlève les doublons
+    const uniqueFarms = ['all', ...new Set(availableFarms)];
+
+    // 3. On génère le HTML
+    const currentValue = currentFilters.farm;
+    
+    farmFilter.innerHTML = uniqueFarms.map(farm => 
+        `<option value="${farm}">${farm === 'all' ? '👨‍🌾  -  Toutes les farms' : farm}</option>`
+    ).join('');
+
+    // 4. On remet la valeur si elle existe toujours
+    if (uniqueFarms.includes(currentValue)) {
+        farmFilter.value = currentValue;
+    } else {
+        farmFilter.value = 'all';
+        currentFilters.farm = 'all'; 
+    }
+}
 
     // --- MODIFIÉ : renderCategoryList ---
     // Prend en compte le filtre qualité
@@ -760,47 +937,64 @@ document.addEventListener('DOMContentLoaded', function () {
             productListContainer.appendChild(btn);
         });
     }
-    // --- NOUVELLE FONCTION ---
-    // Affiche la liste des PRODUITS pour une catégorie SANS FARM (nouvelle fonction)
-    function renderProductListSimple(categoryId) {
-        const category = appData.find(c => c.id === categoryId);
-        if (!category || !category.products) {
-            productListContainer.innerHTML = '<p class="no-results">Aucun produit ne correspond à cette catégorie simple.</p>';
-            return;
-        }
 
-        // On filtre directement le tableau products de la catégorie
-        const filteredProducts = category.products.filter(product => {
-            const searchMatch = product.name.toLowerCase().includes(currentFilters.searchTerm.toLowerCase());
-            // On conserve seulement le filtre de recherche ici
-            return searchMatch;
-        });
 
-        productListContainer.innerHTML = '';
-        if (filteredProducts.length === 0) {
-            productListContainer.innerHTML = '<p class="no-results">Aucun produit ne correspond à votre recherche.</p>';
-            return;
-        }
-
-        // La logique d'affichage des cartes est la même que dans renderProductList
-        filteredProducts.forEach(product => {
-            const card = document.createElement('div');
-            card.className = 'product-card product-item-card';
-            card.dataset.productId = product.id;
-            let flagHTML = product.flag ? `<span class="product-flag">${product.flag}</span>` : '';
-
-            card.innerHTML = `
-                <img src="${product.image}" alt="${product.name}">
-                <div class="info">
-                    <div class="name">${product.name} ${flagHTML}</div>
-                    <div class="farm">${product.farm}</div> 
-                    <div class="price">${product.tarifs[0].price.toFixed(2)}€</div>
-                </div>
-            `;
-            productListContainer.appendChild(card);
-        });
+// Affiche la liste des PRODUITS (Version corrigée : Pleine largeur + Sans image vide)
+function renderProductListSimple(categoryId) {
+    const category = appData.find(c => c.id === categoryId);
+    if (!category || !category.products) {
+        productListContainer.innerHTML = '<p class="no-results">Aucun produit ne correspond à cette catégorie.</p>';
+        return;
     }
 
+    // Mise à jour du filtre farm intelligent
+    if(typeof updateFarmFilter === "function") updateFarmFilter(categoryId); 
+
+    // On filtre le tableau products
+    const filteredProducts = category.products.filter(product => {
+        const searchMatch = product.name.toLowerCase().includes(currentFilters.searchTerm.toLowerCase());
+        const farmMatch = currentFilters.farm === 'all' || product.farm === currentFilters.farm;
+        return searchMatch && farmMatch;
+    });
+
+    productListContainer.innerHTML = '';
+    if (filteredProducts.length === 0) {
+        productListContainer.innerHTML = '<p class="no-results">Aucun produit trouvé.</p>';
+        return;
+    }
+
+    filteredProducts.forEach(product => {
+        const card = document.createElement('div');
+        card.className = 'product-card product-item-card';
+        card.dataset.productId = product.id;
+        
+        // --- 1. LOGIQUE PLEINE LARGEUR ---
+        // Si c'est un Pack, on ajoute la classe spéciale
+        if (product.type === 'Pack' || product.id === 'PackNoel2025') {
+            card.classList.add('full-width');
+        }
+
+        if (product.clickable === false) card.classList.add('unclickable');
+
+        let flagHTML = product.flag ? `<span class="product-flag">${product.flag}</span>` : '';
+
+        // --- 2. LOGIQUE IMAGE (On affiche seulement si elle existe) ---
+        let imgHTML = '';
+        if (product.image && product.image !== '') {
+            imgHTML = `<img src="${product.image}" alt="${product.name}">`;
+        }
+
+        card.innerHTML = `
+            ${imgHTML}
+            <div class="info">
+                <div class="name">${product.name} ${flagHTML}</div>
+                <div class="farm">${product.farm}</div> 
+                <div class="price">${product.tarifs[0].price.toFixed(2)}€</div>
+            </div>
+        `;
+        productListContainer.appendChild(card);
+    });
+}
     // Affiche la liste des PRODUITS pour une farm
     function renderProductList(categoryId, farmId) {
         const category = appData.find(c => c.id === categoryId);
@@ -832,11 +1026,18 @@ document.addEventListener('DOMContentLoaded', function () {
             card.className = 'product-card product-item-card';
             card.dataset.productId = product.id;
 
+            // Si c'est le Pack de Noël (vérifie bien que l'ID est correct), on met la classe large
+        if (product.id === 'PackNoel2025' || product.type === 'Pack') {
+            card.classList.add('full-width');
+        }
+
             if (product.clickable === false) {
                 card.classList.add('unclickable');
             }
 
             let flagHTML = product.flag ? `<span class="product-flag">${product.flag}</span>` : '';
+
+     
 
             card.innerHTML = `
                 <img src="${product.image}" alt="${product.name}">
@@ -859,38 +1060,66 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('product-page-title').innerText = product.name;
         const detailsContainer = document.getElementById('product-details-content');
     
-        // --- GALERIE MEDIA (IMAGES + VIDEOS) ---
-        
-        // 1. Les Images
-        let mediaItems = product.images && product.images.length > 0 ? [...product.images] : [product.image];
-        let galleryHTML = mediaItems.map(imgSrc => `
-            <div class="gallery-item"><img src="${imgSrc}" alt="${product.name}"></div>
-        `).join('');
-        
-        // 2. Les Vidéos (Nouveau système multiple OU Ancien système unique)
+        // --- 1. GESTION INTELLIGENTE DES MÉDIAS ---
+        let galleryHTML = '';
+        let hasMedia = false;
+    
+        // Images
+        let mediaItems = [];
+        if (product.images && product.images.length > 0) {
+            mediaItems = product.images;
+        } else if (product.image && product.image !== '') {
+            mediaItems = [product.image];
+        }
+    
+        if (mediaItems.length > 0) {
+            hasMedia = true;
+            galleryHTML += mediaItems.map(imgSrc => `
+                <div class="gallery-item"><img src="${imgSrc}" alt="${product.name}"></div>
+            `).join('');
+        }
+    
+        // Vidéos
         if (product.videos && product.videos.length > 0) {
-            // Cas : Plusieurs vidéos
+            hasMedia = true;
             product.videos.forEach(videoSrc => {
                 galleryHTML += `
                     <div class="gallery-item">
-                        <video controls playsinline poster="${product.image}">
+                        <video controls playsinline poster="${product.image || ''}">
                             <source src="${videoSrc}" type="video/mp4">
                         </video>
                     </div>`;
             });
-        } else if (product.video) {
-            // Cas : Une seule vidéo (Fallback)
+        } else if (product.video && product.video !== '') {
+            hasMedia = true;
             galleryHTML += `
                 <div class="gallery-item">
-                    <video controls playsinline poster="${product.image}">
+                    <video controls playsinline poster="${product.image || ''}">
                         <source src="${product.video}" type="video/mp4">
                     </video>
                 </div>`;
         }
+    
+        // --- 2. LE RESTE (OPTIONS, DESCRIPTION, TARIFS) ---
 
-        // --- CONSTRUCTION DES VARIANTES (BOUTONS) ---
+        // --- GESTION DU CONTENU PACK (Liens internes) ---
+    let packLinksHTML = '';
+    if (product.packContents && product.packContents.length > 0) {
+        const links = product.packContents.map(item => `
+            <div class="pack-item-btn" data-target-id="${item.targetId}">
+                <span>${item.name}</span>
+                <span class="pack-arrow">›</span>
+            </div>
+        `).join('');
+        
+        packLinksHTML = `
+            <div class="pack-content-container">
+                <div style="color:#8e8e93; font-size:0.9rem; margin-bottom:5px;">📦 CONTENU DU PACK :</div>
+                ${links}
+            </div>
+        `;
+    }
         let variantsHTML = '';
-        // On supporte soit 'jars' (nouveau système) soit 'options' (ancien système fallback)
         if (product.jars && product.jars.length > 0) {
             const buttonsHTML = product.jars.map((jar, index) => `
                 <div class="variant-btn ${index === 0 ? 'active ' + jar.colorClass : ''}" 
@@ -900,29 +1129,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     <span class="text">${jar.name}</span>
                 </div>
             `).join('');
-
-            variantsHTML = `
-                <div class="variant-selector-container">
-                    <div class="variant-title">${product.variantTitle || 'Choisir une option :'}</div>
-                    <div class="variant-grid">
-                        ${buttonsHTML}
-                    </div>
-                </div>
-            `;
+            variantsHTML = `<div class="variant-selector-container"><div class="variant-title">${product.variantTitle || 'Choisir une option :'}</div><div class="variant-grid">${buttonsHTML}</div></div>`;
+        } else if (product.options && product.options.length > 0) {
+            variantsHTML = `<div class="product-options-container" style="margin-bottom: 15px;"><label style="color: #8e8e93; font-size: 0.9rem; margin-bottom: 5px; display:block;">Choisir :</label><select id="product-variant-select" style="width: 100%; padding: 12px; border-radius: 8px; background: #2c2c2e; color: white; border: 1px solid #3a3a3c;">${product.options.map(opt => `<option value="${opt}">${opt}</option>`).join('')}</select></div>`;
         }
-        // Fallback ancien système (options string)
-        else if (product.options && product.options.length > 0) {
-            variantsHTML = `
-                <div class="product-options-container" style="margin-bottom: 15px;">
-                    <label style="color: #8e8e93; font-size: 0.9rem; margin-bottom: 5px; display:block;">Choisir :</label>
-                    <select id="product-variant-select" style="width: 100%; padding: 12px; border-radius: 8px; background: #2c2c2e; color: white; border: 1px solid #3a3a3c;">
-                        ${product.options.map(opt => `<option value="${opt}">${opt}</option>`).join('')}
-                    </select>
-                </div>
-            `;
-        }
-
-        // --- TARIFS ---
+    
         let tarifsHTML = product.tarifs.map(tarif => `
             <div class="tarif-item">
                 <div class="box-tarif">
@@ -934,75 +1145,55 @@ document.addEventListener('DOMContentLoaded', function () {
                 </button>
             </div>
         `).join('');
-
-        // --- DESCRIPTION ---
+    
         let descriptionHTML = product.description ? `<p class="product-description">${product.description.replace(/\n/g, '<br>')}</p>` : '';
-
-        // --- INJECTION ---
+    
         const oldVideo = document.querySelector('#page-product .product-video');
-        if (oldVideo) oldVideo.style.display = 'none';
-
+        if(oldVideo) oldVideo.style.display = 'none';
+    
+        // --- 3. INJECTION (On cache la galerie si pas de média) ---
         detailsContainer.innerHTML = `
-            <div class="product-gallery-wrapper">${galleryHTML}</div>
-            <div class="gallery-counter">Swipe ➡️</div>
-            <div class="name">${product.name}</div>
+            ${hasMedia ? `<div class="product-gallery-wrapper">${galleryHTML}</div>` : ''}
+            ${hasMedia ? `<div class="gallery-counter">Swipe ➡️</div>` : ''}
+            
+            <div class="name" style="margin-top: ${hasMedia ? '0' : '20px'}">${product.name}</div>
             <div class="farm">${product.farm}</div>
-            ${descriptionHTML}
-            ${variantsHTML}
+            ${packLinksHTML} ${descriptionHTML}
+                        ${variantsHTML}
             <h4 class="tarifs-title">💰 Tarifs disponibles :</h4>
-            <div class="tarifs-grid-container">
-            ${tarifsHTML}
-        </div>
+            <div class="tarifs-grid-container">${tarifsHTML}</div>
         `;
-
+    
         showPage('page-product');
-
-        // --- LOGIQUE JS : CLIC SUR LES VARIANTES ---
-        // Si on est sur le nouveau système "jars"
+    
+        // Réattache les événements (pour les variantes de couleurs)
         if (product.jars && product.jars.length > 0) {
             const variantBtns = document.querySelectorAll('.variant-btn');
             const cartBtns = document.querySelectorAll('.add-to-cart-btn');
-
-            // Fonction pour mettre à jour la couleur des boutons panier
             const updateCartButtonsColor = (colorClass) => {
                 cartBtns.forEach(btn => {
-                    // On enlève toutes les anciennes classes de couleur
-                    btn.classList.remove('style-purple', 'style-red', 'style-green', 'style-yellow', 'style-orange', 'style-brown');
-                    // On ajoute la nouvelle
+                    btn.classList.remove('style-purple', 'style-red', 'style-green', 'style-yellow', 'style-orange', 'style-brown', 'style-passion', 'style-melon');
                     if (colorClass) btn.classList.add(colorClass);
                 });
             };
-
-            // Initialisation : on applique la couleur du 1er bouton (qui est active par défaut)
             updateCartButtonsColor(product.jars[0].colorClass);
-
-            // Gestion du clic
             variantBtns.forEach(btn => {
-                btn.addEventListener('click', function () {
-                    // 1. Visuel bouton variante
+                btn.addEventListener('click', function() {
                     variantBtns.forEach(b => {
                         b.classList.remove('active');
-                        // On retire aussi la classe couleur spécifique du bouton désactivé pour le remettre en gris
                         const color = b.dataset.colorClass;
                         b.classList.remove(color);
                     });
-
                     this.classList.add('active');
-                    this.classList.add(this.dataset.colorClass); // On remet la couleur vive
-
-                    // 2. Visuel boutons panier
+                    this.classList.add(this.dataset.colorClass);
                     updateCartButtonsColor(this.dataset.colorClass);
-
-                    // 3. Petit retour haptique
-                    if (window.Telegram.WebApp.HapticFeedback) {
-                        window.Telegram.WebApp.HapticFeedback.selectionChanged();
-                    }
+                    if(window.Telegram.WebApp.HapticFeedback) window.Telegram.WebApp.HapticFeedback.selectionChanged();
                 });
             });
         }
     }
 
-    // Met à jour l'affichage du panier (inchangé)
+    // Met à jour l'affichage du panier (CORRIGÉ : Cache l'image si vide)
     function renderCart() {
         const cartContainer = document.getElementById('cart-items-container');
         if (cart.length === 0) {
@@ -1014,7 +1205,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         cartContainer.innerHTML = cart.map(item => `
             <div class="cart-item">
-                <img src="${item.image}" alt="${item.name}">
+                ${item.image ? `<img src="${item.image}" alt="${item.name}">` : ''}
+                
                 <div class="item-details">
                     <div class="name">${item.name}</div>
                     <div class="gram" >${item.weight} - ${item.unitPrice.toFixed(2)}€</div>
@@ -1072,7 +1264,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const itemsList = document.getElementById('confirmation-items-list');
     itemsList.innerHTML = cart.map((item, index) => `
          <div class="cart-item">
-            <img src="${item.image}" alt="${item.name}">
+            ${item.image ? `<img src="${item.image}" alt="${item.name}">` : ''}
+
             <div class="item-details">
                 <div>${index + 1}. ${item.name}</div>
                 <div>Quantité: ${item.quantity}x ${item.weight}</div>
@@ -1145,7 +1338,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const linksContainer = document.getElementById('contact-links-container');
         linksContainer.innerHTML = contactLinks.map(link => `
         <a href="${link.url}" class="contact-link ${link.className}" target="_blank">
-        <svg width="24" height="24"><use href="${link.icon}"/></svg>
+        
             <span>${link.text}</span>
         </a>
         `).join('');
@@ -1161,57 +1354,50 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // --- MODIFIÉ : populateFilters ---
-    // Prend les données des catégories ET des produits
-    function populateFilters() {
-        const searchFilter = document.getElementById('search-filter');
-        const qualityFilter = document.getElementById('quality-filter');
-        const farmFilter = document.getElementById('farm-filter');
+  // --- MODIFIÉ : populateFilters ---
+  function populateFilters() {
+    const searchFilter = document.getElementById('search-filter');
+    const qualityFilter = document.getElementById('quality-filter');
+    const farmFilter = document.getElementById('farm-filter');
 
-        const allNestedProducts = [];
-        appData.forEach(category => {
-            if (category.farms) {
-                category.farms.forEach(farm => allNestedProducts.push(...farm.products));
-            } else if (category.products) {
-                allNestedProducts.push(...category.products);
-            }
-        });
-        // --- MODIFICATION ---
-        /*    const categoryQualities = appData.map(c => c.quality);
-                const productQualities = allNestedProducts.map(p => p.quality);
-                const qualities = ['all', ...new Set([...categoryQualities, ...productQualities])];
-        
-                const categoryFarms = appData.map(c => c.farm);
-                const productFarms = allNestedProducts.map(p => p.farm);
-                const farms = ['all', ...new Set([...categoryFarms, ...productFarms])]; */
-        // --- FIN MODIFICATION ---
+    // 1. On récupère TOUS les produits de l'app pour trouver toutes les farms
+    const allNestedProducts = [];
+    appData.forEach(category => {
+        if (category.farms) {
+            category.farms.forEach(farm => allNestedProducts.push(...farm.products));
+        } else if (category.products) {
+            allNestedProducts.push(...category.products);
+        }
+    });
 
-        // On ne prend les "qualities" QUE des catégories
-        const categoryQualities = appData.map(c => c.quality);
-        const qualities = ['all', ...new Set(categoryQualities)];
+    // 2. On remplit le filtre QUALITÉ (Pour la page d'accueil)
+    const categoryQualities = appData.map(c => c.quality).filter(Boolean); // filter Boolean enlève les vides
+    const qualities = ['all', ...new Set(categoryQualities)];
+    qualityFilter.innerHTML = qualities.map(q => `<option value="${q}">${q === 'all' ? 'SELECTION DU CHEF' : q}</option>`).join('');
 
-        // On ne prend les "farms" QUE des produits (c'est ce que tu filtres)
-        const productFarms = allNestedProducts.map(p => p.farm);
-        const farms = ['all', ...new Set(productFarms)];
+    // 3. On remplit le filtre FARM (Pour la page produits)
+    // On récupère la propriété 'farm' de chaque produit
+    const productFarms = allNestedProducts.map(p => p.farm).filter(f => f); // Garde seulement si une farm est définie
+    const farms = ['all', ...new Set(productFarms)];
+    
+    farmFilter.innerHTML = farms.map(farm => `<option value="${farm}">${farm === 'all' ? '👨‍🌾  -  Toutes les farms' : farm}</option>`).join('');
 
-        qualityFilter.innerHTML = qualities.map(q => `<option value="${q}">${q === 'all' ? 'LES SELECTION DU CHEF' : q}</option>`).join('');
-        farmFilter.innerHTML = farms.map(farm => `<option value="${farm}">${farm === 'all' ? '👨‍🌾  -  Les farms' : farm}</option>`).join('');
+    // 4. Les écouteurs d'événements
+    searchFilter.addEventListener('input', (e) => {
+        currentFilters.searchTerm = e.target.value;
+        renderHomePage();
+    });
 
-        searchFilter.addEventListener('input', (e) => {
-            currentFilters.searchTerm = e.target.value;
-            renderHomePage();
-        });
+    qualityFilter.addEventListener('change', (e) => {
+        currentFilters.quality = e.target.value;
+        renderHomePage();
+    });
 
-        qualityFilter.addEventListener('change', (e) => {
-            currentFilters.quality = e.target.value;
-            renderHomePage();
-        });
-
-        farmFilter.addEventListener('change', (e) => {
-            currentFilters.farm = e.target.value;
-            renderHomePage();
-        });
-    }
+    farmFilter.addEventListener('change', (e) => {
+        currentFilters.farm = e.target.value;
+        renderHomePage();
+    });
+}
 
     // --- NOTIFICATION (inchangé) ---
     let notificationTimeout;
@@ -1610,6 +1796,16 @@ document.addEventListener('DOMContentLoaded', function () {
         // Clic sur "Modifier"
         if (target.closest('#confirmation-modify-order')) {
             showPage('page-cart');
+        }
+
+        // Clic sur un produit DANS un Pack
+        if (target.closest('.pack-item-btn')) {
+            const btn = target.closest('.pack-item-btn');
+            const targetId = btn.dataset.targetId;
+            
+            // On charge la page du produit ciblé
+            renderProductPage(targetId);
+            return;
         }
 
     // Clic sur "Confirmer la commande" (VERSION WHATSAPP DIRECT)

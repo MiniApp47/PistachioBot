@@ -260,10 +260,13 @@
             display: block;
         }
 
+        /* ✅ CORRECTION : On force l'affichage du selecteur Farm */
         select#farm-filter {
-            display: none;
+            display: block !important;
+            width: 100%;
         }
 
+        /* On cache la flèche native si besoin, mais on laisse le wrapper gérer */
         .filter-select-wrapper::after #farm-filer {
             display: none;
         }
@@ -386,7 +389,8 @@
         }
 
         .product-card {
-            background: var(--secondary-bg-color);
+            background: linear-gradient(145deg, #2c2c2e, #3a1c42);
+            border: 1px solid #b115ff;
             border-radius: 15px;
             overflow: hidden;
             cursor: pointer;
@@ -436,7 +440,7 @@
             align-items: center;
             height: 6vh;
             text-align: center;
-            font-family: cursive;
+            font-family: Marker Felt, fantasy;
             font-size: 20px;
         }
 
@@ -554,11 +558,11 @@
             border-radius: 8px;
             color: white;
             width: 60%;
-    height: 35px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+            height: 35px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         /* Page Panier & Confirmation */
@@ -763,7 +767,7 @@
             background: linear-gradient(#63248787, #5700ff30);
             border: 2px solid white;
             width: 45%;
-    height: auto;
+            height: auto;
             flex-direction: column;
         }
 
@@ -827,20 +831,21 @@
 
         .box-tarif {
             display: flex;
-    font-size: 25px;
-    justify-content: space-around;
-    font-family: Impact, fantasy;
-    flex-direction: column;
-    text-align: center;
-    width: 80%;
-    padding: 1vh;
+            font-size: 25px;
+            justify-content: space-around;
+            font-family: Impact, fantasy;
+            flex-direction: column;
+            text-align: center;
+            width: 80%;
+            padding: 1vh;
         }
 
-        .tarif-wieght{
+        .tarif-wieght {
             border-bottom: 1px solid grey;
             padding: 1vh;
         }
-        .tarif-price{
+
+        .tarif-price {
             border-bottom: 1px solid grey;
             padding: 1vh;
         }
@@ -879,8 +884,78 @@
 
         }
 
-        .ImgResaux {
+        .ImgReseaux {
             height: 2vh;
+        }
+
+        /* --- STYLE PAGE INFO : BLOCS IMAGES --- */
+
+        /* 1. Le bouton accordéon devient un cadre pour l'image */
+        #page-info .accordion-header {
+            position: relative;
+            /* Nécessaire pour superposer l'image */
+            height: 150px;
+            /* On augmente la hauteur pour bien voir l'image */
+            padding: 0;
+            /* Pas de marge à l'intérieur */
+            overflow: hidden;
+            /* Coupe ce qui dépasse */
+            border: 2px solid #b713ff;
+            /* Ta bordure violette */
+            background-color: #000;
+            /* Fond noir au cas où */
+            display: flex;
+            align-items: flex-end;
+            /* Aligne la flèche en bas */
+            justify-content: flex-end;
+            /* Aligne la flèche à droite */
+        }
+
+        /* 2. L'image prend toute la place (Background) */
+        #page-info .ImgReseaux {
+            position: absolute;
+            /* On la sort du flux */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Remplit tout le bloc sans déformer l'image */
+            z-index: 1;
+            /* Derrière la flèche */
+            border-radius: 0;
+            /* On enlève les arrondis internes */
+            margin: 0;
+            filter: brightness(0.85);
+            /* Légèrement assombri pour le style */
+            transition: transform 0.3s ease;
+        }
+
+        /* Petit effet de zoom quand on clique */
+        #page-info .accordion-item.active .ImgReseaux {
+            transform: scale(1.05);
+            filter: brightness(1);
+        }
+
+        /* 3. La flèche par dessus l'image */
+        #page-info .accordion-arrow {
+            position: relative;
+            /* Pour être au dessus du z-index 1 */
+            z-index: 2;
+            margin: 15px;
+            /* Marge du bord bas-droit */
+            background: rgba(0, 0, 0, 0.6);
+            /* Petit fond noir rond */
+            border-radius: 50%;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            color: white;
+        }
+
+        /* 4. On cache le texte s'il y en a (puisque c'est l'image qui parle) */
+        #page-info .accordion-header span {
+            display: none;
         }
 
 
@@ -901,7 +976,7 @@
             margin-bottom: 6vh;
             border-radius: 50%;
             box-shadow: 0px 0px 10px 2px #b713ff;
-;
+            ;
             margin-top: 2vh;
         }
 
@@ -915,31 +990,32 @@
             max-width: 400px;
             padding: 20px;
             box-sizing: border-box;
-            margin-top: 5vh;
+            margin-top: -2vh;
 
         }
 
         .contact-links-list a {
-            align-items: center;
-            padding: 15px;
-            background: var(--tertiary-bg-color);
-            border-radius: 10px;
-            margin-bottom: 10px;
-            text-decoration: none;
-            color: var(--text-color);
-            transition: background-color 0.2s ease;
-            height: 5vh;
-            display: flex;
-            justify-content: center;
-            font-size: 3vh;
-        }
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px; /* Bordure un peu plus arrondie */
+    margin-bottom: 12px; /* Espacement */
+    text-decoration: none;
+    color: white; /* Texte blanc par défaut */
+    font-weight: 700; /* Texte en gras */
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase; /* Tout en majuscule */
+    letter-spacing: 1px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 6vh; /* Hauteur ajustée */
+    display: flex;
+    justify-content: center;
+    font-size: 2.2vh;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Ombre portée */
+    border: 1px solid rgba(255,255,255,0.1);
+}
 
         .contact-links-list a:last-child {
             margin-bottom: 0;
-        }
-
-        .contact-links-list a:hover {
-            background-color: #4a4a4c;
         }
 
         .contact-links-list a svg {
@@ -948,35 +1024,54 @@
             width: 4vh;
         }
 
-        /* --- NOUVEAU STYLE POUR LES LIENS DE CONTACT COLORÉS --- */
-        .contact-link.whatsapp {
-            background-color: #25D366;
-        }
+        /* Effet au clic */
+.contact-links-list a:active {
+    transform: scale(0.98);
+}
 
-        .contact-link.instagram {
-            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-        }
+/* SNAPCHAT (Jaune Vif -> Doré) */
+.contact-link.snapchat {
+    background: linear-gradient(45deg, #fff108 0%, #b93800 100%);
+    color: black !important; /* Texte noir pour lisibilité */
+}
+.contact-link.snapchat svg {
+    stroke: black !important; /* Icône noire */
+}
 
-        .contact-link.snapchat {
-            background-color: #FFFC00;
-            color: #000000;
-            /* Texte en noir pour la lisibilité */
-        }
+/* SIGNAL (Bleu Roi -> Bleu Foncé) */
+.contact-link.signal {
+    background: linear-gradient(45deg, #3A9EFD 0%, #002860 100%);
+}
 
-        .contact-link.snapchat svg {
-            stroke: #000000;
-            /* Icône en noir */
-        }
+/* WHATSAPP (Vert Clair -> Vert Foncé) */
+.contact-link.whatsapp {
+    background: linear-gradient(45deg, #27ff78 0%, #0a7d00 100%);
 
-        .contact-link.telegram {
-            background-color: #0088cc;
-        }
+}
 
-        .contact-link.potato {
-            background-color: #d35400;
-            /* Une couleur orange/marron pour Potato */
-        }
+/* TELEGRAM (Bleu Ciel -> Bleu Telegram) */
+.contact-link.telegram {
+    background: linear-gradient(45deg, #2a67ee 0%, #16e6d5 100%);
+    color: black !important; /* Texte noir pour lisibilité */
+}
 
+/* TÉLÉ SECOURS (Cyan -> Bleu Océan) */
+.contact-link.secours {
+    background: linear-gradient(45deg, #00d2ff 0%, #3a7bd5 100%);
+    color: black !important; /* Texte noir pour lisibilité */
+
+}
+
+/* POTATO (Orange -> Marron Bronze) */
+.contact-link.potato {
+    background: linear-gradient(45deg, #7d1a03 0%, #f16101 100%);
+}
+
+/* INSTAGRAM (Le dégradé officiel) */
+.contact-link.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: black !important; /* Texte noir pour lisibilité */
+}
         /* --- NOUVEAU STYLE POUR L'ACCORDÉON --- */
         .accordion-container {
             width: 100%;
@@ -1475,6 +1570,56 @@
             box-shadow: 0 0 15px rgba(0, 180, 216, 0.5);
             /* Lueur turquoise */
         }
+
+        /* --- LIENS CONTENU DU PACK --- */
+        .pack-content-container {
+            width: 100%;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .pack-item-btn {
+            background: #3a3a3c;
+            /* Gris foncé */
+            color: white;
+            padding: 12px 15px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-size: 0.95rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: background 0.2s;
+        }
+
+        .pack-item-btn:active {
+            background: #505053;
+            transform: scale(0.98);
+        }
+
+        .pack-arrow {
+            color: #8e8e93;
+            font-size: 1.2rem;
+        }
+
+        /* --- STYLE POUR LE PRODUIT PLEINE LARGEUR --- */
+        .product-card.full-width {
+            grid-column: 1 / -1;
+            /* Dit à l'élément de prendre toute la largeur de la grille */
+            background: linear-gradient(145deg, #2c2c2e, #3a1c42);
+            /* Optionnel : un fond un peu plus premium */
+            border: 1px solid #b115ff;
+            /* Optionnel : une bordure festive */
+        }
+
+        /* On agrandit un peu l'image pour ce format large */
+        .product-card.full-width img {
+            height: 180px;
+            /* Plus haut que les autres produits */
+        }
     </style>
 </head>
 
@@ -1500,14 +1645,24 @@
                     <div class="accordion-item">
                         <button class="accordion-header">
                             <img src="InfoReseaux.jpg" class="ImgReseaux" alt="">
-                            <span><!-- DELIVERY --> </span>
+                            <span>
+                                <!-- DELIVERY -->
+                            </span>
                             <svg class="accordion-arrow" width="24" height="24" viewBox="0 0 24 24">
                                 <path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
                             </svg>
                         </button>
                         <div class="accordion-content">
                             <p>
-                            <!--     Service rapide et fiable disponible des 100€ de commande avec 20€ de frais de livraison
+
+                                🛍️ Whatsapp - Commander  🛍️
+                                <br><br>
+                                🍽️ Telegram - Voir les produits 🍽️
+                                <br><br>
+                                🎬 Insta/Snap - Suivre les story 🎬
+                                <br><br>
+                                🔐 Signal/Potato - Garder notre contact 🔐
+                                <!--     Service rapide et fiable disponible des 100€ de commande avec 20€ de frais de livraison
                                 dans Bordeaux Centre et varient suivant la distance !
                                 <br><br> 🏆 Frais offert pour le canal VIP 🏆 -->
                             </p>
@@ -1516,33 +1671,46 @@
                     <div class="accordion-item">
                         <button class="accordion-header">
                             <img src="InfoMeetup.jpg" class="ImgReseaux" alt="">
-                            <span><!-- HORAIRES --></span>
+                            <span>
+                                <!-- HORAIRES -->
+                            </span>
                             <svg class="accordion-arrow" width="24" height="24" viewBox="0 0 24 24">
                                 <path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
                             </svg>
                         </button>
                         <div class="accordion-content">
                             <p>
-                                <!-- 12H - 00h
-                                <br><br> 🏆 Accès au canal VIP après votre première commandes -->
+                                🔥 MEET-UP disponible ! 🔥
+                                <br><br>
+                                🏠 Point dispo 93 / 77
+                                – Endroit discret et sécurisé 👀
                             </p>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <button class="accordion-header">
                             <img src="InfoLivraison.jpg" class="ImgReseaux" alt="">
-                            <span><!-- SHIPPING --></span>
+                            <span>
+                                <!-- SHIPPING -->
+                            </span>
                             <svg class="accordion-arrow" width="24" height="24" viewBox="0 0 24 24">
                                 <path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
                             </svg>
                         </button>
                         <div class="accordion-content">
                             <p>
-                            <!--     Colis sécuriser 2 a 3x sous vide plus mousse expansive, pour se qui concerne la France
-                                des frais de 20€ vous sont demander a partir de 100€ de commande par contre vous pouvez
-                                compter 40€ de frais pour les autres pays !
+                                📦
+                                Commande & Livraison :
                                 <br><br>
-                                ✅ Payement uniquement en crypto ✅ -->
+                                🚀 Livraison dans toute l’IDF
+                                Rapide et packaging sous vide soigner 🤯
+                                📦 Envois postaux sécurisés avec suivi
+                                🛡️ Reship / Refund 50% en cas de saisie 👮‍♂️ ou de soucie quelconque ( sauf ma part )
+                                <br><br>
+                                📆 Horaires De livraison :
+                                🚚 11h-03h
+                                Prise de commande 24/24 🔥
+
                             </p>
                         </div>
                     </div>
