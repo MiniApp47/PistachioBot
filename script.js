@@ -172,6 +172,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Wizard Trees & co',
                     products: [
                         {
+                            id: 'Toxic',
+                            flag: '🇺🇸',
+                            name: 'Toxic punch ☠️🥊',
+                            farm: '🏠Growers choice',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductToxic.png',
+                            video: 'VideoToxic.mov',
+                            description: 'La Cali Toxic Punch séduit par son profil aromatique intense et fruité.😍🍀 \n Dès l’ouverture, elle libère des notes punchy de fruits sucrés, légèrement acidulées 🥇 \n avec une touche fraîche et gourmande en fin de bouche.🎖️⚡️',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 210.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 640.00 },
+                            ]
+                        },
+                        {
+                            id: 'Alien',
+                            flag: '🇺🇸',
+                            name: 'TROPICAL ALIEN 🌴👽',
+                            farm: '🏠Growers choice',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductAlien.png',
+                            video: 'VideoAlien.mov',
+                            description: 'La Cali Tropical Alien OG est une variété au profil aromatique exotique et puissant.🌴🦜 \n Elle dévoile des notes tropicales sucrées, mêlées à une base OG boisée et légèrement citronnée, offrant une expérience riche et équilibrée.🪵🍋 \n\n Ses têtes compactes, résineuses et parfaitement manucurées témoignent d’une culture soignée de type californienne. 🇺🇸👨‍🌾',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 210.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 640.00 },
+                            ]
+                        },
+                        {
                             id: '👨‍🍳RAIBOW',
                             flag: '🇺🇸',
                             name: '👨‍🍳RAIBOW RUNTZ 🌈',
@@ -204,7 +238,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 340.00 },
                                 { weight: '100g', price: 640.00 },
                             ]
-                        } 
+                        }
                     ]
                 }
             ]
@@ -1469,65 +1503,74 @@ function renderProductListSimple(categoryId) {
         renderCart();
     }
 
-    // --- FORMATAGE DU MESSAGE DE COMMANDE (pour gere les promo) ---
-    function formatOrderMessage() {
-        const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+  // --- FORMATAGE DU MESSAGE WHATSAPP (STYLE PRO & EMOJIS) ---
+  function formatOrderMessage() {
+    // --- 1. CALCULS (Inchangés) ---
+    let subTotal = cart.reduce((sum, item) => sum + item.totalPrice, 0);
+    let discount = 0;
+    let discountableAmount = 0;
 
-        // Recalcul des prix pour le message
-        let subTotal = cart.reduce((sum, item) => sum + item.totalPrice, 0);
-        let discount = 0;
-        if (appliedPromo) {
-            const promo = validPromoCodes[appliedPromo];
-            let discountableAmount = 0;
-            if (promo.appliesTo === 'eligible') {
-                cart.forEach(item => {
-                    const product = getProductById(item.productId);
-                    if (product && product.promoEligible) {
-                        discountableAmount += item.totalPrice;
-                    }
-                });
-            } else {
-                discountableAmount = subTotal;
-            }
-            if (promo.type === 'percent') {
-                discount = (discountableAmount * promo.value) / 100;
-            } else {
-                discount = promo.value;
-            }
+    if (appliedPromo) {
+        const promo = validPromoCodes[appliedPromo];
+        if (promo.appliesTo === 'eligible') {
+            cart.forEach(item => {
+                const product = getProductById(item.productId);
+                if (product && product.promoEligible) {
+                    discountableAmount += item.totalPrice;
+                }
+            });
+        } else {
+            discountableAmount = subTotal;
         }
-        if (discount > subTotal) discount = subTotal;
-        const totalPrice = subTotal - discount;
-        // Fin recalcul
-
-        const date = new Date();
-        const formattedDate = `${date.getDate()} ${date.toLocaleString('fr-FR', { month: 'long' })} ${date.getFullYear()} a ${date.getHours()}:${String(date.getMinutes()).padStart(2, '0')}`;
-
-        let message = "NOUVELLE COMMANDE\n\n";
-        message += "====================\n";
-        message += "RESUME:\n";
-        message += `- ${totalItems} article${totalItems > 1 ? 's' : ''} commande\n`;
-        message += `- Méthode de paiement: ${paymentMethod}\n`; // AJOUT
-        message += "====================\n";
-        message += `DETAIL DES ARTICLES:\n`;
-
-        cart.forEach((item) => {
-            message += `\n- ${item.id}`;
-            message += `\n  Quantite: ${item.quantity}x ${item.weight}`;
-            message += `\n  Prix unitaire: ${item.unitPrice.toFixed(2)}e`;
-            message += `\n  Sous-total: ${item.totalPrice.toFixed(2)} EUR`;
-        });
-
-        message += `\n\n====================\n`;
-        message += `\nSOUS-TOTAL: ${subTotal.toFixed(2)} EUR`;
-        if (discount > 0) {
-            message += `\nREDUCTION (${appliedPromo}): -${discount.toFixed(2)} EUR`; // AJOUT
+        if (promo.type === 'percent') {
+            discount = (discountableAmount * promo.value) / 100;
+        } else {
+            discount = promo.value;
         }
-        message += `\nTOTAL FINAL: ${totalPrice.toFixed(2)} EUR`; // AJOUT
-        message += " \n-LIVRAISON: A convenir\n";
-        message += " \n-CONTACT: Merci de confirmer cette commande\n";
-        message += ` \n-Commande passee le: ${formattedDate}\n`;
-        return message;
     }
+    if (discount > subTotal) discount = subTotal;
+    const totalPrice = subTotal - discount;
+
+    // --- 2. CONSTRUCTION DU MESSAGE (NOUVEAU DESIGN) ---
+    
+    // En-tête
+    let message = "*🛒 DÉTAIL DE LA COMMANDE:*\n\n";
+
+    // Boucle sur les articles
+    cart.forEach((item, index) => {
+        // On nettoie le nom (enlève les sauts de ligne techniques si variante)
+        // On met en majuscules pour faire comme sur ta capture
+        let cleanName = item.name.replace(/\n/g, ' ').toUpperCase();
+
+        // Ligne 1 : Numéro + Nom du produit (en Gras *)
+        message += `*${index + 1}. ${cleanName}*\n`;
+        
+        // Ligne 2 : Quantité
+        message += `• Quantité: ${item.quantity}x ${item.weight}\n`;
+        
+        // Ligne 3 : Prix unitaire
+        message += `• Prix unitaire: ${item.unitPrice.toFixed(2)}€\n`;
+        
+        // Ligne 4 : Total de la ligne
+        message += `• Total: ${item.totalPrice.toFixed(2)}€\n\n`;
+    });
+
+    // Résumé financier
+    // Si promo, on affiche le détail, sinon juste le total
+    if (discount > 0) {
+        message += `Sous-total: ${subTotal.toFixed(2)}€\n`;
+        message += `Réduction (${appliedPromo}): -${discount.toFixed(2)}€\n`;
+        message += `\n*💰 TOTAL: ${totalPrice.toFixed(2)}€*\n`;
+    } else {
+        message += `*💰 TOTAL: ${totalPrice.toFixed(2)}€*\n`;
+    }
+
+    // Pied de page
+    message += `\n📍 Livraison à convenir\n`;
+    message += `💳 Paiement: ${paymentMethod}`;
+
+    return message;
+}
 
     // --- NOUVELLE FONCTION POUR COPIER DANS LE PRESSE-PAPIERS ---
     function copyToClipboard(text) {
@@ -1814,16 +1857,10 @@ function renderProductListSimple(categoryId) {
         // 1. TON NUMÉRO WHATSAPP (Format international sans le +)
         // Exemple : 33612345678 pour la France (06 12 34 56 78)
         const myPhoneNumber = '33626127557'; 
-
         // 2. On prépare le message
         let message = formatOrderMessage();
-        
-        // Note : WhatsApp utilise les étoiles * pour le gras, donc on peut garder les * // Si tu veux enlever le gras, décommente la ligne ci-dessous :
-        // message = message.replace(/\*/g, '');
-
         // 3. On encode le message pour qu'il passe dans une URL (transforme les espaces en %20 etc.)
         const encodedMessage = encodeURIComponent(message);
-
         // 4. On crée le lien magique WhatsApp
         const whatsappUrl = `https://wa.me/${myPhoneNumber}?text=${encodedMessage}`;
 
