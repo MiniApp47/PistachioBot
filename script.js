@@ -330,35 +330,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 250.00 },
                                 { weight: '100g', price: 430.00 },
                             ]
-                        },
-                        {
-                            id: '220u',
-                            flag: '⚡️',
-                            name: '🛖 120u Premium 2026',
-                            farm: '🏠 KILOGRAMMES FARMZ 🥇🏆',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductKgf.png',
-                           /*  images: [
-                                'ProductGrandDaddy.jpg',
-                                'ProductPapaya.jpg',
-                            ], */
-                            video: 'VideoKgf.mov',
-                            description: 'K.G.F STATIC 🏆🥇 \n Un produit d’exception de la maison KGF 🏆 \n uJamais déçu 🥇 \n Goût plus fumette douce mes en même temp forte 💪\n Une odeur qui se dégage quand tu allume le joint wahouu 🔱🔱🔥 🏠🔥\n\n 190/220u ( Réal no fake )🔥',
-
-                            // 👇 NOUVELLE STRUCTURE
-                            variantTitle: 'Choisis ton goût 🥣 :',
-                            jars: [
-                                { name: 'CHEERY CAKE X ORANGE PUNCH', emoji: '🍒🍊', colorClass: 'style-red' },
-                                { name: 'LAMPONI', emoji: '✅', colorClass: 'style-brown' }
-                            ],
-
-                            tarifs: [
-                                { weight: '5g', price: 90.00 },
-                                { weight: '10g', price: 160.00 },
-                      
-                            ]
                         }
+                       
                     ]
                 },
 
@@ -371,7 +344,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     products: [
                         {
                             id: '120u',
-                            flag: '⚡️',
+                            flag: '🇲🇦',
                             name: '🛖 120u Premium 2026',
                             farm: '🏠 DHF FARMZ 🥇',
                             promoEligible: true,
@@ -480,33 +453,34 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '', // Mets une image de Static
                     badgeText: 'Saison 2026',
                     products: [
-                     /*    {
-                            id: 'FrozenSource',
-                            flag: '⚡️',
-                            name: '🇲🇦Frozen Sift Hash ⚡️🌬️',
-                            farm: 'LA SOURCE 🥇',
+                        {
+                            id: '220u',
+                            flag: '🇲🇦',
+                            name: 'K.G.F STATIC 🏆🥇',
+                            farm: '🏠 KILOGRAMMES FARMZ 🥇🏆',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductSource.png',
-                            videos: [
-                                'VideoSource.mov', // Ta 1ère vidéo
-                                'VideoSource2.mov'  // Ta 2ème vidéo
-                            ],
-                            description: '~ Saison 2026 🪐 \n La source 🏠 Nous à sortie un ❄️ magnifique 🔥 \n Le goût l’odeur tout et la 🏆 \n Juste les vidéo donne envie 😋',
+                            image: 'ProductKgf.png',
+                           /*  images: [
+                                'ProductGrandDaddy.jpg',
+                                'ProductPapaya.jpg',
+                            ], */
+                            video: 'VideoKgf.mov',
+                            description: 'K.G.F STATIC 🏆🥇 \n Un produit d’exception de la maison KGF 🏆 \n uJamais déçu 🥇 \n Goût plus fumette douce mes en même temp forte 💪\n Une odeur qui se dégage quand tu allume le joint wahouu 🔱🔱🔥 🏠🔥\n\n 190/220u ( Réal no fake )🔥',
 
                             // 👇 NOUVELLE STRUCTURE
                             variantTitle: 'Choisis ton goût 🥣 :',
                             jars: [
-                                { name: 'Pink passion', emoji: '👛❤️‍🔥', colorClass: 'style-passion' },
-                                { name: 'Water melon ', emoji: '🍈 💦', colorClass: 'style-melon' }
+                                { name: 'CHEERY CAKE X ORANGE PUNCH', emoji: '🍒🍊', colorClass: 'style-red' },
+                                { name: 'LAMPONI', emoji: '✅', colorClass: 'style-brown' }
                             ],
 
                             tarifs: [
-                                { weight: '10g', price: 130.00 },
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 370.00 },
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 160.00 },
+                      
                             ]
-                        } */
+                        }
                     ]
                 },
 
