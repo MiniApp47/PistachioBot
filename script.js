@@ -391,7 +391,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             image: 'ProductBuchettes.jpg',
                             videos: [
                                 'VideoBuch.mov', // Ta 1ère vidéo
-                                'videoBuch2.mov'  // Ta 2ème vidéo
+                                'VideoBuch2.mov'  // Ta 2ème vidéo
                             ],
                             description: '🎄❄️ Exclu Uniquement chez nous Noël chez PISTACHIO420 🌿🔥\n\n ~ Extraction haut de gamme, arômes ultra frais✨ \n ~ texture propre et qualité premium 🥇 \n\n 🎄😮‍💨 Cette année, la bûche de Noël se déguste aussi en version Fresh Frozen ❄️🔥',
 
