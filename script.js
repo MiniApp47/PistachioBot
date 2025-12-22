@@ -382,6 +382,35 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                         {
+                            id: 'Buchettes',
+                            flag: '🇲🇦',
+                            name: 'Single Source 😮‍💨💚',
+                            farm: 'Frozen Farm ♻️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBuchettes.jpg',
+                            videos: [
+                                'VideoBuch.mov', // Ta 1ère vidéo
+                                'videoBuch2.mov'  // Ta 2ème vidéo
+                            ],
+                            description: '🎄❄️ Exclu Uniquement chez nous Noël chez PISTACHIO420 🌿🔥\n\n ~ Extraction haut de gamme, arômes ultra frais✨ \n ~ texture propre et qualité premium 🥇 \n\n 🎄😮‍💨 Cette année, la bûche de Noël se déguste aussi en version Fresh Frozen ❄️🔥',
+
+                            // 👇 NOUVELLE STRUCTURE
+                            variantTitle: 'Saveurs Frozen ❄️ :',
+                            jars: [
+                                { name: 'RS11', emoji: '💨💨', colorClass: 'style-purple' },
+                                { name: 'I.C.C', emoji: '🍦🍦', colorClass: 'style-brown' },
+                            ],
+
+                            tarifs: [
+                                { weight: '🪵x1', price: 120.00 },               
+                                { weight: '🪵x3', price: 220.00 },
+                                { weight: '🪵x4', price: 420.00 },
+
+
+                            ]
+                        },
+                        {
                             id: 'Frozensift',
                             flag: '🇲🇦',
                             name: '🫒 Frozen sift ⚡️🏆',
@@ -399,9 +428,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             variantTitle: 'Saveurs Frozen ❄️ :',
                             jars: [
                                 { name: 'POISON', emoji: '💀', colorClass: 'style-purple' },
-                                { name: 'LEMON ACAÏ', emoji: '🍋', colorClass: 'style-yellow' },
                                 { name: 'ORANGE GROW', emoji: '🍊', colorClass: 'style-orange' },
                                 { name: 'OREOZ', emoji: '🍩', colorClass: 'style-brown' },
+                                { name: 'PANNACOTA', emoji: '🍮', colorClass: 'style-red' },
+
                             ],
 
                             tarifs: [
@@ -412,6 +442,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
+                        
                         {
                             id: 'FrozenSource',
                             flag: '⚡️',
