@@ -384,8 +384,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'Buchettes',
                             flag: '🇲🇦',
-                            name: 'Single Source 😮‍💨💚',
-                            farm: 'Frozen Farm ♻️',
+                            name: 'Buchettes 🪵',
+                            farm: 'Singe Source ♻️',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductBuchettes.jpg',
@@ -396,15 +396,15 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: '🎄❄️ Exclu Uniquement chez nous Noël chez PISTACHIO420 🌿🔥\n\n ~ Extraction haut de gamme, arômes ultra frais✨ \n ~ texture propre et qualité premium 🥇 \n\n 🎄😮‍💨 Cette année, la bûche de Noël se déguste aussi en version Fresh Frozen ❄️🔥',
 
                             // 👇 NOUVELLE STRUCTURE
-                            variantTitle: 'Saveurs Frozen ❄️ :',
+                            variantTitle: 'Saveurs Frozen ❄️ :', 
                             jars: [
                                 { name: 'RS11', emoji: '💨💨', colorClass: 'style-purple' },
                                 { name: 'I.C.C', emoji: '🍦🍦', colorClass: 'style-brown' },
                             ],
 
                             tarifs: [
-                                { weight: '🪵x1', price: 120.00 },               
-                                { weight: '🪵x3', price: 220.00 },
+                                { weight: '🪵x1', price: 130.00 },               
+                                { weight: '🪵x2', price: 250.00 },
                                 { weight: '🪵x4', price: 420.00 },
 
 
@@ -414,7 +414,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Frozensift',
                             flag: '🇲🇦',
                             name: '🫒 Frozen sift ⚡️🏆',
-                            farm: 'Frozen Farm ♻️',
+                            farm: '🌾 No Farm 🌾',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductSift.jpg',
@@ -438,8 +438,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '🫒x1', price: 130.00 },               
                                 { weight: '🫒x3', price: 350.00 },
                                 { weight: '🫒x5', price: 500.00 },
-
-
                             ]
                         },
                         
@@ -668,18 +666,22 @@ document.addEventListener('DOMContentLoaded', function () {
         const homeNav = document.getElementById('nav-menu');
         const infoNav = document.getElementById('nav-info'); // On ajoute l'info
         const contactNav = document.getElementById('nav-contact');
+        const avisNav = document.getElementById('nav-avis'); // <-- AJOUT ICI
 
         // On reset tout
         homeNav.classList.remove('active');
         infoNav.classList.remove('active');
         contactNav.classList.remove('active');
+        if (avisNav) avisNav.classList.remove('active'); // <-- AJOUT ICI
 
         // On active le bon
         if (pageId === 'page-contact') {
             contactNav.classList.add('active');
         } else if (pageId === 'page-info') {
             infoNav.classList.add('active');
-        } else {
+        } else if (pageId === 'page-avis') { // <-- LA NOUVELLE CONDITION
+            if (avisNav) avisNav.classList.add('active');
+        }else {
             // Pour page-home, page-produit, panier, etc.
             homeNav.classList.add('active');
         }
@@ -1604,6 +1606,43 @@ function renderProductListSimple(categoryId) {
         }
     }
 
+    // --- GESTION PAGE AVIS ---
+
+    // 1. Bouton vers le canal Potato
+    const btnChannel = document.getElementById('btn-open-channel');
+    if (btnChannel) {
+        btnChannel.addEventListener('click', function() {
+            // Remplace par ton vrai lien de canal
+            const channelLink = "https://dympt.org/RetourP420"; 
+            
+            // Ouvre le lien via Telegram
+            tg.openLink(channelLink); 
+        });
+    }
+
+    // 2. (Optionnel) Zoom sur l'image quand on clique dessus
+    window.openImage = function(imgElement) {
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('img-in-modal');
+        
+        modal.style.display = "flex";
+        modalImg.src = imgElement.src;
+        tg.BackButton.show(); // Affiche le bouton retour natif
+        
+        // Clic pour fermer
+        modal.onclick = function() {
+            modal.style.display = "none";
+            tg.BackButton.hide(); // Cache le bouton retour
+        }
+        
+        // Gestion du bouton retour physique/natif Telegram
+        tg.onEvent('backButtonClicked', function() {
+            modal.style.display = "none";
+            tg.BackButton.hide();
+        });
+    };
+
+
     // --- GESTION DES ÉVÉNEMENTS ---
 
     // Clics sur la barre de navigation
@@ -1638,8 +1677,8 @@ function renderProductListSimple(categoryId) {
     });
 
     // Clics sur le reste de la page
-    document.body.addEventListener('click', function (e) {
-        const target = e.target;
+    document.body.addEventListener('click', async function (e) {
+                const target = e.target;
 
         if (target.closest('#copy-order-btn')) {
             let message = formatOrderMessage();
@@ -1855,24 +1894,6 @@ function renderProductListSimple(categoryId) {
             renderProductPage(targetId);
             return;
         }
-
-    // Clic sur "Confirmer la commande" (VERSION WHATSAPP DIRECT)
-    if (target.closest('#confirm-order-button')) {
-
-        // 1. TON NUMÉRO WHATSAPP (Format international sans le +)
-        // Exemple : 33612345678 pour la France (06 12 34 56 78)
-        const myPhoneNumber = '33626127557'; 
-        // 2. On prépare le message
-        let message = formatOrderMessage();
-        // 3. On encode le message pour qu'il passe dans une URL (transforme les espaces en %20 etc.)
-        const encodedMessage = encodeURIComponent(message);
-        // 4. On crée le lien magique WhatsApp
-        const whatsappUrl = `https://wa.me/${myPhoneNumber}?text=${encodedMessage}`;
-
-        // 5. On ouvre WhatsApp
-        tg.openLink(whatsappUrl);
-    }
-
     });
 
     // --- INITIALISATION DE L'APP ---
