@@ -1641,8 +1641,6 @@ function renderProductListSimple(categoryId) {
             tg.BackButton.hide();
         });
     };
-
-
     // --- GESTION DES ÉVÉNEMENTS ---
 
     // Clics sur la barre de navigation
@@ -1894,6 +1892,25 @@ function renderProductListSimple(categoryId) {
             renderProductPage(targetId);
             return;
         }
+          // Clic sur "Confirmer la commande" (VERSION WHATSAPP DIRECT)
+    if (target.closest('#confirm-order-button')) {
+
+        // 1. TON NUMÉRO WHATSAPP (Format international sans le +)
+        const myPhoneNumber = '33626127557'; 
+        
+        // 2. On prépare le message
+        let message = formatOrderMessage();
+        
+        // 3. On encode le message pour qu'il passe dans une URL
+        const encodedMessage = encodeURIComponent(message);
+        
+        // 4. On crée le lien magique WhatsApp
+        const whatsappUrl = `https://wa.me/${myPhoneNumber}?text=${encodedMessage}`;
+
+        // 5. On ouvre WhatsApp
+        tg.openLink(whatsappUrl);
+    }
+
     });
 
     // --- INITIALISATION DE L'APP ---
