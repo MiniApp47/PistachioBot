@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Exclusif',
                     products: [
                         {
-                            id: '_Purple Bud 🦄♒️',
+                            id: 'PurpleBud',
                             flag: '🇨🇦',
                             name: '_Purple Bud 🦄♒️',
                             farm: '🌾 No Farm 🌾',
@@ -546,18 +546,18 @@ document.addEventListener('DOMContentLoaded', function () {
     // ============================================================
     {
         id: 'PACKS',
-        name: '🎁 PACKS DE NOEL 🎄',
+        name: '⏳ PACK 2025 ⌛️',
         type: 'Pack',
         quality: '⭐️ Offres Spéciales', // S'affichera dans le filtre "Sélection du chef"
-        image: 'CategNoel.png', // ⚠️ Pense à mettre une image festive ici
+        image: 'CategPack2025.png', // ⚠️ Pense à mettre une image festive ici
 
         // PAS DE FARMS, DIRECTEMENT LES PRODUITS
         products: [
             {
-                id: 'PackNoel2025',
-                flag: '🎅',
-                name: '🎄 MEGA PACK NOEL 🎁',
-                farm: '❄️ ÉDITION LIMITÉE ❄️',
+                id: '🔥 PACK 300 🔥',
+                flag: '🎁',
+                name: '🔥 PACK 300 🔥',
+                farm: '🚨 MEGA PACK 2025 📅',
                 promoEligible: false, // En général pas de code promo sur les packs déjà remisés
                 type: 'Pack',
                 image: '', // L'image du pack
@@ -565,19 +565,43 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // 'targetId' doit être l'ID EXACT du produit vers lequel tu veux aller
                 packContents: [
-                    { name: '5g : 🫒 Frozen sift 🔥', targetId: 'Frozensift' },
-                    { name: '5g : La Source Frozen ⚡️', targetId: 'FrozenSource' },
-                    { name: '5g : DHF 120u Filtré 🤯', targetId: '120u' },
-                    { name: '5g : Cali Top SHELF 🇺🇸', targetId: 'StaticUSA' } // J'ai mis StaticUSA en exemple, mets l'ID de ta Cali
+                    { name: '10g : Cali 🇨🇦💎', targetId: 'PurpleBud' },
+                    { name: '10g : Frozen Sift 🫒❄️', targetId: 'Frozensift' },
+                    { name: '10g : Fresh Frozen 🪵🧊', targetId: 'Buchettes' },
+                    { name: '2g : KGF Static 🇲🇦✨', targetId: '220u' } // J'ai mis StaticUSA en exemple, mets l'ID de ta Cali
                 ],
                 
                 // Description formatée avec les sauts de ligne
-                description: '🎅 LE CADEAU PARFAIT SOUS LE SAPIN !\n\n 🎁 BONUS : Plateaux & Feuilles RAW offerts !\n\n💰 VALEUR RÉELLE : 270€',
+                description: 'Qualité lourde, terps ouverts à fond 🤤🌿🔥',
                 
                 tarifs: [
-                    { weight: 'LE PACK 📦', price: 220.00 },
+                    { weight: 'LE PACK 📦', price: 300.00 },
                 ]
-            }
+            },
+            {
+                id: '💥 PACK 600 💥',
+                flag: '🎁',
+                name: '💥 PACK 600 💥',
+                farm: '🚨 MEGA PACK 2025 📅',
+                promoEligible: false, // En général pas de code promo sur les packs déjà remisés
+                type: 'Pack',
+                image: '', // L'image du pack
+                video: '', // Tu peux mettre une vidéo de l'ensemble si tu as
+
+                // 'targetId' doit être l'ID EXACT du produit vers lequel tu veux aller
+                packContents: [
+                    { name: '25g : Cali 🇨🇦💎', targetId: 'PurpleBud' },
+                    { name: '20g : Frozen Sift 🫒❄️', targetId: 'Frozensift' },
+                    { name: '20g : Fresh Frozen 🪵🧊', targetId: 'Buchettes' },
+                ],
+                
+                // Description formatée avec les sauts de ligne
+                description: 'Qualité lourde, terps ouverts à fond 🤤🌿🔥',
+                
+                tarifs: [
+                    { weight: 'LE PACK 📦', price: 300.00 },
+                ]
+            },
         ]
     }
     ];
