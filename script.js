@@ -483,6 +483,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Saison 2026',
                     products: [
                         {
+                            id: 'Black',
+                            flag: '🇲🇦',
+                            name: 'Black Cherry 🍒',
+                            farm: '🏠 STATIC NO FARMZ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBlack.jpg',
+                            video: 'VideoBlack.mov',
+                            description: 'Un static marocain haut de gamme, travaillé avec soin, qui se distingue immédiatement par son profil aromatique intense et profond.🥇⚡️ 🏆 \n Un static marocain de très haut niveau, axé sur une intensité aromatique rare, avec un profil Black Cherry sombre, sucré et profond. Idéal pour ceux qui privilégient l’odeur, le goût et la finesse du filtrage. 🔱',
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '20g', price: 250.00 },
+                            ]
+                        },
+                        {
                             id: '220u',
                             flag: '🇲🇦',
                             name: 'K.G.F STATIC 🏆🥇',
