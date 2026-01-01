@@ -552,7 +552,23 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 320.00 },
 
                             ]
-                        }
+                        },
+                        {
+                            id: 'HASHIVAStaticUSA',
+                            flag: '🇺🇸',
+                            name: '🇺🇸💎 CANDY BEZELS 💎🇺🇸',
+                            farm: '👨‍🌾 HASHIVA STATIC 👨‍🌾',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBezels.jpg',
+                            video: 'VideoBezels.mov',
+                            description: '💎 HASHIVA STATIC USA 💎 \n Straight from USA 🇺🇸, ce static sift d’élite affiche une robe dorée brillante ✨🍯, résultat d’un tri ultra-clean et d’un savoir-faire top-shelf 🧬.\n\n Profil terpènique candy luxury 🍬🍭 : \n 🍓 fruits sucrés \n 🍬 bonbon haut de gamme \n ⛽ touche gazzy crémeuse signature US',
+                            tarifs: [
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 330.00 },
+
+                            ]
+                        },
                     ]
                 }
             ]
