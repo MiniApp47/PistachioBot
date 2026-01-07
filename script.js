@@ -365,12 +365,97 @@ document.addEventListener('DOMContentLoaded', function () {
                             ],
 
                             tarifs: [
-                                { weight: '10g', price: 80.00 },
-                                { weight: '25g', price: 190.00 },
-                                { weight: '50g', price: 250.00 },
-                                { weight: '100g', price: 470.00 },
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
                             ]
-                        }
+                        },
+                        {
+                            id: 'PURPLE',
+                            flag: '🇲🇦',
+                            name: 'PURPLE CREAM',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCream.png',
+                            video: 'VideoCream.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'BLUE ZUSHI',
+                            flag: '🇲🇦',
+                            name: 'BLUE ZUSHI',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBlueZ.png',
+                            video: 'VideoBlueZ.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'CANDY GANE',
+                            flag: '🇲🇦',
+                            name: 'CANDY GANE',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductGane.png',
+                            video: 'VideoGane.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'HEAD BANGER',
+                            flag: '🇲🇦',
+                            name: 'HEAD BANGER',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductHead.png',
+                            video: 'VideoHead.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'UNICORNZ ÉLITE',
+                            flag: '🇲🇦',
+                            name: 'UNICORNZ ÉLITE',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductUni.png',
+                            video: 'VideoUni.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
                     ]
                 },
 
@@ -483,6 +568,21 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Saison 2026',
                     products: [
                         {
+                            id: 'Tepo / Gelato',
+                            flag: '🇲🇦',
+                            name: 'Tepo / Gelato 🦅',
+                            farm: '🏠 STATIC NO FARMZ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTepo.jpg',
+                            video: 'VideoTepo.mov',
+                            description: '180/90u 🍁',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                            ]
+                        },
+                        {
                             id: 'Black',
                             flag: '🇲🇦',
                             name: 'Black Cherry 🍒',
@@ -571,6 +671,30 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
                     ]
+                },
+                // 8. EXCTRACTION 🇺🇸
+                {
+                    id: 'ExctraUsa',
+                    name: 'EXCTRACTION 🇺🇸',
+                    image: '',
+                    badgeText: 'Piatella',
+                    products: [
+                        {
+                            id: 'LEMON TREEZ',
+                            flag: '🇺🇸',
+                            name: '🍋 LEMON TREEZ 🌲',
+                            farm: 'PIATELLA ALBINOS 🧉',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTreez.jpg',
+                            description: '159/73u 🎖️',
+                            tarifs: [
+                                { weight: '1g', price: 50.00 },
+                                { weight: '5g', price: 220.00 },
+                                { weight: '10g', price: 380.00 },
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -587,10 +711,34 @@ document.addEventListener('DOMContentLoaded', function () {
         // PAS DE FARMS, DIRECTEMENT LES PRODUITS
         products: [
             {
+                id: '🌟 PACK 150 🌟',
+                flag: '🎁',
+                name: '🌟 PACK 150 🌟',
+                farm: '🚨 MEGA PACK 2026 📅',
+                promoEligible: false, // En général pas de code promo sur les packs déjà remisés
+                type: 'Pack',
+                image: '', // L'image du pack
+                video: '', // Tu peux mettre une vidéo de l'ensemble si tu as
+
+                // 'targetId' doit être l'ID EXACT du produit vers lequel tu veux aller
+                packContents: [
+                    { name: '5g : Cali Us ( au choix ) 🇺🇸', targetId: 'CALI_USA' },
+                    { name: '5g : Frozen Sift Hash ⚡️🌬️ ', targetId: 'FrozenSource' },
+                    { name: '5g : 🛖 120u Premium 2026 ( au choix ) ', targetId: '120U_PREMIUM' },
+                ],
+                
+                // Description formatée avec les sauts de ligne
+                description: 'Qualité lourde, terps ouverts à fond 🤤🌿🔥',
+                
+                tarifs: [
+                    { weight: 'LE PACK 📦', price: 150.00 },
+                ]
+            },
+            {
                 id: '🔥 PACK 300 🔥',
                 flag: '🎁',
                 name: '🔥 PACK 300 🔥',
-                farm: '🚨 MEGA PACK 2025 📅',
+                farm: '🚨 MEGA PACK 2026 📅',
                 promoEligible: false, // En général pas de code promo sur les packs déjà remisés
                 type: 'Pack',
                 image: '', // L'image du pack
@@ -615,7 +763,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 id: '💥 PACK 600 💥',
                 flag: '🎁',
                 name: '💥 PACK 600 💥',
-                farm: '🚨 MEGA PACK 2025 📅',
+                farm: '🚨 MEGA PACK 2026 📅',
                 promoEligible: false, // En général pas de code promo sur les packs déjà remisés
                 type: 'Pack',
                 image: '', // L'image du pack
@@ -634,7 +782,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 tarifs: [
                     { weight: 'LE PACK 📦', price: 300.00 },
                 ]
-            },
+            }
         ]
     }
     ];
