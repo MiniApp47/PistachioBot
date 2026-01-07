@@ -687,6 +687,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductTreez.jpg',
+                            video: 'VideoTreez.mov',
                             description: '159/73u 🎖️',
                             tarifs: [
                                 { weight: '1g', price: 50.00 },
