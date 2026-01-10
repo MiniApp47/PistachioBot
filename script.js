@@ -467,6 +467,21 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                         {
+                            id: 'Tepo / Gelato',
+                            flag: '🇲🇦',
+                            name: 'Tepo / Gelato 🦅',
+                            farm: '🏠 FROZEN NO FARMZ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTepo.jpg',
+                            video: 'VideoTepo.mov',
+                            description: '180/90u 🍁',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                            ]
+                        },
+                        {
                             id: 'Buchettes',
                             flag: '🇲🇦',
                             name: 'Buchettes 🪵',
@@ -567,21 +582,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '', // Mets une image de Static
                     badgeText: 'Saison 2026',
                     products: [
-                        {
-                            id: 'Tepo / Gelato',
-                            flag: '🇲🇦',
-                            name: 'Tepo / Gelato 🦅',
-                            farm: '🏠 STATIC NO FARMZ',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductTepo.jpg',
-                            video: 'VideoTepo.mov',
-                            description: '180/90u 🍁',
-                            tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 130.00 },
-                            ]
-                        },
                         {
                             id: 'Black',
                             flag: '🇲🇦',
