@@ -574,6 +574,46 @@ document.addEventListener('DOMContentLoaded', function () {
                         }
                     ]
                 },
+                {
+                    id: 'FreshFrozen',
+                    name: 'FRESH FROZEN 🌊',
+                    image: '',
+                    badgeText: 'KAVIAR',
+                    products: [
+                        {
+                            id: 'Fuel',
+                            flag: '🇲🇦',
+                            name: '⛽️ Mula Fuel 🛢️',
+                            farm: '✨ KAVIAR FARMZ ✨',
+                            promoEligible: true,
+                            type: 'FreshFrozen',
+                            image: 'ProductMula.jpeg',
+                            video: 'VideoMula.mp4',
+                            description: '💪 Puissant & Gazeux 🫧 \n\n\n ❄️ Vrai Fresh Frozen d’exception \n\n 👃 Odeur intense et envoûtante \n  👅 Goût riche, profond et raffiné \n 🧊 Texture fondante, propre, parfaitement maîtrisée\n\n 💎 Un produit premium, rare, réservé aux connaisseurs.\n Pure qualité. Pure élégance.',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '20g', price: 250.00 },
+                            ]
+                        },
+                        {
+                            id: 'Panna',
+                            flag: '🇲🇦',
+                            name: '🍮 Pannacotta',
+                            farm: '✨ KAVIAR FARMZ ✨',
+                            promoEligible: true,
+                            type: 'FreshFrozen',
+                            image: 'ProductPanna.png',
+                            video: 'VideoPanne.mp4',
+                            description: '🍦 Crémeux & Gourmand 🍔 \n\n\n ❄️ Vrai Fresh Frozen d’exception \n\n 👃 Odeur intense et envoûtante \n  👅 Goût riche, profond et raffiné \n 🧊 Texture fondante, propre, parfaitement maîtrisée\n\n 💎 Un produit premium, rare, réservé aux connaisseurs.\n Pure qualité. Pure élégance.',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '20g', price: 250.00 },
+                            ]
+                        }
+                    ]
+                },
 
                 // 6. STATIC MOROCCO 🇲🇦
                 {
@@ -637,6 +677,41 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Exclusif',
                     products: [
                         {
+                            id: '🇺🇸🦀 Sashimi 🍣🇺🇸',
+                            flag: '🇺🇸',
+                            name: '🦀 SASHIMI 🍣',
+                            farm: 'HASHIVA STATIC 💙',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSashimi.jpg',
+                            images:['ProductSashimi.jpg','ProductSashimi1.jpg'],
+                            video: 'VideoSashimi.mp4',
+                            description: '🦀 HASHIVA STATIC USA 🍣 \n Une masterclass venue des US 🇺🇸. Ce static sift est une véritable expérience gastronomique pour les poumons 🫁. \n\n Une extraction d’une pureté chirurgicale 🧪 avec une texture "Fish Scale" qui fond instantanément 🍯.\n\n 🍣 Profil Terpènique Exotique & Umami : \n 🌊 Notes fraîches et salines uniques \n ⛽ Grosse attaque Gas / Diesel \n 🦀 Une saveur "Funky" complexe pour les vrais connaisseurs.',
+                            tarifs: [
+                                { weight: '2g', price: 80.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 330.00 },
+
+                            ]
+                        },
+                        {
+                            id: 'HASHIVAStaticUSA',
+                            flag: '🇺🇸',
+                            name: '💎 CANDY BEZELS 💎',
+                            farm: 'HASHIVA STATIC 💙',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBezels.jpg',
+                            video: 'VideoBezels.mov',
+                            description: '💎 HASHIVA STATIC USA 💎 \n Straight from USA 🇺🇸, ce static sift d’élite affiche une robe dorée brillante ✨🍯, résultat d’un tri ultra-clean et d’un savoir-faire top-shelf 🧬.\n\n Profil terpènique candy luxury 🍬🍭 : \n 🍓 fruits sucrés \n 🍬 bonbon haut de gamme \n ⛽ touche gazzy crémeuse signature US',
+                            tarifs: [
+                                { weight: '2g', price: 80.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 330.00 },
+
+                            ]
+                        },
+                        {
                             id: 'StaticUSA',
                             flag: '🇺🇸',
                             name: '🗽 Kevin breats 🇺🇸',
@@ -652,24 +727,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 320.00 },
 
                             ]
-                        },
-                        {
-                            id: 'HASHIVAStaticUSA',
-                            flag: '🇺🇸',
-                            name: '🇺🇸💎 CANDY BEZELS 💎🇺🇸',
-                            farm: 'HASHIVA STATIC 💙',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductBezels.jpg',
-                            video: 'VideoBezels.mov',
-                            description: '💎 HASHIVA STATIC USA 💎 \n Straight from USA 🇺🇸, ce static sift d’élite affiche une robe dorée brillante ✨🍯, résultat d’un tri ultra-clean et d’un savoir-faire top-shelf 🧬.\n\n Profil terpènique candy luxury 🍬🍭 : \n 🍓 fruits sucrés \n 🍬 bonbon haut de gamme \n ⛽ touche gazzy crémeuse signature US',
-                            tarifs: [
-                                { weight: '2g', price: 80.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 330.00 },
-
-                            ]
-                        },
+                        }
                     ]
                 },
                 // 8. EXCTRACTION 🇺🇸
@@ -781,7 +839,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 description: 'Qualité lourde, terps ouverts à fond 🤤🌿🔥',
                 
                 tarifs: [
-                    { weight: 'LE PACK 📦', price: 300.00 },
+                    { weight: 'LE PACK 📦', price: 600.00 },
                 ]
             }
         ]
