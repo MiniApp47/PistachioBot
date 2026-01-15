@@ -172,6 +172,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Wizard Trees & co',
                     products: [
                         {
+                            id: 'WaterMelon',
+                            flag: '🇺🇸',
+                            name: '🌊 WaterMelon',
+                            farm: '🏠Growers choice',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductWater.jpeg',
+                            video: 'VideoWater.mp4',
+                            description: '',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 210.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 640.00 },
+                            ]
+                        },
+                        {
+                            id: 'CandyRuntz',
+                            flag: '🇺🇸',
+                            name: '🍡 CandyRuntz',
+                            farm: '🏠Growers choice',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductCandy.jpeg',
+                            video: 'VideoCandy.mp4',
+                            description: '',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 210.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 640.00 },
+                            ]
+                        },
+                        {
                             id: 'Toxic',
                             flag: '🇺🇸',
                             name: 'Toxic punch ☠️🥊',
@@ -265,18 +299,18 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'Og',
                             flag: '🇪🇸',
-                            name: '🧽 OG KUSH & BUBAA KUSH 🧽',
+                            name: 'Mousseux 🧽',
                             farm: '🌾 No Farm 🌾',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductOg.jpg',
-                            video: 'VideoOg.mov',
+                            image: 'ProductOg1.jpeg',
+                            video: 'VideoOg1.mp4',
                             description: '🧽Jaune mousseux top crème 🧽⬇️ \n\n - Jaune crémeux comme on aime avec bonne défonce  🚬 \n -super odeur de bonne plante 🌱',
                             tarifs: [
                                 { weight: '10g', price: 40.00 },
-                                { weight: '25g', price: 100.00 },
-                                { weight: '50g', price: 160.00 },
-                                { weight: '100g', price: 280.00 },
+                                { weight: '25g', price: 90.00 },
+                                { weight: '50g', price: 150.00 },
+                                { weight: '100g', price: 250.00 },
                             ]
                         }
                     ]
@@ -456,6 +490,32 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 450.00 },
                             ]
                         },
+                    ]
+                },
+
+                {
+                    id: 'BELDIA',
+                    name: 'BELDIA 🥀',
+                    image: '',
+                    badgeText: 'Frappe',
+                    products: [
+                        {
+                            id: 'BELDIA',
+                            flag: '🧞‍♀️',
+                            name: '🔴 BELDIA ROUGE 🔴',
+                            farm: '🦂 SKORPION FARMZ 🌿',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductFeat.png',
+                            video: 'VideoFeat.mov',
+                            description: '💎 Qualité premium \n 🌱 Travail soigné & saveur authentique \n \n 🔥 Plus tu prends, plus c’est avantageux\n 👨‍🍳💚 Skorpin Farmz, valeur sûre',
+                            tarifs: [
+                                { weight: '10g', price: 110.00 },
+                                { weight: '20g', price: 210.00 },
+                                { weight: '50g', price: 500.00 },
+                            ]
+                        }
+                       
                     ]
                 },
 
@@ -677,6 +737,25 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Exclusif',
                     products: [
                         {
+                            id: '🇺🇸⚡️ StaticUsa ⚡️🇺🇸',
+                            flag: '🇺🇸',
+                            name: '🇺🇸⚡️ StaticUsa ⚡️🇺🇸',
+                            farm: 'CALITEFARM 🇺🇸🇨🇭',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSift1.jpeg',
+                            images:['ProductSift4.jpeg','ProductSift3.jpeg', 'ProductSift2.jpeg'],
+                            video: 'VideoSift.mp4',
+                            description: '🇺🇸✨ Static Sift USA ✨ \n Calite Farm 🌿 \n\n 💛 Static sift fin, sableux & lumineux \n ✨ Teinte dorée élégante \n\n 👃🌿 Odeur & ressenti \n 🍃 Arômes naturels & végétaux\n 💨 Expérience douce et équilibrée \n\n 🌍🇺🇸🇨🇭 Calite Farm \n Californie / Suisse — savoir-faire & passion 🔥\n\n ✅ Strains disponibles :\n\n 💜 Bridesman 💍',
+                            tarifs: [
+                                { weight: '5g', price: 170.00 },
+                                { weight: '10g', price: 330.00 },
+                                { weight: '25g', price: 650.00 },
+                                { weight: '50g', price: 1200.00 },
+
+                            ]
+                        },
+                        {
                             id: '🇺🇸🦀 Sashimi 🍣🇺🇸',
                             flag: '🇺🇸',
                             name: '🦀 SASHIMI 🍣',
@@ -757,6 +836,54 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             ]
         },
+        // ============================================================
+        // CATEGORIE 4 : 🧸 EDIBLES
+        // ============================================================
+        {
+            id: 'EDIBLES',
+            name: '🧸 EDIBLES',
+            type: 'EDIBLES',
+            quality: '🧸 EDIBLES',
+            image: 'CategEdibles.png', 
+
+            // 👇 ICI : On ne met pas de "farms", on met direct "products"
+            products: [
+                {
+                    id: 'BEURRE DE MARRAKECH',
+                    flag: '🍰',
+                    name: '🧈 BEURRE DE MARRAKECH ✨',
+                    farm: '👨‍🍳 SIGNATURE PISTACHIO', // Apparaît en petit sous le nom
+                    promoEligible: true,
+                    type: 'Edible',
+                    image: 'ProductBeure.jpeg', // ⚠️ Mets ton image
+                    video: 'VideoBeurre.mp4', 
+                    description: '👨‍🍳🔥 Le chef cuistot PISTACHIO n’a clairement pas rigolé… \n Regardez-moi ce bijou 💎 \n\n Seulement avec un acompte pour la préparation .',
+                    tarifs: [
+                        { weight: '100g', price: 250.00 },
+                        { weight: '200g', price: 450.00 }
+                    ]
+                },
+                // Tu peux ajouter d'autres produits à la suite ici...
+                {
+                    id: '🍪 Space Cookies',
+                    flag: '🍰',
+                    name: '🍪 Space Cookies',
+                    farm: '👨‍🍳 SIGNATURE PISTACHIO', // Apparaît en petit sous le nom
+                    promoEligible: true,
+                    type: 'Edible',
+                    image:'ProductChocoB.jpeg',
+                    images:['ProductChocoB.jpeg','ProductChocoW.jpeg','ProductRecette.jpeg',],
+                    video: '',
+                    description: '•⁠  ⁠Chocolat blanc & coulis framboise \n  •⁠  ⁠Chocolat noir & caramel beurre salé \n  •⁠  ⁠Caramel beurre salé & chocolat blanc  \n\n 📩 Plus d’infos en PV',
+                    tarifs: [
+                        { weight: '1 🍪', price: 10.00 },
+                        { weight: '⁠5 🍪', price: 40.00 },
+                        { weight: '10 🍪', price: 80.00 }
+                    ]
+                }
+            ]
+        },
+
         // ============================================================
     // CATEGORIE 3 : PACKS DE NOEL 🎄
     // ============================================================
