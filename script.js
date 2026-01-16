@@ -506,8 +506,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '🦂 SKORPION FARMZ 🌿',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductFeat.png',
-                            video: 'VideoFeat.mov',
+                            image: 'ProductRouge.jpeg',
+                            video: 'VideoRouge.mp4',
                             description: '💎 Qualité premium \n 🌱 Travail soigné & saveur authentique \n \n 🔥 Plus tu prends, plus c’est avantageux\n 👨‍🍳💚 Skorpin Farmz, valeur sûre',
                             tarifs: [
                                 { weight: '10g', price: 110.00 },
@@ -789,7 +789,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 330.00 },
 
                             ]
-                        },
+                        }/* ,
                         {
                             id: 'StaticUSA',
                             flag: '🇺🇸',
@@ -806,7 +806,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 320.00 },
 
                             ]
-                        }
+                        } */
                     ]
                 },
                 // 8. EXCTRACTION 🇺🇸
