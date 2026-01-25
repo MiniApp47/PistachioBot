@@ -1610,8 +1610,22 @@ function renderProductListSimple(categoryId) {
             const cartBtns = document.querySelectorAll('.add-to-cart-btn');
             const updateCartButtonsColor = (colorClass) => {
                 cartBtns.forEach(btn => {
-                    btn.classList.remove('style-purple', 'style-red', 'style-green', 'style-yellow', 'style-orange', 'style-brown', 'style-passion', 'style-melon');
-                    if (colorClass) btn.classList.add(colorClass);
+                    btn.classList.remove(
+                        'style-purple', 
+                        'style-red', 
+                        'style-green', 
+                        'style-yellow', 
+                        'style-orange', 
+                        'style-brown', 
+                        'style-passion', 
+                        'style-melon',
+                        // 👇 J'ai ajouté tes nouvelles ici :
+                        'style-gmo',
+                        'style-lampo',
+                        'style-tangier',
+                        'style-grappe'
+                    );
+                                        if (colorClass) btn.classList.add(colorClass);
                 });
             };
             updateCartButtonsColor(product.jars[0].colorClass);
