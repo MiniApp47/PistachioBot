@@ -84,13 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
             className: 'potato', // Style standard ou tu peux remettre 'potato-main'
             text: "RETOURS CLIENTS 🥔"
         },
-        {
-            name: 'INSTAGRAM 📸',
-            url: 'https://www.instagram.com/pis_tachio420',
-            id: 'instagram',
-            className: 'instagram', // Style dégradé Insta
-            text: "INSTAGRAM 📸"
-        }
+      
       
 
     ];
@@ -527,18 +521,28 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                         {
-                            id: 'Tepo / Gelato',
+                            id: '❄️ FRESH FROZEN 🔥',
                             flag: '🇲🇦',
-                            name: 'Tepo / Gelato 🦅',
+                            name: '❄️ Fresh Frozen 🔥',
                             farm: '🏠 FROZEN NO FARMZ',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductTepo.jpg',
-                            video: 'VideoTepo.mov',
-                            description: '180/90u 🍁',
+                            image: 'ProductP.jpg',
+                            images: ['ProductP.jpg','ProductP1.jpg',],
+                            videos: ['VideoP.mp4','VideoP1.mp4'],
+                            description: '❄️🔥 FRESH FROZEN – SINGLE SOURCE – P420 🔥❄️ \n\n 🌱 Produit 100% Single Source \n ➡️ De la plante à l’extraction, maîtrise totale \n ❄️ Extraction Fresh Frozen pour garder tous les arômes & terpènes \n 💎 Qualité premium, goût intense, texture onctueuse \n\n 🧬 2 STRAINS DISPONIBLES : \n\n 🔬 GMO \n  ⛽🧄 Ultra puissant, gazzy, lourd en bouche \n 👉 Parfait pour les amateurs de sensations fortes \n\n 🍓 Lamponie \n 🍬 Fruité, sucré, notes de framboise \n 👉 Smooth, gourmand, super parfumé \n\n 💸🤝 Pas cher la team \n 🔥 On arrange MAX sur les prix \n 📦 Qualité au top, dispo limitée \n\n 🚀💨 Du vrai fire, pour les vrais connaisseurs 💨🚀',
+                             // 👇 NOUVELLE STRUCTURE
+                             variantTitle: 'Saveurs Frozen ❄️ :', 
+                             jars: [
+                                 { name: 'GMO', emoji: '🔬', colorClass: 'style-gmo' },
+                                 { name: 'Lamponie', emoji: '🍓', colorClass: 'style-lampo' },
+                             ],
+ 
                             tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 130.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 300.00 },
+                                { weight: '100g', price: 600.00 },
                             ]
                         },
                         {
@@ -578,7 +582,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductSift.jpg',
+                            images: ['ProductSift.jpg','ProductTangier.jpg','ProductGrappe.jpg'],
                             videos: [
+                                'VideoTangier.mp4', // Ta 1ère vidéo
+                                'VideoGrappe.mp4', // Ta 1ère vidéo
                                 'VideoSift.mov', // Ta 1ère vidéo
                                 'VideoSift2.mov'  // Ta 2ème vidéo
                             ],
@@ -588,10 +595,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             variantTitle: 'Saveurs Frozen ❄️ :',
                             jars: [
                                 { name: 'POISON', emoji: '💀', colorClass: 'style-purple' },
-                                { name: 'ORANGE GROW', emoji: '🍊', colorClass: 'style-orange' },
-                                { name: 'OREOZ', emoji: '🍩', colorClass: 'style-brown' },
                                 { name: 'PANNACOTA', emoji: '🍮', colorClass: 'style-red' },
-
+                                { name: 'TANGIER', emoji: '🍊', colorClass: 'style-tangier' },
+                                { name: 'GRAPPE', emoji: '🍇', colorClass: 'style-grappe' },
                             ],
 
                             tarifs: [
