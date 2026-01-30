@@ -193,11 +193,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoZoy.mp4',
                             description: 'ZOY est une Cali top shelf ultra premium 🔥\n\n Buds verts flashy, touches violettes et givrées de trichomes ❄️\n\n👃 Arômes\n🥭 Tropical\n🍬 Sucré\n🧁 Crémeux\n⛽ Léger gas\n\n👅 Goût\n Fruité, smooth, crémeux avec une finition fraîche ❄️ \n\n 🧠 Effet \n Euphorie clean 🚀 \n Détente chill 😌 \n Parfait pour vibe Cali 🌴  \n\n ZOY = la signature luxe de The Ten Co 💎🔥',
                             tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 210.00 },
-                                { weight: '50g', price: 340.00 },
-                                { weight: '100g', price: 640.00 },
-                            ]
+                                    { weight: '1 bags 3,5g', price: 50.00 },
+                                    { weight: '2 bags 3,5g', price: 100.00 },
+                                    { weight: '4 bags 3,5g', price: 180.00 },
+                                    { weight: '8 bags 3,5g', price: 330.00 },
+                                ]
                         },
                         {
                             id: 'WaterMelon',
