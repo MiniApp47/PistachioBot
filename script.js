@@ -166,6 +166,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Wizard Trees & co',
                     products: [
                         {
+                            id: '🐶 UNCLE SNOOP',
+                            flag: '🇺🇸',
+                            name: '🐶 UNCLE SNOOP',
+                            farm: '🇺🇸 CALI US – BACKPACKBOYZ',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductUncle.jpg',
+                            video: 'VideoUncle.mp4',
+                            description: 'Uncle Snoop, c’est la vibe West Coast pure 🌴🔥\n\n Une weed lourde, funky et ultra terpy, signée Backpackboyz 💼💎\n\n 👁️ Buds\n 💚 Denses et collants\n 💜 Reflets violets\n  ❄️ Blindés de résine\n\n 👃 Arômes\n🍇 Raisin sucré\n🍪 Cookie crémeux\n⛽ Gas californien\n\n 👅 Goût\n Sucré, crémeux et gassy avec une touche fruitée 😮‍🔥\n\n 🧠 Effet\n 😌 Relax profond\n 🚀 High smooth\n  🎧 Parfait pour chill & musique\n\n Uncle Snoop = le style Cali old school en version luxe 🇺🇸🔥',
+                            tarifs: [
+                                { weight: '1 bags 3,5g', price: 50.00 },
+                                { weight: '2 bags 3,5g', price: 100.00 },
+                                { weight: '4 bags 3,5g', price: 180.00 },
+                                { weight: '8 bags 3,5g', price: 330.00 },
+                            ]
+                        },
+                        {
+                            id: '💎 ZOY',
+                            flag: '🇺🇸',
+                            name: '💎 ZOY',
+                            farm: '🇺🇸 CALI – THE TEN CO',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductZoy.jpg',
+                            video: 'VideoZoy.mp4',
+                            description: 'ZOY est une Cali top shelf ultra premium 🔥\n\n Buds verts flashy, touches violettes et givrées de trichomes ❄️\n\n👃 Arômes\n🥭 Tropical\n🍬 Sucré\n🧁 Crémeux\n⛽ Léger gas\n\n👅 Goût\n Fruité, smooth, crémeux avec une finition fraîche ❄️ \n\n 🧠 Effet \n Euphorie clean 🚀 \n Détente chill 😌 \n Parfait pour vibe Cali 🌴  \n\n ZOY = la signature luxe de The Ten Co 💎🔥',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 210.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 640.00 },
+                            ]
+                        },
+                        {
                             id: 'WaterMelon',
                             flag: '🇺🇸',
                             name: '🌊 WaterMelon',
@@ -232,8 +266,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 340.00 },
                                 { weight: '100g', price: 640.00 },
                             ]
-                        },
-                        {
+                        }
+                        /* {
                             id: '👨‍🍳RAIBOW',
                             flag: '🇺🇸',
                             name: '👨‍🍳RAIBOW RUNTZ 🌈',
@@ -266,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 340.00 },
                                 { weight: '100g', price: 640.00 },
                             ]
-                        }
+                        } */
                     ]
                 }
             ]
@@ -338,11 +372,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 // 3. DRY SIFT HASH ⚡️ 
                 {
                     id: 'DRY_SIFT',
-                    name: 'DRY SIFT HASH ⚡️',
+                    name: 'DRY ⚡️',
                     image: '',
                     badgeText: '90u',
                     products: [
-                        {
+                     /*    {
                             id: 'feat',
                             flag: '🇲🇦',
                             name: 'Barbara punch 90u⚡️',
@@ -358,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 250.00 },
                                 { weight: '100g', price: 430.00 },
                             ]
-                        }
+                        } */
                        
                     ]
                 },
@@ -521,31 +555,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                         {
-                            id: '❄️ FRESH FROZEN 🔥',
-                            flag: '🇲🇦',
-                            name: '❄️ Fresh Frozen 🔥',
-                            farm: '🏠 FROZEN NO FARMZ',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductP.jpg',
-                            images: ['ProductP.jpg','ProductP1.jpg',],
-                            videos: ['VideoP.mp4','VideoP1.mp4'],
-                            description: '❄️🔥 FRESH FROZEN – SINGLE SOURCE – P420 🔥❄️ \n\n 🌱 Produit 100% Single Source \n ➡️ De la plante à l’extraction, maîtrise totale \n ❄️ Extraction Fresh Frozen pour garder tous les arômes & terpènes \n 💎 Qualité premium, goût intense, texture onctueuse \n\n 🧬 2 STRAINS DISPONIBLES : \n\n 🔬 GMO \n  ⛽🧄 Ultra puissant, gazzy, lourd en bouche \n 👉 Parfait pour les amateurs de sensations fortes \n\n 🍓 Lamponie \n 🍬 Fruité, sucré, notes de framboise \n 👉 Smooth, gourmand, super parfumé \n\n 💸🤝 Pas cher la team \n 🔥 On arrange MAX sur les prix \n 📦 Qualité au top, dispo limitée \n\n 🚀💨 Du vrai fire, pour les vrais connaisseurs 💨🚀',
-                             // 👇 NOUVELLE STRUCTURE
-                             variantTitle: 'Saveurs Frozen ❄️ :', 
-                             jars: [
-                                 { name: 'GMO', emoji: '🔬', colorClass: 'style-gmo' },
-                                 { name: 'Lamponie', emoji: '🍓', colorClass: 'style-lampo' },
-                             ],
- 
-                            tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 300.00 },
-                                { weight: '100g', price: 600.00 },
-                            ]
-                        },
-                        {
                             id: 'Buchettes',
                             flag: '🇲🇦',
                             name: 'Buchettes 🪵',
@@ -646,6 +655,54 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'KAVIAR',
                     products: [
+                        {
+                            id: 'GMO 🔬',
+                            flag: '🇲🇦',
+                            name: 'GMO 🔬',
+                            farm: '🏠 FROZEN NO FARMZ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductP1.jpg',
+                            video: 'VideoP1.mp4',
+                            description: '❄️🔥 FRESH FROZEN – SINGLE SOURCE – P420 🔥❄️ \n\n 🌱 Produit 100% Single Source \n ➡️ De la plante à l’extraction, maîtrise totale \n ❄️ Extraction Fresh Frozen pour garder tous les arômes & terpènes \n 💎 Qualité premium, goût intense, texture onctueuse \n\n  🔬 GMO \n  ⛽🧄 Ultra puissant, gazzy, lourd en bouche \n 👉 Parfait pour les amateurs de sensations fortes \n\n  💸🤝 Pas cher la team \n 🔥 On arrange MAX sur les prix \n 📦 Qualité au top, dispo limitée \n\n 🚀💨 Du vrai fire, pour les vrais connaisseurs 💨🚀',
+                          /*    // 👇 NOUVELLE STRUCTURE
+                             variantTitle: 'Saveurs Frozen ❄️ :', 
+                             jars: [
+                                 { name: 'GMO', emoji: '🔬', colorClass: 'style-gmo' },
+                                 { name: 'Lamponie', emoji: '🍓', colorClass: 'style-lampo' },
+                             ], */
+ 
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 300.00 },
+                                { weight: '100g', price: 600.00 },
+                            ]
+                        },
+                        {
+                            id: 'Lamponie 🍓',
+                            flag: '🇲🇦',
+                            name: 'Lamponie 🍓',
+                            farm: '🏠 FROZEN NO FARMZ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductP.jpg',
+                            video: 'VideoP.mp4',
+                            description: '❄️🔥 FRESH FROZEN – SINGLE SOURCE – P420 🔥❄️ \n\n 🌱 Produit 100% Single Source \n ➡️ De la plante à l’extraction, maîtrise totale \n ❄️ Extraction Fresh Frozen pour garder tous les arômes & terpènes \n 💎 Qualité premium, goût intense, texture onctueuse \n\n  🍓 Lamponie \n 🍬 Fruité, sucré, notes de framboise \n 👉 Smooth, gourmand, super parfumé \n\n 💸🤝 Pas cher la team \n 🔥 On arrange MAX sur les prix \n 📦 Qualité au top, dispo limitée \n\n 🚀💨 Du vrai fire, pour les vrais connaisseurs 💨🚀',
+                            /*  // 👇 NOUVELLE STRUCTURE
+                             variantTitle: 'Saveurs Frozen ❄️ :', 
+                             jars: [
+                                 { name: 'GMO', emoji: '🔬', colorClass: 'style-gmo' },
+                                 { name: 'Lamponie', emoji: '🍓', colorClass: 'style-lampo' },
+                             ], */
+ 
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 300.00 },
+                                { weight: '100g', price: 600.00 },
+                            ]
+                        },
                         {
                             id: 'Fuel',
                             flag: '🇲🇦',
