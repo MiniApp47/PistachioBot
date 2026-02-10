@@ -351,21 +351,31 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '', // Mets l'image qui correspond au Cali Mousse
                     badgeText: 'Filtré',
                     products: [
-                     /*    {
-                            id: 'CaliMousseProduct',
+                        {
+                            id: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
                             flag: '🇲🇦',
-                            name: '🧬 Cali Mousse Filtré',
-                            farm: 'CALI MOUSSE',
+                            name: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
+                            farm: '✨ US Quality ✨',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'Frosty2.png', // Image du produit
-                            video: '',
-                            description: 'Le classique Cali Mousse filtré x2.',
+                            image: 'ProductCaliM.jpg', // Image du produit
+                            video: 'VideoCaliM.mp4',
+                            description: '🇺🇸🍯 Mousse US \n  🤯 Incroyable odeur \n 🫠 Texture premium \n ✈️💤 Mode avion activé',
+
+                            variantTitle: 'Saveurs Frozen ❄️ :',
+                            jars: [
+                                { name: 'Gelato', emoji: '🍨', colorClass: 'style-tangier' },
+                                { name: 'RS11', emoji: '🧬', colorClass: 'style-purple' },
+                                { name: 'Candy Crush', emoji: '🍬', colorClass: 'style-red' },
+                            ],
+
                             tarifs: [
-                                { weight: '10g', price: 50.00 },
-                                { weight: '25g', price: 120.00 },
+                                { weight: '10g', price: 55.00 },
+                                { weight: '20g', price: 100.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 380.00 },
                             ]
-                        } */
+                        }
                     ]
                 },
 
