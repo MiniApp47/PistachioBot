@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 40.00 },
                                 { weight: '25g', price: 90.00 },
                                 { weight: '50g', price: 150.00 },
-                                { weight: '100g', price: 250.00 },
+                                { weight: '100g', price: 280.00 },
                             ]
                         }
                     ]
