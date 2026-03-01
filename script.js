@@ -102,35 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
             quality: '🌿 Fleurs',
             image: 'CategFleurs.png', // Ton image de catégorie Weed
 
-            farms: [
-                // --- Sous-Catégorie : TOP SHELF SPAIN 🇪🇸 ---
-                {
-                    id: 'SPAIN_TOP',
-                    name: 'TOP SHELF SPAIN 🇪🇸',
-                    image: '', // ⚠️ Mets une image ici (drapeau ou autre)
-                    badgeText: 'Nouveauté',
-                    products: [
-                       /*  {
-                            id: '',
-                            flag: '🇪🇸',
-                            name: '🧽  🧽',
-                            farm: '',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductOg.png', // ⚠️ A changer
-                            video: '.mov',
-                            description: '- Jaune crémeux comme on aime avec bonne défonce  🚬 \n -super odeur de bonne plante 🌱 quand on connais les deux fleur d’où il vien on comprend🏆🪴 🏆 \n - Saison 2025 ⌛️',
-                            tarifs: [
-                                { weight: '10g', price: 40.00 },
-                                { weight: '25g', price: 100.00 },
-                                { weight: '50g', price: 160.00 },
-                                { weight: '100g', price: 280.00 },
-
-                            ]
-                        } */
-                    ]
-                },
-
+            farms: [              
                 // --- Sous-Catégorie : CALI CANADIES 🇨🇦 ---
                 {
                     id: 'CALI_CANADIES',
@@ -381,28 +353,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // 3. DRY SIFT HASH ⚡️ 
                 {
-                    id: 'DRY_SIFT',
-                    name: 'DRY ⚡️',
+                    id: 'FILTRED',
+                    name: 'FILTRED ⚡️',
                     image: '',
-                    badgeText: '90u',
+                    badgeText: '35u/70u/90u',
                     products: [
-                     /*    {
-                            id: 'feat',
+                        {
+                            id: '🌷 35u Mimosa 🌷',
                             flag: '🇲🇦',
-                            name: 'Barbara punch 90u⚡️',
-                            farm: 'Goat Farmers 🐐🍀',
+                            name: '🌷 35u Mimosa 🌷',
+                            farm: 'KILO GRAMMES FARMERZ ⚡️',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductFeat.png',
-                            video: 'VideoFeat.mov',
-                            description: 'Réel collaborations avec La farmz Goat farmers \n ( single source marocain de grande qualité )',
-                            tarifs: [
-                                { weight: '10g', price: 60.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 250.00 },
-                                { weight: '100g', price: 430.00 },
+                            image: 'ProductMimo.png',
+                            video: 'VideoMimo.mov',
+                            description: '⚡️ K.G.F EXCLUSIVE ⚡️ \n\n La fameuse Mimosa filtrée en 35u 🌷. Un travail d’orfèvre signé Kilo Grammes Farmerz garantissant une pureté maximale 🏆. \n\n 🍊 Profil Terpénique : \n 🍹 Grosse explosion d’agrumes (Orange / Mandarine) \n 🍾 Touche sucrée et florale en fin de bouche \n\n 💎 Texture : S’effrite facilement et graisse instantanément à la chauffe 🔥. \n\n 👉 Un must-have pour les amateurs de terps fruités et frais ☀️.',                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
                             ]
-                        } */
+                        }
                        
                     ]
                 },
