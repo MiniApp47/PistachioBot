@@ -727,6 +727,31 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'Black',
                             flag: '🇲🇦',
+                            name: 'STATIC Premium 🏆',
+                            farm: '✨ Gaz N Fruit 🌿',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductStaPre.jpg',
+                            images: ['ProductStaPre2.jpg','ProductStaPre1.jpg','ProductStaPre3.jpg'],
+                            videos: ['VideoStaPre.mov','VideoStaPre1.mov'],
+                            description: 'Franchement… rien à dire. \n Top curage 20/10 🌟🌟🌟 \n Odeur et goût 👅 incroayble  \n Tout se qu’on attend d’un vrai static 🌟🌟🌟  \n Texture parfaite, bien grasse comme il faut 🔥 \n L’odeur te frappe direct au nez, puissante et sucrée à la fois 🍋🍃 \n Et le goût… une vraie claque, doux mais intense, qui reste en bouche 👅💨  \n\n Un combo lourd, propre, efficace. \n  Qualité au rendez-vous, vibes assurées. 💎',
+                            
+                              // 👇 NOUVELLE STRUCTURE
+                              variantTitle: 'Choisis ton goût 🥣 :',
+                              jars: [
+                                  { name: 'Donny Burger', emoji: '🍔', colorClass: 'style-gmo' },
+                                  { name: 'Permanent Marker', emoji: '🖊️', colorClass: 'style-grappe' }
+                              ],
+                            
+                            tarifs: [
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 160.00 },
+                                { weight: '20g', price: 300.00 },
+                            ]
+                        },
+                        {
+                            id: 'Black',
+                            flag: '🇲🇦',
                             name: 'Black Cherry 🍒',
                             farm: '🏠 STATIC NO FARMZ',
                             promoEligible: true,
