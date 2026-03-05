@@ -356,8 +356,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: 'FILTRED',
                     name: 'FILTRED ⚡️',
                     image: '',
-                    badgeText: '35u/70u/90u',
+                    badgeText: '35u/70u/90u/105u',
                     products: [
+                        {
+                            id: '❄️ Donna ICE 💙',
+                            flag: '🇲🇦',
+                            name: '❄️ Donna ICE 💙',
+                            farm: 'Gaz N Fruit ✨💛',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductDonna.jpg',
+                            images: ['ProductDonna1.jpg',],
+                            video: 'VideoDonna.mov',
+                            description: '🦠 105u Micron 🦠 \n\n Donna ICE ❄️💙\n Une vague de fraîcheur mentholée 🌬️ accompagnée d’une crème douce et onctueuse 🤍.\n Une sensation glacée 🧊 qui enveloppe le corps et l’esprit dans un nuage froid, apaisant et soyeux ☁️✨.\n\n Un 105µ brillant, vivant et fondant.\n Une signature glacée, pure et éclatante 💎❄️🔥 \n\n Un véritable or liquide.\n\n Des cristaux blond miel 🍯 qui brillent comme du sable doré sous le soleil.\n\n À l’ouverture, l’arôme explose : résine fraîche 🌿, douceur sucrée 🍬 et une touche givrée et éclatante 💎. ',                           
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
+                            ]
+                        },
+                        {
+                            id: 'Royal Frost',
+                            flag: '🇲🇦',
+                            name: '👑 Royal Frost 🔥',
+                            farm: 'Gaz N Fruit ✨💛',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductFrost.jpg',
+                            images: ['ProductFrost1.jpg',],
+                            video: 'VideoFrost.mov',
+                            description: '🦠 105u Micron 🦠 \n\n Royal Frost 👑🔥\n  Plus profond, plus intense 🌑.\n  Un profil gaz puissant ⛽, relevé par des notes de sucre caramélisé 🍮 et un givre royal ❄️👑.\n\n La montée est rapide 🚀 :\n  une frappe nette derrière les yeux 👀💥, avant de se diffuser lentement dans tout le corps pour une sensation lourde, chaude et enveloppante 🔥🫠.\n\n  Un 105µ brillant, vivant et fondant.\n Une signature glacée, pure et éclatante 💎❄️🔥 \n\n Un véritable or liquide.\n\n Des cristaux blond miel 🍯 qui brillent comme du sable doré sous le soleil.\n\n À l’ouverture, l’arôme explose : résine fraîche 🌿, douceur sucrée 🍬 et une touche givrée et éclatante 💎.',                           
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
+                            ]
+                        },
                         {
                             id: '🌷 35u Mimosa 🌷',
                             flag: '🇲🇦',
@@ -375,6 +407,7 @@ document.addEventListener('DOMContentLoaded', function () {
                        
                     ]
                 },
+
 
                 // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
                 {
@@ -964,10 +997,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // ============================================================
     {
         id: 'PACKS',
-        name: '⏳ PACK 2025 ⌛️',
+        name: '⏳ PACK 2026 ⌛️',
         type: 'Pack',
         quality: '⭐️ Offres Spéciales', // S'affichera dans le filtre "Sélection du chef"
-        image: 'CategPack2025.png', // ⚠️ Pense à mettre une image festive ici
+        image: 'CategPack.png', // ⚠️ Pense à mettre une image festive ici
 
         // PAS DE FARMS, DIRECTEMENT LES PRODUITS
         products: [
@@ -1197,7 +1230,7 @@ document.addEventListener('DOMContentLoaded', function () {
             backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
             backButton.style.cssText = `
             border: none;
-            color: white;
+            color: #83e18d;
             padding: 40px;
             font-weight: 700;
             cursor: pointer;
@@ -1211,7 +1244,7 @@ document.addEventListener('DOMContentLoaded', function () {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: linear-gradient(182deg, #480092, transparent);
+            background: linear-gradient(182deg, #fa007e, transparent);
                         border-radius: 10px;`;
 
             filterContainer.prepend(backButton);
@@ -1240,7 +1273,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             backButton.style.cssText = `
             border: none;
-            color: white;
+            color: #83e18d;
             padding: 40px;
             font-weight: 700;
             cursor: pointer;
@@ -1254,7 +1287,7 @@ document.addEventListener('DOMContentLoaded', function () {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: linear-gradient(182deg, #480092, transparent);
+            background: linear-gradient(182deg, #fa007e, transparent);
             border-radius: 10px;`;
 
             filterContainer.prepend(backButton);
@@ -1286,7 +1319,7 @@ document.addEventListener('DOMContentLoaded', function () {
               ><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>  ${farm.name}`;
             backButton.style.cssText = `
             border: none;
-            color: white;
+            color: #83e18d;
             padding: 40px;
             font-weight: 700;
             cursor: pointer;
@@ -1300,7 +1333,7 @@ document.addEventListener('DOMContentLoaded', function () {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: linear-gradient(182deg, #480092, transparent);
+            background: linear-gradient(182deg, #fa007e, transparent);
                         border-radius: 10px;`;
 
             filterContainer.prepend(backButton);

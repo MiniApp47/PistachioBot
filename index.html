@@ -52,7 +52,7 @@
         .progress-bar {
             width: 0%;
             height: 100%;
-            background: linear-gradient(90deg, #9134da, #00c759);
+            background: linear-gradient(90deg, #d10069a8, #2b00c7);
             border-radius: 10px;
             transition: width 2.5s cubic-bezier(0.25, 1, 0.5, 1);
             box-shadow: 0 0 10px rgba(52, 199, 89, 0.5);
@@ -75,7 +75,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background: linear-gradient(360deg, #2c2c2e0f, #3a1c42b0);
+            background: linear-gradient(360deg, #2c2c2e0f, #d100698f);
         }
 
         .page-header .title {
@@ -117,7 +117,7 @@
             background: #80808082;
             padding: 30px;
             border-radius: 20px;
-            border: 1px solid #b115ffba;
+            border: 1px solid #b713ffa8;
         }
 
         #page-loader img {
@@ -141,8 +141,8 @@
 
         /* --- Page d'accueil --- */
         .top-marquee {
-            background: linear-gradient(180deg, var(--tertiary-bg-color), #2f1d52);
-            color: #d3cb39;
+            background: linear-gradient(180deg, #2b00c7a8, #d10069a6);
+    color: #83e18d;
             padding: 8px 0;
             overflow: hidden;
             font-weight: 500;
@@ -171,7 +171,7 @@
             justify-content: flex-end;
             align-items: center;
             padding: 10px 15px;
-            background: linear-gradient(#432874b8, transparent);
+            background: linear-gradient(#d1006975, transparent);
             position: relative;
             height: 9vh;
         }
@@ -183,7 +183,7 @@
             transform: translate(-50%, -50%);
             height: 12vh;
             border-radius: 20%;
-            box-shadow: 0px 0px 10px 2px #6218d3;
+            box-shadow: 0px 0px 10px 2px #d10069;
         }
 
         #page-home .cart-button {
@@ -198,7 +198,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0px 0px 10px 2px #561dd0;
+            box-shadow: 0px 0px 10px 2px #d10069;
         }
 
         /* --- Filtres --- */
@@ -247,7 +247,7 @@
             position: absolute;
             top: -5px;
             right: -5px;
-            background: #8321e7;
+            background: #2b00c7;
             color: white;
             border-radius: 50%;
             font-size: 0.7rem;
@@ -331,9 +331,9 @@
         }
 
         .product-card {
-            background: linear-gradient(145deg, #2c2c2e, #3a1c42);
-            border: 1px solid #b115ff;
-            border-radius: 15px;
+            background: linear-gradient(145deg, #2b00c7, #d10069a8);
+    border: 1px solid #b713ff;
+    border-radius: 15px;
             overflow: hidden;
             cursor: pointer;
             position: relative;
@@ -383,6 +383,7 @@
             text-align: center;
             font-family: Marker Felt, fantasy;
             font-size: 20px;
+            color: #83e18d;
         }
 
         .product-card .farm {
@@ -413,7 +414,7 @@
             right: 0;
             display: flex;
             justify-content: space-around;
-            background: #2c2c2ea1;
+            background: #2c2c2ed9;
             align-items: center;
             padding: 10px 0;
             z-index: 50;
@@ -423,20 +424,20 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            color: #300b8c;
-            text-decoration: none;
-            font-size: 0.7rem;
-            background: #8080807d;
-            border-radius: 20px;
-            width: 10vh;
-            padding: 1vh;
-            border: none;
-            box-shadow: 0px 0px 10px 2px #9527ce;
+            color: #74013b;
+    text-decoration: none;
+    font-size: 0.7rem;
+    background: #8080807d;
+    border-radius: 20px;
+    width: 10vh;
+    padding: 1vh;
+    border: none;
+    box-shadow: 0px 0px 10px 2px #d10069;
             cursor: pointer;
         }
 
         .nav-item.active {
-            color: #d058f3;
+            color: #d10069;
             background-color: #0000009c;
         }
 
@@ -474,6 +475,7 @@
             font-weight: 700;
             font-family: Marker Felt, fantasy;
             margin: 0;
+            color: #83e18d;
         }
 
         .product-details .farm {
@@ -505,8 +507,9 @@
             justify-content: center;
             align-items: center;
             border-radius: 20px;
-            background: linear-gradient(#63248787, #5700ff30);
-            border: 2px solid white;
+            background: linear-gradient(#2b00c79e, #ff006e96);
+    border: 1px solid #b713ff;
+    color: #83e18d;
             width: 45%;
             height: auto;
             flex-direction: column;
@@ -530,10 +533,10 @@
         }
 
         .add-to-cart-btn {
-            background: #231a29;
-            border: 1px solid white;
-            border-radius: 8px;
-            color: white;
+            background: #2b00c794;
+    border: 2px solid #2b00c7;
+    border-radius: 8px;
+    color: #ff006e;
             width: 60%;
             height: 35px;
             cursor: pointer;
@@ -544,7 +547,7 @@
 
         .product-description {
             font-size: 0.95rem;
-            color: #b115ff;
+            color: #ff006e;
             margin-top: 15px;
             margin-bottom: 20px;
             line-height: 1.4;
@@ -589,7 +592,7 @@
         }
 
         .cart-item .price {
-            color: #8e17cf;
+            color: #ff006e;
             font-weight: 700;
             margin-bottom: 1vh;
         }
@@ -615,7 +618,7 @@
         }
 
         .cart-summary {
-            background: #b924e5a1;
+            background: #ff006ecc;
             color: white;
             padding: 15px;
             border-radius: 10px;
@@ -647,7 +650,7 @@
         }
 
         .main-action-btn {
-            background: #ac18ffcf;
+            background: #ff006ec7;
             color: white;
             padding: 15px;
             border-radius: 10px;
@@ -679,8 +682,8 @@
         #notification-toast {
             visibility: hidden;
             min-width: 250px;
-            background-color: #442758c4;
-            color: #fff;
+            background-color: #ff006eb3;
+    color: #83e18d;
             text-align: center;
             border-radius: 10px;
             padding: 16px;
@@ -724,8 +727,8 @@
             height: 15vh;
             width: 15vh;
             margin-bottom: 6vh;
-            border-radius: 50%;
-            box-shadow: 0px 0px 10px 2px #b713ff;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px 2px #ff006e;
             margin-top: 2vh;
         }
 
@@ -739,10 +742,9 @@
             max-width: 400px;
             padding: 20px;
             box-sizing: border-box;
-            box-shadow: 0px 0px 10px 2px #b713ff;
+            box-shadow: 0px 0px 10px 2px #ff006e;
             margin-top: 2vh;
         }
-        #page-contact .contact-card { margin-top: -2vh; box-shadow: none; }
 
         .contact-links-list a {
             align-items: center;
@@ -790,12 +792,13 @@
             justify-content: flex-end;
             width: 100%;
             background: #000;
-            border: 2px solid #b713ff;
+            border: 2px solid #ff006e;
             padding: 0;
             cursor: pointer;
             height: 150px; /* Grande image */
             position: relative;
             overflow: hidden;
+            border-radius: 15px;
         }
 
         .accordion-header .ImgReseaux {
@@ -873,7 +876,7 @@
             border: none;
             outline: none;
             padding: 20px;
-            background: linear-gradient(45deg, #3c0674 0%, #d4af37 80%, #005c30 100%, transparent);
+            background: linear-gradient(45deg, #2b00c7 0%, #d10069 80%, #005c30 100%, transparent);
             background-size: 200% auto;
             color: #ed9c27;
             font-family: 'Impact', 'Copperplate', sans-serif;
@@ -892,7 +895,7 @@
         .farm-btn-left { display: flex; align-items: center; gap: 15px; }
         .farm-btn-icon { width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 1px solid #3a3a3c; }
         .farm-btn-info { display: flex; flex-direction: column; }
-        .farm-btn-title { font-size: 25px; font-weight: 600; color: #ffffff; }
+        .farm-btn-title { font-size: 25px; font-weight: 600; color: #83e18d; }
         .farm-btn-subtitle { font-size: 0.8rem; color: #8e8e93; margin-top: 2px; }
         .farm-btn-right svg { display: block; background-color: #661fef; height: 3vh; width: 3vh; border-radius: 5px; }
 
@@ -923,7 +926,7 @@
         .style-red.active, .add-to-cart-btn.style-red { background: #ef233c !important; border-color: #ef233c !important; color: white !important; box-shadow: 0 0 15px rgba(239, 35, 60, 0.4); }
         .style-green.active, .add-to-cart-btn.style-green { background: #70e000 !important; border-color: #70e000 !important; color: black !important; box-shadow: 0 0 15px rgba(112, 224, 0, 0.4); }
         .style-yellow.active, .add-to-cart-btn.style-yellow { background: #ffcc00 !important; border-color: #ffcc00 !important; color: black !important; box-shadow: 0 0 15px rgba(255, 204, 0, 0.4); }
-        .style-orange.active, .add-to-cart-btn.style-orange { background: #fb8500 !important; border-color: #fb8500 !important; color: white !important; box-shadow: 0 0 15px rgba(251, 133, 0, 0.4); }
+        .style-orange.active, .add-to-cart-btn.style-orange { background: #d10069 !important; border-color: #d10069 !important; color: white !important; box-shadow: 0 0 15px rgba(251, 133, 0, 0.4); }
         .style-brown.active, .add-to-cart-btn.style-brown { background: #7f5539 !important; border-color: #7f5539 !important; color: white !important; box-shadow: 0 0 15px rgba(127, 85, 57, 0.4); }
         .style-passion.active, .add-to-cart-btn.style-passion { background: #ff006e !important; border-color: #ff006e !important; color: white !important; box-shadow: 0 0 15px rgba(255, 0, 110, 0.5); }
         .style-melon.active, .add-to-cart-btn.style-melon { background: #00b4d8 !important; border-color: #00b4d8 !important; color: white !important; box-shadow: 0 0 15px rgba(0, 180, 216, 0.5); }
@@ -966,7 +969,7 @@
         .pack-item-btn { background: #3a3a3c; color: white; padding: 12px 15px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; font-size: 0.95rem; border: 1px solid rgba(255, 255, 255, 0.1); }
         .pack-item-btn:active { background: #505053; transform: scale(0.98); }
         .pack-arrow { color: #8e8e93; font-size: 1.2rem; }
-        .product-card.full-width { grid-column: 1 / -1; background: linear-gradient(145deg, #2c2c2e, #3a1c42); border: 1px solid #b115ff; }
+        .product-card.full-width { grid-column: 1 / -1;background: linear-gradient(145deg, #2b00c7, #ff006e);border: 1px solid #b713ff; }
         .product-card.full-width img { height: 180px; }
 
         /* Page AVIS & Carrousel */
