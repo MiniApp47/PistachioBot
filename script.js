@@ -370,8 +370,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoDonna.mov',
                             description: '🦠 105u Micron 🦠 \n\n Donna ICE ❄️💙\n Une vague de fraîcheur mentholée 🌬️ accompagnée d’une crème douce et onctueuse 🤍.\n Une sensation glacée 🧊 qui enveloppe le corps et l’esprit dans un nuage froid, apaisant et soyeux ☁️✨.\n\n Un 105µ brillant, vivant et fondant.\n Une signature glacée, pure et éclatante 💎❄️🔥 \n\n Un véritable or liquide.\n\n Des cristaux blond miel 🍯 qui brillent comme du sable doré sous le soleil.\n\n À l’ouverture, l’arôme explose : résine fraîche 🌿, douceur sucrée 🍬 et une touche givrée et éclatante 💎. ',                           
                             tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 90.00 },
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
                             ]
                         },
                         {
@@ -386,8 +386,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoFrost.mov',
                             description: '🦠 105u Micron 🦠 \n\n Royal Frost 👑🔥\n  Plus profond, plus intense 🌑.\n  Un profil gaz puissant ⛽, relevé par des notes de sucre caramélisé 🍮 et un givre royal ❄️👑.\n\n La montée est rapide 🚀 :\n  une frappe nette derrière les yeux 👀💥, avant de se diffuser lentement dans tout le corps pour une sensation lourde, chaude et enveloppante 🔥🫠.\n\n  Un 105µ brillant, vivant et fondant.\n Une signature glacée, pure et éclatante 💎❄️🔥 \n\n Un véritable or liquide.\n\n Des cristaux blond miel 🍯 qui brillent comme du sable doré sous le soleil.\n\n À l’ouverture, l’arôme explose : résine fraîche 🌿, douceur sucrée 🍬 et une touche givrée et éclatante 💎.',                           
                             tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 90.00 },
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
                             ]
                         },
                         {
@@ -769,8 +769,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: 'Franchement… rien à dire. \n Top curage 20/10 🌟🌟🌟 \n Odeur et goût 👅 incroayble  \n Tout se qu’on attend d’un vrai static 🌟🌟🌟  \n Texture parfaite, bien grasse comme il faut 🔥 \n L’odeur te frappe direct au nez, puissante et sucrée à la fois 🍋🍃 \n Et le goût… une vraie claque, doux mais intense, qui reste en bouche 👅💨  \n\n Un combo lourd, propre, efficace. \n  Qualité au rendez-vous, vibes assurées. 💎',
                             tarifs: [
                                 { weight: '5g', price: 90.00 },
-                                { weight: '10g', price: 160.00 },
-                                { weight: '20g', price: 300.00 },
+                                { weight: '10g', price: 170.00 },
                             ]
                         },
                         {
@@ -786,8 +785,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: 'Franchement… rien à dire. \n Top curage 20/10 🌟🌟🌟 \n Odeur et goût 👅 incroayble  \n Tout se qu’on attend d’un vrai static 🌟🌟🌟  \n Texture parfaite, bien grasse comme il faut 🔥 \n L’odeur te frappe direct au nez, puissante et sucrée à la fois 🍋🍃 \n Et le goût… une vraie claque, doux mais intense, qui reste en bouche 👅💨  \n\n Un combo lourd, propre, efficace. \n  Qualité au rendez-vous, vibes assurées. 💎',
                             tarifs: [
                                 { weight: '5g', price: 90.00 },
-                                { weight: '10g', price: 160.00 },
-                                { weight: '20g', price: 300.00 },
+                                { weight: '10g', price: 170.00 },
                             ]
                         },
                         {
