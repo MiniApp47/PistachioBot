@@ -239,40 +239,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 640.00 },
                             ]
                         }
-                        /* {
-                            id: '👨‍🍳RAIBOW',
-                            flag: '🇺🇸',
-                            name: '👨‍🍳RAIBOW RUNTZ 🌈',
-                            farm: 'GROWER’S CHOICE 🥇',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductRaibow.jpg',
-                            video: 'VideoRaibow.mov',
-                            description: '~ 🇺🇸Californienne \nUn bocal de pépites en or au bout de l’arc-en-ciel ? La Rainbow Runtz est un hybride étonnant aux saveurs incroyables et sucrées et à la teneur en THC gigantesque⚡️⚡️⚡️',
-                            tarifs: [
-                                { weight: '1BAG \n (3,5gr)', price: 40.00 },
-                                { weight: '2BAGS \n (7gr)', price: 70.00 },
-                                { weight: '3BAGS \n (10,5gr)', price: 110.00 },
-
-                            ]
-                        },
-                         {
-                            id: 'PotiGIRLonNew',
-                            flag: '🇺🇸',
-                            name: 'GIRL SCOUT COOKIES  🍪 💃',
-                            farm: '🏠Growers choice',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'ProductGirl.png',
-                            video: 'VideoGirl.mov',
-                            description: 'Comme de nombreuses autres bonnes variétés de cannabis, la Girl Scout Cookies a ses origines sur la côte ouest des États-Unis. Ce croisement entre l’OG Kush et une F1 Durban Poison est d’abord devenu très populaire en Californie et peu après s’est imposé en Europe et dans le reste du monde.✅',
-                            tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 210.00 },
-                                { weight: '50g', price: 340.00 },
-                                { weight: '100g', price: 640.00 },
-                            ]
-                        } */
+                       
                     ]
                 }
             ]
@@ -290,6 +257,48 @@ document.addEventListener('DOMContentLoaded', function () {
 
             farms: [
                 // 1. JAUNE CRÉMEUX 🍯
+                {
+                    id: 'FrozenUSA',
+                    name: '👨‍🔬 Frozen USA',
+                    image: '',
+                    badgeText: 'IMPORT DROP',
+                    products: [
+                            {
+                                id: 'Gold Crown ✨🌟',
+                                flag: '🇺🇸',
+                                name: 'Gold Crown ✨🌟',
+                                farm: '🍁 Frozen Premium Hash USA 🗽', // Apparaît en petit sous le nom
+                                promoEligible: true,
+                                type: 'FrozenUsa',
+                                image: 'ProductGoldC.jpg', // ⚠️ Mets ton image
+                                video: 'VideoGoldC.mov', 
+                                description: '💛 Un goût exceptionnel, riche et profond, qui enrobe les papilles dès la première taffe 😮‍🔥 \n 💥 Une puissance immédiate, une montée propre qui te propulse loin, avec une défonce intense et maîtrisée 🌈🚀  \n\n  🌴 Arômes californiens ultra prononcés, une odeur qui remplit la pièce et annonce direct la qualité 🔥 \n ✨ Une texture parfaite, une couleur dorée éclatante, digne des meilleurs produits premium 🍯👑  \n\n 😎 Pas juste un hash… une vraie expérience, réservée à ceux qui savent reconnaître le haut niveau 💎🔥',
+                                tarifs: [
+                                    { weight: '2g', price: 50.00 },
+                                    { weight: '5g', price: 100.00 },
+                                    { weight: '10g', price: 190.00 }
+                                ]
+                            },
+                            // Tu peux ajouter d'autres produits à la suite ici...
+                            {
+                                id: '70/130u ✨💎',
+                                flag: '🍰',
+                                name: '70/130u ✨💎',
+                                farm: '🦅 Cali Plate USA 🗽', // Apparaît en petit sous le nom
+                                promoEligible: true,
+                                type: 'FrozenUsa',
+                                image:'Product70.jpg',
+                                images:['Product701.jpg','Product702.jpg',],
+                                video: 'Video70.mov',
+                                description: '💙 Édition Bleu – bien plus qu’un simple produit, une véritable pièce à part, pensée pour les vrais connaisseurs 🌴🇺🇸\n\n Dès l’ouverture, une odeur californienne puissante envahit l’espace et annonce la qualité 🔥\n En bouche, c’est une douceur maîtrisée, suivie d’un goût intense qui reste en gorge et te laisse sans voix 😮✨\n\n 💥 La montée est propre, forte et immédiate, une défonce incroyable qui te transporte loin, très loin 🌈🚀\n Chaque détail respire le haut de gamme, du visuel à l’expérience\n\n 📲 Scan code disponible pour garantir authenticité et qualité premium 🌟',
+                                tarifs: [
+                                    { weight: '2g', price: 60.00 },
+                                    { weight: '5g', price: 140.00 },
+                                    { weight: '10g', price: 250.00 }
+                                ]
+                            }
+                    ]
+                },
                 {
                     id: 'JAUNE_CREMEUX',
                     name: 'JAUNE CRÉMEUX 🍯',
@@ -533,32 +542,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
 
-                {
-                    id: 'BELDIA',
-                    name: 'BELDIA 🥀',
-                    image: '',
-                    badgeText: 'Frappe',
-                    products: [
-                        {
-                            id: 'BELDIA',
-                            flag: '🧞‍♀️',
-                            name: '🔴 BELDIA ROUGE 🔴',
-                            farm: '🦂 SKORPION FARMZ 🌿',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductRouge.jpeg',
-                            video: 'VideoRouge.mp4',
-                            description: '💎 Qualité premium \n 🌱 Travail soigné & saveur authentique \n \n 🔥 Plus tu prends, plus c’est avantageux\n 👨‍🍳💚 Skorpin Farmz, valeur sûre',
-                            tarifs: [
-                                { weight: '10g', price: 110.00 },
-                                { weight: '20g', price: 210.00 },
-                                { weight: '50g', price: 500.00 },
-                            ]
-                        }
-                       
-                    ]
-                },
-
                 // 5. FROZEN PREMIUM ❄️
                 {
                     id: 'FROZEN',
@@ -566,6 +549,44 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'Terps',
                     products: [
+                        {
+                            id: '🍭 BUBBLE GUM',
+                            flag: '🇲🇦',
+                            name: '🍭 BUBBLE GUM',
+                            farm: '💎 PISTACHIO x BARNEYS FARMS',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBBG.jpg',
+                            images: [
+                                'ProductBBG1.jpg', // Ta 1ère vidéo
+                            ],
+                            video: 'VideoBBG.mov', // Ta 1ère vidéo
+                            description: '💎 PISTACHIO x BARNEYS FARMS \n Qualité Single Source   \n\n ❄️ Frozen Sift \n Extraction premium, texture propre et riche   \n\n 📦 Format : 10G   \n\n  🍭 STRAIN : BUBBLE GUM \n  Un classique revisité avec une qualité exceptionnelle   \n\n  👃 Profil aromatique : \n  Ultra sucré, notes de chewing-gum, gourmand et intense   \n\n  👅 Goût : \n  Explosion de saveurs sucrées, très rond en bouche   \n\n  💨 Effet : \n  Terpènes puissants + défonce 20/10 ⚡️   \n\n  ⸻   \n\n  🔥 Une valeur sûre, old school boostée en qualité \n Disponible maintenant – stock limité 🚀',
+                            tarifs: [
+                                { weight: '🪵x1', price: 130.00 },               
+                                { weight: '🪵x2', price: 250.00 },
+                                { weight: '🪵x4', price: 420.00 },
+                            ]
+                        },
+                        {
+                            id: '🍒 BLACK CHERRY',
+                            flag: '🇲🇦',
+                            name: '🍒 BLACK CHERRY',
+                            farm: '💎 PISTACHIO x BARNEYS FARMS',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBBC.jpg',
+                            images: [
+                                'ProductBBC1.jpg', // Ta 1ère vidéo
+                            ],
+                            video: 'VideoBBC.mov', // Ta 1ère vidéo
+                            description: '💎 PISTACHIO x BARNEYS FARMS \n Qualité Single Source   \n\n  ❄️ Frozen Sift \n Extraction haut de gamme, propre et full terpènes   \n\n 📦 Format : 10G   \n\n  🍒 STRAIN : BLACK CHERRY \n  Une variété puissante au profil fruité intense   \n\n  👃 Profil aromatique : \n  Notes de cerise noire, sucré avec une touche légèrement acidulée   \n\n  👅 Goût : \n Riche, profond, fruité avec une belle longueur en bouche  \n\n 💨 Effet :\n Terpènes chargés + défonce 20/10 ⚡️   \n\n  ⸻   \n\n 🔥 Une strain gourmande et ultra efficace \n Disponible maintenant – qualité premium 🚀',
+                            tarifs: [
+                                { weight: '🪵x1', price: 130.00 },               
+                                { weight: '🪵x2', price: 250.00 },
+                                { weight: '🪵x4', price: 420.00 },
+                            ]
+                        },
                         {
                             id: 'Buchettes',
                             flag: '🇲🇦',
@@ -628,7 +649,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
                         
-                        {
+                      /*   {
                             id: 'FrozenSource',
                             flag: '⚡️',
                             name: '🇲🇦Frozen Sift Hash ⚡️🌬️',
@@ -658,7 +679,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 250.00 },
                                 { weight: '50g', price: 370.00 },
                             ]
-                        }
+                        } */
                     ]
                 },
                 {
@@ -758,6 +779,41 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Saison 2026',
                     products: [
                         {
+                            id: '🍰 Alot Cakez 139/45',
+                            flag: '🇲🇦',
+                            name: '🍰 Alot Cakez 139/45',
+                            farm: 'DR FRENCH 💎',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductDr1.jpg',
+                            images: ['ProductDr2.jpg',],
+                            video: 'VideoDr1.mov',
+                            description: '✨ Un statique d’une pure qualité, soigneusement cultivé pour offrir une expérience raffinée et mémorable.\n\n 💛 Arômes délicats, douceur subtile, et saveur envoûtante qui séduira les connaisseurs.\n\n 🎨 Visuellement remarquable, avec des couleurs riches et harmonieuses.\n\n 🌟 Une expérience premium, pour ceux qui recherchent le meilleur sans compromis.',
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 270.00 },
+                                { weight: '50g', price: 450.00 }
+                            ]
+                        },
+                        {
+                            id: '🔵 ALL BLUE 139/45',
+                            flag: '🇲🇦',
+                            name: '🔵 ALL BLUE 139/45',
+                            farm: 'DR FRENCH 💎',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductDr.jpg',
+                            video: 'VideoDr.mov',
+                            description: 'Sélection ultra premium \n\n ❄️ Static Sift\n Extraction sèche haut de gamme, pureté maximale  \n\n 👃 Profil aromatique : \n Une claque de terpènes, odeur puissante, fraîche et ultra travaillée  \n\n  👅 Goût : \n Riche, propre, avec une intensité qui reste longtemps en bouche  \n\n 💨 Effet : \n Une vraie tuerie, montée rapide et effet bien lourd ⚡️',
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 270.00 },
+                                { weight: '50g', price: 450.00 }
+                            ]
+                        },
+                        {
                             id: 'Donny Burger',
                             flag: '🇲🇦',
                             name: 'Donny Burger 🍔',
@@ -788,23 +844,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 170.00 },
                             ]
                         },
-                        {
-                            id: 'Black',
-                            flag: '🇲🇦',
-                            name: 'Black Cherry 🍒',
-                            farm: '🏠 STATIC NO FARMZ',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductBlack.jpg',
-                            video: 'VideoBlack.mov',
-                            description: 'Un static marocain haut de gamme, travaillé avec soin, qui se distingue immédiatement par son profil aromatique intense et profond.🥇⚡️ 🏆 \n Un static marocain de très haut niveau, axé sur une intensité aromatique rare, avec un profil Black Cherry sombre, sucré et profond. Idéal pour ceux qui privilégient l’odeur, le goût et la finesse du filtrage. 🔱',
-                            tarifs: [
-                                { weight: '5g', price: 80.00 },
-                                { weight: '10g', price: 150.00 },
-                                { weight: '20g', price: 250.00 },
-                            ]
-                        },
-                        {
+                  /*       {
                             id: '220u',
                             flag: '🇲🇦',
                             name: 'K.G.F STATIC 🏆🥇',
@@ -812,10 +852,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductKgf.png',
-                           /*  images: [
+                             images: [
                                 'ProductGrandDaddy.jpg',
                                 'ProductPapaya.jpg',
-                            ], */
+                            ], 
                             video: 'VideoKgf.mov',
                             description: 'K.G.F STATIC 🏆🥇 \n Un produit d’exception de la maison KGF 🏆 \n uJamais déçu 🥇 \n Goût plus fumette douce mes en même temp forte 💪\n Une odeur qui se dégage quand tu allume le joint wahouu 🔱🔱🔥 🏠🔥\n\n 190/220u ( Réal no fake )🔥',
 
@@ -831,7 +871,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 160.00 },
                       
                             ]
-                        }
+                        } */
                     ]
                 },
 
