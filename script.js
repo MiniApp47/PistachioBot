@@ -299,249 +299,111 @@ document.addEventListener('DOMContentLoaded', function () {
                             }
                     ]
                 },
-                {
-                    id: 'JAUNE_CREMEUX',
-                    name: 'JAUNE CRÉMEUX 🍯',
+                  // 7. STATIC USA 🇺🇸
+                  {
+                    id: 'STATIC_USA',
+                    name: 'STATIC USA 🇺🇸',
                     image: '',
-                    badgeText: 'Classique',
+                    badgeText: 'Exclusif',
                     products: [
                         {
-                            id: 'Og',
-                            flag: '🇪🇸',
-                            name: 'Mousseux 🧽',
-                            farm: '🌾 No Farm 🌾',
+                            id: '🇺🇸⚡️ StaticUsa ⚡️🇺🇸',
+                            flag: '🇺🇸',
+                            name: '🇺🇸⚡️ StaticUsa ⚡️🇺🇸',
+                            farm: 'CALITEFARM 🇺🇸🇨🇭',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductOg1.jpeg',
-                            video: 'VideoOg1.mp4',
-                            description: '🧽Jaune mousseux top crème 🧽⬇️ \n\n - Jaune crémeux comme on aime avec bonne défonce  🚬 \n -super odeur de bonne plante 🌱',
+                            image: 'ProductSift1.jpeg',
+                            images:['ProductSift4.jpeg','ProductSift3.jpeg', 'ProductSift2.jpeg'],
+                            video: 'VideoSift.mp4',
+                            description: '🇺🇸✨ Static Sift USA ✨ \n Calite Farm 🌿 \n\n 💛 Static sift fin, sableux & lumineux \n ✨ Teinte dorée élégante \n\n 👃🌿 Odeur & ressenti \n 🍃 Arômes naturels & végétaux\n 💨 Expérience douce et équilibrée \n\n 🌍🇺🇸🇨🇭 Calite Farm \n Californie / Suisse — savoir-faire & passion 🔥\n\n ✅ Strains disponibles :\n\n 💜 Bridesman 💍',
                             tarifs: [
-                                { weight: '10g', price: 40.00 },
-                                { weight: '25g', price: 90.00 },
-                                { weight: '50g', price: 150.00 },
-                                { weight: '100g', price: 280.00 },
+                                { weight: '5g', price: 170.00 },
+                                { weight: '10g', price: 330.00 },
+                                { weight: '25g', price: 650.00 },
+                                { weight: '50g', price: 1200.00 },
+
+                            ]
+                        },
+                        {
+                            id: '🇺🇸🦀 Sashimi 🍣🇺🇸',
+                            flag: '🇺🇸',
+                            name: '🦀 SASHIMI 🍣',
+                            farm: 'HASHIVA STATIC 💙',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSashimi.jpg',
+                            images:['ProductSashimi.jpg','ProductSashimi1.jpg'],
+                            video: 'VideoSashimi.mp4',
+                            description: '🦀 HASHIVA STATIC USA 🍣 \n Une masterclass venue des US 🇺🇸. Ce static sift est une véritable expérience gastronomique pour les poumons 🫁. \n\n Une extraction d’une pureté chirurgicale 🧪 avec une texture "Fish Scale" qui fond instantanément 🍯.\n\n 🍣 Profil Terpènique Exotique & Umami : \n 🌊 Notes fraîches et salines uniques \n ⛽ Grosse attaque Gas / Diesel \n 🦀 Une saveur "Funky" complexe pour les vrais connaisseurs.',
+                            tarifs: [
+                                { weight: '2g', price: 80.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 330.00 },
+
+                            ]
+                        },
+                        {
+                            id: 'HASHIVAStaticUSA',
+                            flag: '🇺🇸',
+                            name: '💎 CANDY BEZELS 💎',
+                            farm: 'HASHIVA STATIC 💙',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBezels.jpg',
+                            video: 'VideoBezels.mov',
+                            description: '💎 HASHIVA STATIC USA 💎 \n Straight from USA 🇺🇸, ce static sift d’élite affiche une robe dorée brillante ✨🍯, résultat d’un tri ultra-clean et d’un savoir-faire top-shelf 🧬.\n\n Profil terpènique candy luxury 🍬🍭 : \n 🍓 fruits sucrés \n 🍬 bonbon haut de gamme \n ⛽ touche gazzy crémeuse signature US',
+                            tarifs: [
+                                { weight: '2g', price: 80.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 330.00 },
+
+                            ]
+                        }/* ,
+                        {
+                            id: 'StaticUSA',
+                            flag: '🇺🇸',
+                            name: '🗽 Kevin breats 🇺🇸',
+                            farm: 'BLOOD&PRESS 🔱',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductKevin.png',
+                            video: 'VideoKevin.mov',
+                            description: '~Un hybride premium combinant la gourmandise crémeuse Forbidden et les notes sucrée de son fruit. 🍇   \n ~ En bouche ou à l’odeur on sent que sa était travailler avec amour 😍 🇺🇸\n ~Arômes sucrés, texture résineuse et pétante après mutation légère🌬️💨 et profil terpène riche🔥🧨 \n ~Déjà connue des habituer 🥇🏅🎖️',
+                            tarifs: [
+                                { weight: '1g', price: 40.00 },
+                                { weight: '3g', price: 100.00 },
+                                { weight: '10g', price: 320.00 },
+
+                            ]
+                        } */
+                    ]
+                },
+                // 8. EXCTRACTION 🇺🇸
+                {
+                    id: 'ExctraUsa',
+                    name: 'EXCTRACTION 🇺🇸',
+                    image: '',
+                    badgeText: 'Piatella',
+                    products: [
+                        {
+                            id: 'LEMON TREEZ',
+                            flag: '🇺🇸',
+                            name: '🍋 LEMON TREEZ 🌲',
+                            farm: 'PIATELLA ALBINOS 🧉',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTreez.jpg',
+                            video: 'VideoTreez.mov',
+                            description: '159/73u 🎖️',
+                            tarifs: [
+                                { weight: '1g', price: 50.00 },
+                                { weight: '5g', price: 220.00 },
+                                { weight: '10g', price: 380.00 },
                             ]
                         }
                     ]
                 },
-
-                // 2. CALI MOUSSE 🧬 (Nouvelle entrée distincte)
-                {
-                    id: 'CALI_MOUSSE_BTN',
-                    name: 'CALI MOUSSE 🧬',
-                    image: '', // Mets l'image qui correspond au Cali Mousse
-                    badgeText: 'Filtré',
-                    products: [
-                        {
-                            id: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
-                            flag: '🇲🇦',
-                            name: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
-                            farm: '✨ US Quality ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCaliM.jpg', // Image du produit
-                            video: 'VideoCaliM.mp4',
-                            description: '🇺🇸🍯 Mousse US \n  🤯 Incroyable odeur \n 🫠 Texture premium \n ✈️💤 Mode avion activé',
-
-                            variantTitle: 'Saveurs Frozen ❄️ :',
-                            jars: [
-                                { name: 'Gelato', emoji: '🍨', colorClass: 'style-tangier' },
-                                { name: 'RS11', emoji: '🧬', colorClass: 'style-purple' },
-                                { name: 'Candy Crush', emoji: '🍬', colorClass: 'style-red' },
-                            ],
-
-                            tarifs: [
-                                { weight: '10g', price: 55.00 },
-                                { weight: '20g', price: 100.00 },
-                                { weight: '50g', price: 220.00 },
-                                { weight: '100g', price: 380.00 },
-                            ]
-                        }
-                    ]
-                },
-
-                // 3. DRY SIFT HASH ⚡️ 
-                {
-                    id: 'FILTRED',
-                    name: 'FILTRED ⚡️',
-                    image: '',
-                    badgeText: '35u/70u/90u/105u',
-                    products: [
-                        {
-                            id: '❄️ Donna ICE 💙',
-                            flag: '🇲🇦',
-                            name: '❄️ Donna ICE 💙',
-                            farm: 'Gaz N Fruit ✨💛',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductDonna.jpg',
-                            images: ['ProductDonna1.jpg',],
-                            video: 'VideoDonna.mov',
-                            description: '🦠 105u Micron 🦠 \n\n Donna ICE ❄️💙\n Une vague de fraîcheur mentholée 🌬️ accompagnée d’une crème douce et onctueuse 🤍.\n Une sensation glacée 🧊 qui enveloppe le corps et l’esprit dans un nuage froid, apaisant et soyeux ☁️✨.\n\n Un 105µ brillant, vivant et fondant.\n Une signature glacée, pure et éclatante 💎❄️🔥 \n\n Un véritable or liquide.\n\n Des cristaux blond miel 🍯 qui brillent comme du sable doré sous le soleil.\n\n À l’ouverture, l’arôme explose : résine fraîche 🌿, douceur sucrée 🍬 et une touche givrée et éclatante 💎. ',                           
-                            tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 130.00 },
-                            ]
-                        },
-                        {
-                            id: 'Royal Frost',
-                            flag: '🇲🇦',
-                            name: '👑 Royal Frost 🔥',
-                            farm: 'Gaz N Fruit ✨💛',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductFrost.jpg',
-                            images: ['ProductFrost1.jpg',],
-                            video: 'VideoFrost.mov',
-                            description: '🦠 105u Micron 🦠 \n\n Royal Frost 👑🔥\n  Plus profond, plus intense 🌑.\n  Un profil gaz puissant ⛽, relevé par des notes de sucre caramélisé 🍮 et un givre royal ❄️👑.\n\n La montée est rapide 🚀 :\n  une frappe nette derrière les yeux 👀💥, avant de se diffuser lentement dans tout le corps pour une sensation lourde, chaude et enveloppante 🔥🫠.\n\n  Un 105µ brillant, vivant et fondant.\n Une signature glacée, pure et éclatante 💎❄️🔥 \n\n Un véritable or liquide.\n\n Des cristaux blond miel 🍯 qui brillent comme du sable doré sous le soleil.\n\n À l’ouverture, l’arôme explose : résine fraîche 🌿, douceur sucrée 🍬 et une touche givrée et éclatante 💎.',                           
-                            tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 130.00 },
-                            ]
-                        },
-                        {
-                            id: '🌷 35u Mimosa 🌷',
-                            flag: '🇲🇦',
-                            name: '🌷 35u Mimosa 🌷',
-                            farm: 'KILO GRAMMES FARMERZ ⚡️',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductMimo.png',
-                            video: 'VideoMimo.mov',
-                            description: '⚡️ K.G.F EXCLUSIVE ⚡️ \n\n La fameuse Mimosa filtrée en 35u 🌷. Un travail d’orfèvre signé Kilo Grammes Farmerz garantissant une pureté maximale 🏆. \n\n 🍊 Profil Terpénique : \n 🍹 Grosse explosion d’agrumes (Orange / Mandarine) \n 🍾 Touche sucrée et florale en fin de bouche \n\n 💎 Texture : S’effrite facilement et graisse instantanément à la chauffe 🔥. \n\n 👉 Un must-have pour les amateurs de terps fruités et frais ☀️.',                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 90.00 },
-                            ]
-                        }
-                       
-                    ]
-                },
-
-
-                // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
-                {
-                    id: '120U_PREMIUM',
-                    name: '120U PREMIUM 🛖',
-                    image: '',
-                    badgeText: 'Top Qualité',
-                    products: [
-                        {
-                            id: '120u',
-                            flag: '🇲🇦',
-                            name: '🛖 120u Premium 2026',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductPapaya.png',
-                            images: [
-                                'ProductGrandDaddy.jpg',
-                                'ProductPapaya.jpg',
-                            ],
-                            video: 'VideoPapaya.mov',
-                            description: 'La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-
-                            // 👇 NOUVELLE STRUCTURE
-                            variantTitle: 'Choisis ton goût 🥣 :',
-                            jars: [
-                                { name: 'PAPAYA BOMB', emoji: '🥤🧨', colorClass: 'style-red' },
-                                { name: 'LA GRANDADDY', emoji: '☔️☔️', colorClass: 'style-purple' }
-                            ],
-
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'PURPLE',
-                            flag: '🇲🇦',
-                            name: 'PURPLE CREAM',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCream.png',
-                            video: 'VideoCream.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'BLUE ZUSHI',
-                            flag: '🇲🇦',
-                            name: 'BLUE ZUSHI',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductBlueZ.png',
-                            video: 'VideoBlueZ.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'CANDY GANE',
-                            flag: '🇲🇦',
-                            name: 'CANDY GANE',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductGane.png',
-                            video: 'VideoGane.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'HEAD BANGER',
-                            flag: '🇲🇦',
-                            name: 'HEAD BANGER',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductHead.png',
-                            video: 'VideoHead.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'UNICORNZ ÉLITE',
-                            flag: '🇲🇦',
-                            name: 'UNICORNZ ÉLITE',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductUni.png',
-                            video: 'VideoUni.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                    ]
-                },
-
                 // 5. FROZEN PREMIUM ❄️
                 {
                     id: 'FROZEN',
@@ -875,111 +737,249 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
 
-                // 7. STATIC USA 🇺🇸
+                // 3. DRY SIFT HASH ⚡️ 
                 {
-                    id: 'STATIC_USA',
-                    name: 'STATIC USA 🇺🇸',
+                    id: 'FILTRED',
+                    name: 'FILTRED ⚡️',
                     image: '',
-                    badgeText: 'Exclusif',
+                    badgeText: '35u/70u/90u/105u',
                     products: [
                         {
-                            id: '🇺🇸⚡️ StaticUsa ⚡️🇺🇸',
-                            flag: '🇺🇸',
-                            name: '🇺🇸⚡️ StaticUsa ⚡️🇺🇸',
-                            farm: 'CALITEFARM 🇺🇸🇨🇭',
+                            id: '❄️ Donna ICE 💙',
+                            flag: '🇲🇦',
+                            name: '❄️ Donna ICE 💙',
+                            farm: 'Gaz N Fruit ✨💛',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductSift1.jpeg',
-                            images:['ProductSift4.jpeg','ProductSift3.jpeg', 'ProductSift2.jpeg'],
-                            video: 'VideoSift.mp4',
-                            description: '🇺🇸✨ Static Sift USA ✨ \n Calite Farm 🌿 \n\n 💛 Static sift fin, sableux & lumineux \n ✨ Teinte dorée élégante \n\n 👃🌿 Odeur & ressenti \n 🍃 Arômes naturels & végétaux\n 💨 Expérience douce et équilibrée \n\n 🌍🇺🇸🇨🇭 Calite Farm \n Californie / Suisse — savoir-faire & passion 🔥\n\n ✅ Strains disponibles :\n\n 💜 Bridesman 💍',
+                            image: 'ProductDonna.jpg',
+                            images: ['ProductDonna1.jpg',],
+                            video: 'VideoDonna.mov',
+                            description: '🦠 105u Micron 🦠 \n\n Donna ICE ❄️💙\n Une vague de fraîcheur mentholée 🌬️ accompagnée d’une crème douce et onctueuse 🤍.\n Une sensation glacée 🧊 qui enveloppe le corps et l’esprit dans un nuage froid, apaisant et soyeux ☁️✨.\n\n Un 105µ brillant, vivant et fondant.\n Une signature glacée, pure et éclatante 💎❄️🔥 \n\n Un véritable or liquide.\n\n Des cristaux blond miel 🍯 qui brillent comme du sable doré sous le soleil.\n\n À l’ouverture, l’arôme explose : résine fraîche 🌿, douceur sucrée 🍬 et une touche givrée et éclatante 💎. ',                           
                             tarifs: [
-                                { weight: '5g', price: 170.00 },
-                                { weight: '10g', price: 330.00 },
-                                { weight: '25g', price: 650.00 },
-                                { weight: '50g', price: 1200.00 },
-
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
                             ]
                         },
                         {
-                            id: '🇺🇸🦀 Sashimi 🍣🇺🇸',
-                            flag: '🇺🇸',
-                            name: '🦀 SASHIMI 🍣',
-                            farm: 'HASHIVA STATIC 💙',
+                            id: 'Royal Frost',
+                            flag: '🇲🇦',
+                            name: '👑 Royal Frost 🔥',
+                            farm: 'Gaz N Fruit ✨💛',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductSashimi.jpg',
-                            images:['ProductSashimi.jpg','ProductSashimi1.jpg'],
-                            video: 'VideoSashimi.mp4',
-                            description: '🦀 HASHIVA STATIC USA 🍣 \n Une masterclass venue des US 🇺🇸. Ce static sift est une véritable expérience gastronomique pour les poumons 🫁. \n\n Une extraction d’une pureté chirurgicale 🧪 avec une texture "Fish Scale" qui fond instantanément 🍯.\n\n 🍣 Profil Terpènique Exotique & Umami : \n 🌊 Notes fraîches et salines uniques \n ⛽ Grosse attaque Gas / Diesel \n 🦀 Une saveur "Funky" complexe pour les vrais connaisseurs.',
+                            image: 'ProductFrost.jpg',
+                            images: ['ProductFrost1.jpg',],
+                            video: 'VideoFrost.mov',
+                            description: '🦠 105u Micron 🦠 \n\n Royal Frost 👑🔥\n  Plus profond, plus intense 🌑.\n  Un profil gaz puissant ⛽, relevé par des notes de sucre caramélisé 🍮 et un givre royal ❄️👑.\n\n La montée est rapide 🚀 :\n  une frappe nette derrière les yeux 👀💥, avant de se diffuser lentement dans tout le corps pour une sensation lourde, chaude et enveloppante 🔥🫠.\n\n  Un 105µ brillant, vivant et fondant.\n Une signature glacée, pure et éclatante 💎❄️🔥 \n\n Un véritable or liquide.\n\n Des cristaux blond miel 🍯 qui brillent comme du sable doré sous le soleil.\n\n À l’ouverture, l’arôme explose : résine fraîche 🌿, douceur sucrée 🍬 et une touche givrée et éclatante 💎.',                           
                             tarifs: [
-                                { weight: '2g', price: 80.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 330.00 },
-
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
                             ]
                         },
                         {
-                            id: 'HASHIVAStaticUSA',
-                            flag: '🇺🇸',
-                            name: '💎 CANDY BEZELS 💎',
-                            farm: 'HASHIVA STATIC 💙',
+                            id: '🌷 35u Mimosa 🌷',
+                            flag: '🇲🇦',
+                            name: '🌷 35u Mimosa 🌷',
+                            farm: 'KILO GRAMMES FARMERZ ⚡️',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductBezels.jpg',
-                            video: 'VideoBezels.mov',
-                            description: '💎 HASHIVA STATIC USA 💎 \n Straight from USA 🇺🇸, ce static sift d’élite affiche une robe dorée brillante ✨🍯, résultat d’un tri ultra-clean et d’un savoir-faire top-shelf 🧬.\n\n Profil terpènique candy luxury 🍬🍭 : \n 🍓 fruits sucrés \n 🍬 bonbon haut de gamme \n ⛽ touche gazzy crémeuse signature US',
-                            tarifs: [
-                                { weight: '2g', price: 80.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 330.00 },
-
+                            image: 'ProductMimo.png',
+                            video: 'VideoMimo.mov',
+                            description: '⚡️ K.G.F EXCLUSIVE ⚡️ \n\n La fameuse Mimosa filtrée en 35u 🌷. Un travail d’orfèvre signé Kilo Grammes Farmerz garantissant une pureté maximale 🏆. \n\n 🍊 Profil Terpénique : \n 🍹 Grosse explosion d’agrumes (Orange / Mandarine) \n 🍾 Touche sucrée et florale en fin de bouche \n\n 💎 Texture : S’effrite facilement et graisse instantanément à la chauffe 🔥. \n\n 👉 Un must-have pour les amateurs de terps fruités et frais ☀️.',                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
                             ]
-                        }/* ,
-                        {
-                            id: 'StaticUSA',
-                            flag: '🇺🇸',
-                            name: '🗽 Kevin breats 🇺🇸',
-                            farm: 'BLOOD&PRESS 🔱',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductKevin.png',
-                            video: 'VideoKevin.mov',
-                            description: '~Un hybride premium combinant la gourmandise crémeuse Forbidden et les notes sucrée de son fruit. 🍇   \n ~ En bouche ou à l’odeur on sent que sa était travailler avec amour 😍 🇺🇸\n ~Arômes sucrés, texture résineuse et pétante après mutation légère🌬️💨 et profil terpène riche🔥🧨 \n ~Déjà connue des habituer 🥇🏅🎖️',
-                            tarifs: [
-                                { weight: '1g', price: 40.00 },
-                                { weight: '3g', price: 100.00 },
-                                { weight: '10g', price: 320.00 },
-
-                            ]
-                        } */
+                        }
+                       
                     ]
                 },
-                // 8. EXCTRACTION 🇺🇸
+
+
+                // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
                 {
-                    id: 'ExctraUsa',
-                    name: 'EXCTRACTION 🇺🇸',
+                    id: '120U_PREMIUM',
+                    name: '120U PREMIUM 🛖',
                     image: '',
-                    badgeText: 'Piatella',
+                    badgeText: 'Top Qualité',
                     products: [
                         {
-                            id: 'LEMON TREEZ',
-                            flag: '🇺🇸',
-                            name: '🍋 LEMON TREEZ 🌲',
-                            farm: 'PIATELLA ALBINOS 🧉',
+                            id: '120u',
+                            flag: '🇲🇦',
+                            name: '🛖 120u Premium 2026',
+                            farm: 'DHF FARMZ ✨',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductTreez.jpg',
-                            video: 'VideoTreez.mov',
-                            description: '159/73u 🎖️',
+                            image: 'ProductPapaya.png',
+                            images: [
+                                'ProductGrandDaddy.jpg',
+                                'ProductPapaya.jpg',
+                            ],
+                            video: 'VideoPapaya.mov',
+                            description: 'La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+
+                            // 👇 NOUVELLE STRUCTURE
+                            variantTitle: 'Choisis ton goût 🥣 :',
+                            jars: [
+                                { name: 'PAPAYA BOMB', emoji: '🥤🧨', colorClass: 'style-red' },
+                                { name: 'LA GRANDADDY', emoji: '☔️☔️', colorClass: 'style-purple' }
+                            ],
+
                             tarifs: [
-                                { weight: '1g', price: 50.00 },
-                                { weight: '5g', price: 220.00 },
-                                { weight: '10g', price: 380.00 },
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'PURPLE',
+                            flag: '🇲🇦',
+                            name: 'PURPLE CREAM',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCream.png',
+                            video: 'VideoCream.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'BLUE ZUSHI',
+                            flag: '🇲🇦',
+                            name: 'BLUE ZUSHI',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBlueZ.png',
+                            video: 'VideoBlueZ.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'CANDY GANE',
+                            flag: '🇲🇦',
+                            name: 'CANDY GANE',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductGane.png',
+                            video: 'VideoGane.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'HEAD BANGER',
+                            flag: '🇲🇦',
+                            name: 'HEAD BANGER',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductHead.png',
+                            video: 'VideoHead.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'UNICORNZ ÉLITE',
+                            flag: '🇲🇦',
+                            name: 'UNICORNZ ÉLITE',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductUni.png',
+                            video: 'VideoUni.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                    ]
+                },
+                  // 2. CALI MOUSSE 🧬 (Nouvelle entrée distincte)
+                  {
+                    id: 'CALI_MOUSSE_BTN',
+                    name: 'CALI MOUSSE 🧬',
+                    image: '', // Mets l'image qui correspond au Cali Mousse
+                    badgeText: 'Filtré',
+                    products: [
+                        {
+                            id: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
+                            flag: '🇲🇦',
+                            name: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
+                            farm: '✨ US Quality ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCaliM.jpg', // Image du produit
+                            video: 'VideoCaliM.mp4',
+                            description: '🇺🇸🍯 Mousse US \n  🤯 Incroyable odeur \n 🫠 Texture premium \n ✈️💤 Mode avion activé',
+
+                            variantTitle: 'Saveurs Frozen ❄️ :',
+                            jars: [
+                                { name: 'Gelato', emoji: '🍨', colorClass: 'style-tangier' },
+                                { name: 'RS11', emoji: '🧬', colorClass: 'style-purple' },
+                                { name: 'Candy Crush', emoji: '🍬', colorClass: 'style-red' },
+                            ],
+
+                            tarifs: [
+                                { weight: '10g', price: 55.00 },
+                                { weight: '20g', price: 100.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 380.00 },
+                            ]
+                        }
+                    ]
+                },
+
+                {
+                    id: 'JAUNE_CREMEUX',
+                    name: 'JAUNE CRÉMEUX 🍯',
+                    image: '',
+                    badgeText: 'Classique',
+                    products: [
+                        {
+                            id: 'Og',
+                            flag: '🇪🇸',
+                            name: 'Mousseux 🧽',
+                            farm: '🌾 No Farm 🌾',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductOg1.jpeg',
+                            video: 'VideoOg1.mp4',
+                            description: '🧽Jaune mousseux top crème 🧽⬇️ \n\n - Jaune crémeux comme on aime avec bonne défonce  🚬 \n -super odeur de bonne plante 🌱',
+                            tarifs: [
+                                { weight: '10g', price: 40.00 },
+                                { weight: '25g', price: 90.00 },
+                                { weight: '50g', price: 150.00 },
+                                { weight: '100g', price: 280.00 },
                             ]
                         }
                     ]
                 }
+
+
             ]
         },
         // ============================================================
