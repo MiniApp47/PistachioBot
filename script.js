@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
                         {
-                            id: '💎 ZOY',
+                            id: 'ZOY',
                             flag: '🇺🇸',
                             name: '💎 ZOY',
                             farm: '🇺🇸 CALI – THE TEN CO',
@@ -1054,9 +1054,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // 'targetId' doit être l'ID EXACT du produit vers lequel tu veux aller
                 packContents: [
-                    { name: '5g : Cali Us ( au choix ) 🇺🇸', targetId: 'CALI_USA' },
+                    { name: '5g : Cali Us ( au choix ) 🇺🇸', targetId: 'ZOY' },
                     { name: '5g : Frozen Sift Hash ⚡️🌬️ ', targetId: 'FrozenSource' },
-                    { name: '5g : 🛖 120u Premium 2026 ( au choix ) ', targetId: '120U_PREMIUM' },
+                    { name: '5g : 🛖 120u Premium 2026 ( au choix ) ', targetId: '120u' },
                 ],
                 
                 // Description formatée avec les sauts de ligne
