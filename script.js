@@ -412,6 +412,60 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                         {
+                            id: '🦍 GG4 🌿',
+                            flag: '🇲🇦',
+                            name: '🦍 GG4 🌿',
+                            farm: '🏠 La SourceXdirhamFarm $',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductGG.jpg',
+                            video: 'VideoGG.mov', // Ta 1ère vidéo
+                            description: '📦💨 Format : 25g \n\n 👃💥 Une odeur super forte dès l’ouverture, ça embaume direct 🔥⛽ \n 🌲🍫 Des notes terreuses et bien lourdes, avec un côté bien prononcé \n\n 💨😮‍💨 Un goût intense et fidèle à l’odeur, bien marqué en bouche\n 🔥💣 Une fumette puissante, qui ne déçoit pas\n\n 🎯💎 Très belle qualité, gros travail 👏\n 🚀💯 Une vraie pépite pour les amateurs de saveurs fortes !',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },               
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 550.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
+                        {
+                            id: '🌿 Sourcherry 🍒',
+                            flag: '🇲🇦',
+                            name: '🌿 Sourcherry 🍒',
+                            farm: '🏠 La SourceXdirhamFarm $',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductS.jpg',
+                            video: 'VideoS.mov', // Ta 1ère vidéo
+                            description: '📦💨 Format : 25g \n\n 👃🔥 Une odeur fruitée, intense et sucrée qui te frappe direct 🍒🍬\n 💨😮‍💨 Une fumette douce, propre et super agréable, ça glisse tout seul\n\n 🎯💎 Qualité au top, gros taf sur ce produit 👏\n  🚀💯 Un vrai plaisir du début à la fin !',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },               
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 550.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
+                        {
+                            id: '🌅 Pink Sunset 🌿',
+                            flag: '🇲🇦',
+                            name: '🌅 Pink Sunset 🌿',
+                            farm: '🏠 La Source ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPS.jpg',
+                            video: 'VideoPS.mov', // Ta 1ère vidéo
+                            description: '❄️💎 Type : Frozen Sift \n 📦🧱 Format : Plaque 100g  \n\n 👃💥 Une odeur super lourde dès l’ouverture, ça envoie direct 🔥🍬 \n 🍓🍊 Un profil fruité surprenant, doux et bien présent  \n\n 💨😮‍💨 Un goût riche et intense, avec cette touche fruitée qui fait vraiment plaisir 😍 \n 🔥💣 Une fumette bien propre et savoureuse, gros kiff \n\n 🎯💎 Très belle qualité, produit maîtrisé 👏\n 🚀💯 Franchement, le côté fruité comme ça… ça régale !',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },               
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 320.00 },
+                                { weight: '50g', price: 550.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
+                        {
                             id: '🍭 BUBBLE GUM',
                             flag: '🇲🇦',
                             name: '🍭 BUBBLE GUM',
