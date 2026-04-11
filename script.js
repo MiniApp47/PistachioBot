@@ -307,6 +307,39 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Exclusif',
                     products: [
                         {
+                            id: '⛽🌴 West Coast Gaz',
+                            flag: '🇺🇸',
+                            name: '⛽🌴 West Coast Gaz',
+                            farm: '🔥 MR Miyagi Hash Co 🔥',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductWG.jpg',
+                            video: 'VideoWG.mov',
+                            description: '✨💎 STATIC SIFT USA 🇺🇸 — 139/73u 💎✨ \n\n Doré, brillant ✨ texture ultra sableuse qui devient crémeuse au toucher — un tri propre, précis, sans défaut. \n\n 💥 Ouverture sucrée & pétillante façon champagne, rapidement suivie d’une lourde vague gazeuse typique West Coast ⛽🌴\n 🌿 Fond clean, naturel, zéro parasite.\n\n 💨 Fumée douce & dense, goût pur, longue tenue en bouche 🔥\n Un static qui parle direct aux connaisseurs.\n\n 🏆 MR Miyagi Hash Co : référence mondiale, connue pour sa pureté extrême 🧪\n Sélection drastique, extraction maîtrisée — que du clean & terpènes\n\n 🚨 Très rare en IDF\n\n  🥜 Bienvenue chez PISTACHIO 🫡',
+                            tarifs: [
+                                { weight: '2g', price: 70.00 },
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 280.00 },
+                            ]
+                        },
+                        {
+                            id: '🍾❄️ Champagne Ice',
+                            flag: '🇺🇸',
+                            name: '🍾❄️ Champagne Ice',
+                            farm: '🔥 MR Miyagi Hash Co 🔥',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCI.jpg',
+                            video: 'VideoCI.mov',
+                            description: '✨💎 STATIC SIFT USA 🇺🇸 — 139/73u 💎✨ \n\n Doré, brillant ✨ texture ultra sableuse qui devient crémeuse au toucher — un tri propre, précis, sans défaut. \n\n 💥 Ouverture sucrée & pétillante façon champagne, rapidement suivie d’une lourde vague gazeuse typique West Coast ⛽🌴\n 🌿 Fond clean, naturel, zéro parasite.\n\n 💨 Fumée douce & dense, goût pur, longue tenue en bouche 🔥\n Un static qui parle direct aux connaisseurs.\n\n 🏆 MR Miyagi Hash Co : référence mondiale, connue pour sa pureté extrême 🧪\n Sélection drastique, extraction maîtrisée — que du clean & terpènes\n\n 🚨 Très rare en IDF\n\n  🥜 Bienvenue chez PISTACHIO 🫡',
+                            tarifs: [
+                                { weight: '2g', price: 70.00 },
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 280.00 },
+
+                            ]
+                        },
+                        {
                             id: '🇺🇸⚡️ StaticUsa ⚡️🇺🇸',
                             flag: '🇺🇸',
                             name: '🇺🇸⚡️ StaticUsa ⚡️🇺🇸',
