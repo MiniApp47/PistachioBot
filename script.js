@@ -183,9 +183,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: '',
                             tarifs: [
                                 { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 210.00 },
-                                { weight: '50g', price: 340.00 },
-                                { weight: '100g', price: 640.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 300.00 },
+                                { weight: '100g', price: 580.00 },
                             ]
                         },
                         {
@@ -200,12 +200,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: '',
                             tarifs: [
                                 { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 210.00 },
-                                { weight: '50g', price: 340.00 },
-                                { weight: '100g', price: 640.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 300.00 },
+                                { weight: '100g', price: 580.00 },
                             ]
                         },
-                        {
+                      /*   {
                             id: 'Toxic',
                             flag: '🇺🇸',
                             name: 'Toxic punch ☠️🥊',
@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 340.00 },
                                 { weight: '100g', price: 640.00 },
                             ]
-                        }
+                        } */
                        
                     ]
                 }
@@ -569,25 +569,18 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Frozensift',
                             flag: '🇲🇦',
                             name: '🫒 Frozen sift ⚡️🏆',
-                            farm: '🌾 No Farm 🌾',
+                            farm: '✨ KAVIAR FARMZ ✨',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductSift.jpg',
-                            images: ['ProductSift.jpg','ProductTangier.jpg','ProductGrappe.jpg'],
+                            image: 'ProductGrappe.jpg',
                             videos: [
-                                'VideoTangier.mp4', // Ta 1ère vidéo
-                                'VideoGrappe.mp4', // Ta 1ère vidéo
-                                'VideoSift.mov', // Ta 1ère vidéo
-                                'VideoSift2.mov'  // Ta 2ème vidéo
+                                'VideoGrappe.mp4' // Ta 1ère vidéo
                             ],
                             description: '🏠 No FARMZ incroyable 🏆   \n Vous les connaissait déjà produit plus que satisfaisant 🥇\n  Sec pétante 🫡\n Défonce super présente ces pour les gros pec 🤓\n 130 chez nous 😋😋\n On me chuchote que sa les vend 170 en I.D.F 🤭🤭',
 
                             // 👇 NOUVELLE STRUCTURE
                             variantTitle: 'Saveurs Frozen ❄️ :',
                             jars: [
-                                { name: 'POISON', emoji: '💀', colorClass: 'style-purple' },
-                                { name: 'PANNACOTA', emoji: '🍮', colorClass: 'style-red' },
-                                { name: 'TANGIER', emoji: '🍊', colorClass: 'style-tangier' },
                                 { name: 'GRAPPE', emoji: '🍇', colorClass: 'style-grappe' },
                             ],
 
@@ -637,7 +630,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'KAVIAR',
                     products: [
-                        {
+                       /*  {
                             id: 'GMO 🔬',
                             flag: '🇲🇦',
                             name: 'GMO 🔬',
@@ -647,12 +640,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             image: 'ProductP1.jpg',
                             video: 'VideoP1.mp4',
                             description: '❄️🔥 FRESH FROZEN – SINGLE SOURCE – P420 🔥❄️ \n\n 🌱 Produit 100% Single Source \n ➡️ De la plante à l’extraction, maîtrise totale \n ❄️ Extraction Fresh Frozen pour garder tous les arômes & terpènes \n 💎 Qualité premium, goût intense, texture onctueuse \n\n  🔬 GMO \n  ⛽🧄 Ultra puissant, gazzy, lourd en bouche \n 👉 Parfait pour les amateurs de sensations fortes \n\n  💸🤝 Pas cher la team \n 🔥 On arrange MAX sur les prix \n 📦 Qualité au top, dispo limitée \n\n 🚀💨 Du vrai fire, pour les vrais connaisseurs 💨🚀',
-                          /*    // 👇 NOUVELLE STRUCTURE
-                             variantTitle: 'Saveurs Frozen ❄️ :', 
-                             jars: [
-                                 { name: 'GMO', emoji: '🔬', colorClass: 'style-gmo' },
-                                 { name: 'Lamponie', emoji: '🍓', colorClass: 'style-lampo' },
-                             ], */
+                   
  
                             tarifs: [
                                 { weight: '10g', price: 100.00 },
@@ -671,12 +659,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             image: 'ProductP.jpg',
                             video: 'VideoP.mp4',
                             description: '❄️🔥 FRESH FROZEN – SINGLE SOURCE – P420 🔥❄️ \n\n 🌱 Produit 100% Single Source \n ➡️ De la plante à l’extraction, maîtrise totale \n ❄️ Extraction Fresh Frozen pour garder tous les arômes & terpènes \n 💎 Qualité premium, goût intense, texture onctueuse \n\n  🍓 Lamponie \n 🍬 Fruité, sucré, notes de framboise \n 👉 Smooth, gourmand, super parfumé \n\n 💸🤝 Pas cher la team \n 🔥 On arrange MAX sur les prix \n 📦 Qualité au top, dispo limitée \n\n 🚀💨 Du vrai fire, pour les vrais connaisseurs 💨🚀',
-                            /*  // 👇 NOUVELLE STRUCTURE
-                             variantTitle: 'Saveurs Frozen ❄️ :', 
-                             jars: [
-                                 { name: 'GMO', emoji: '🔬', colorClass: 'style-gmo' },
-                                 { name: 'Lamponie', emoji: '🍓', colorClass: 'style-lampo' },
-                             ], */
+                         
  
                             tarifs: [
                                 { weight: '10g', price: 100.00 },
@@ -684,7 +667,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 300.00 },
                                 { weight: '100g', price: 600.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'Fuel',
                             flag: '🇲🇦',
@@ -832,6 +815,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '35u/70u/90u/105u',
                     products: [
                         {
+                            id: '🥇 X3 90u',
+                            flag: '🇲🇦',
+                            name: '🥇 X3 90u',
+                            farm: '🟡 Kaviar Farm',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductX3.jpg',
+                            video: 'VideoX3.mov',
+                            description: '🎨 Couleur : \n ✨ Blond clair à doré brillant\n 🌼 Nuances miel / beige crème\n 🚫 Pas de vert → signe d’un produit propre et bien filtré\n\n 🧱 Texture :\n ❄️ Sableuse et fine à froid\n 🔥 Devient légèrement grasse et collante\n 👌 Facile à travailler, homogène\n\n 🔬 Qualité visuelle :\n 💎 Très clean, peu voire pas d’impuretés\n 🌿 Riche en trichomes → rendu premium\n 👀 Aspect uniforme et soigné\n\n 🔥 À la chauffe :\n 🫧 Léger bullage, bon niveau de résine\n 💨 Combustion propre\n\n ⚖️ Global :\n  🥇 Un 90u bien filtré, avec une belle couleur dorée\n 💰 Excellent rapport qualité / prix',                           
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 240.00 },
+                                { weight: '100g', price: 430.00 },
+                            ]
+                        },
+                        {
                             id: '❄️ Donna ICE 💙',
                             flag: '🇲🇦',
                             name: '❄️ Donna ICE 💙',
@@ -882,14 +882,76 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
 
 
-                // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
+             
+                  // 2. CALI MOUSSE 🧬 (Nouvelle entrée distincte)
+                  {
+                    id: 'CALI_MOUSSE_BTN',
+                    name: 'CALI MOUSSE 🧬',
+                    image: '', // Mets l'image qui correspond au Cali Mousse
+                    badgeText: 'Filtré',
+                    products: [
+                        {
+                            id: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
+                            flag: '🇲🇦',
+                            name: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
+                            farm: '✨ US Quality ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCaliM.jpg', // Image du produit
+                            video: 'VideoCaliM.mp4',
+                            description: '🇺🇸🍯 Mousse US \n  🤯 Incroyable odeur \n 🫠 Texture premium \n ✈️💤 Mode avion activé',
+
+                            variantTitle: 'Saveurs Frozen ❄️ :',
+                            jars: [
+                                { name: 'Gelato', emoji: '🍨', colorClass: 'style-tangier' },
+                                { name: 'RS11', emoji: '🧬', colorClass: 'style-purple' },
+                                { name: 'Candy Crush', emoji: '🍬', colorClass: 'style-red' },
+                            ],
+
+                            tarifs: [
+                                { weight: '10g', price: 55.00 },
+                                { weight: '20g', price: 100.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 380.00 },
+                            ]
+                        }
+                    ]
+                },
+
+                {
+                    id: 'JAUNE_CREMEUX',
+                    name: 'JAUNE CRÉMEUX 🍯',
+                    image: '',
+                    badgeText: 'Classique',
+                    products: [
+                        {
+                            id: 'Og',
+                            flag: '🇪🇸',
+                            name: 'Mousseux 🧽',
+                            farm: '🟡 Kaviar Farm',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductOg1.jpg',
+                            video: 'VideoOg1.mov',
+                            description: '💛 Jaune mousseux de terrain, propre et naturel \n 🍓 Incroyable odeur fruitée, bien marquée \n 💎 Super clean, rien à dire   \n\n 🫧 Vrai mousseux, texture aérée comme il faut \n 👅 Bon goût, fidèle à l’odeur \n 🌿 Super odeur du début à la fin   \n\n 🔥 Produit incroyable, bien travaillé \n 🥇 Ça fait clairement le taf niveau qualité / plaisir',
+                            tarifs: [
+                                { weight: '10g', price: 50.00 },
+                                { weight: '25g', price: 110.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 300.00 },
+                            ]
+                        }
+                    ]
+                },
+
+                   // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
                 {
                     id: '120U_PREMIUM',
                     name: '120U PREMIUM 🛖',
                     image: '',
                     badgeText: 'Top Qualité',
                     products: [
-                        {
+                       /*  {
                             id: '120u',
                             flag: '🇲🇦',
                             name: '🛖 120u Premium 2026',
@@ -968,8 +1030,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 230.00 },
                                 { weight: '100g', price: 450.00 },
                             ]
-                        },
-                        {
+                        }, */
+                    /*     {
                             id: 'HEAD BANGER',
                             flag: '🇲🇦',
                             name: 'HEAD BANGER',
@@ -1002,69 +1064,9 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 230.00 },
                                 { weight: '100g', price: 450.00 },
                             ]
-                        },
+                        }, */
                     ]
                 },
-                  // 2. CALI MOUSSE 🧬 (Nouvelle entrée distincte)
-                  {
-                    id: 'CALI_MOUSSE_BTN',
-                    name: 'CALI MOUSSE 🧬',
-                    image: '', // Mets l'image qui correspond au Cali Mousse
-                    badgeText: 'Filtré',
-                    products: [
-                        {
-                            id: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
-                            flag: '🇲🇦',
-                            name: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
-                            farm: '✨ US Quality ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCaliM.jpg', // Image du produit
-                            video: 'VideoCaliM.mp4',
-                            description: '🇺🇸🍯 Mousse US \n  🤯 Incroyable odeur \n 🫠 Texture premium \n ✈️💤 Mode avion activé',
-
-                            variantTitle: 'Saveurs Frozen ❄️ :',
-                            jars: [
-                                { name: 'Gelato', emoji: '🍨', colorClass: 'style-tangier' },
-                                { name: 'RS11', emoji: '🧬', colorClass: 'style-purple' },
-                                { name: 'Candy Crush', emoji: '🍬', colorClass: 'style-red' },
-                            ],
-
-                            tarifs: [
-                                { weight: '10g', price: 55.00 },
-                                { weight: '20g', price: 100.00 },
-                                { weight: '50g', price: 220.00 },
-                                { weight: '100g', price: 380.00 },
-                            ]
-                        }
-                    ]
-                },
-
-                {
-                    id: 'JAUNE_CREMEUX',
-                    name: 'JAUNE CRÉMEUX 🍯',
-                    image: '',
-                    badgeText: 'Classique',
-                    products: [
-                        {
-                            id: 'Og',
-                            flag: '🇪🇸',
-                            name: 'Mousseux 🧽',
-                            farm: '🌾 No Farm 🌾',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductOg1.jpeg',
-                            video: 'VideoOg1.mp4',
-                            description: '🧽Jaune mousseux top crème 🧽⬇️ \n\n - Jaune crémeux comme on aime avec bonne défonce  🚬 \n -super odeur de bonne plante 🌱',
-                            tarifs: [
-                                { weight: '10g', price: 40.00 },
-                                { weight: '25g', price: 90.00 },
-                                { weight: '50g', price: 150.00 },
-                                { weight: '100g', price: 280.00 },
-                            ]
-                        }
-                    ]
-                }
 
 
             ]
