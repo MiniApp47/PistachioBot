@@ -111,6 +111,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Exclusif',
                     products: [
                         {
+                            id: '🍋🍒 Lemon Cherry Gelato 🍦',
+                            flag: '🇨🇦',
+                            name: '🍋🍒 Lemon Cherry Gelato 🍦',
+                            farm: 'Eagle Farm 🦅',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductLMC.jpg', // ⚠️ A changer
+                            video: 'VideoLMC.mov',
+                            description: 'Une variété gourmande et fruitée 😋 avec des arômes citronnés 🍋, cerise sucrée 🍒 et une touche crémeuse/dessert 🍦\n\n Effets : euphorie joyeuse 😄✨ qui booste l’humeur, suivie d’une détente douce 😌 sans forcément t’assommer\n\n 👉 Parfaite pour chiller 🛋️, sortir entre potes 🎉 ou juste profiter d’un bon mood 💨',
+                            tarifs: [
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 350.00 },
+                                { weight: '100g', price: 580.00 },
+                            ]
+                        },
+                        {
+                            id: '🌿 Cali Motor Breath ⛽',
+                            flag: '🇨🇦',
+                            name: '🌿 Cali Motor Breath ⛽',
+                            farm: 'Eagle Farm 🦅',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductMot.jpg', // ⚠️ A changer
+                            video: 'VideoMot.mov',
+                            description: 'Une variété ultra puissante 💥 avec une odeur diesel / essence ⛽ très marquée, accompagnée de notes citronnées 🍋 et terreuses 🌍\n\n Effets : euphorie mentale 🧠✨ puis une grosse détente corporelle 🛋️ qui peut vite finir en couch-lock 😴💨\n\n 👉 Parfaite pour le soir 🌙, pour chiller et décrocher complètement 😌',
+                            tarifs: [
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 350.00 },
+                                { weight: '100g', price: 580.00 },
+                            ]
+                        },
+                        {
                             id: 'PurpleBud',
                             flag: '🇨🇦',
                             name: '_Purple Bud 🦄♒️',
