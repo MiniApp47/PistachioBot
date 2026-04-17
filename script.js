@@ -841,6 +841,52 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
 
+                    // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
+                {
+                    id: '120U_PREMIUM',
+                    name: '120U PREMIUM 🛖',
+                    image: '',
+                    badgeText: 'Top Qualité',
+                    products: [
+                          {
+                            id: '🍫💣 Bomba Bomba',
+                            flag: '🇲🇦',
+                            name: '🍫💣 Bomba Bomba',
+                            farm: '✨ KAVIAR FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBB.jpg',
+                            video: 'VideoBB.mov',
+                            description: 'Franchement… qualité Frozen ❄️ sans mentir 🤝\n Mais on reste honnête avec vous la team :\n\n 💎 Un 120u d’excellence\n 🔥 Avec un rendu digne d’un Frozen\n\n  👃 Odeur incroyable – ça te frappe direct\n  🌿 Blindé de terpènes – ultra savoureux \n 💥 Défonce 10/10 – lourde et efficace \n\n 💸 Et là où ça devient fou : \n 👉 Le Frozen au prix du 120u 😳🔥\n\n  💎 Clairement un des meilleurs 120u qu’on a eu \n   👉 Profitez-en la team 🚀💯',                           
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 160.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 450.00 },
+                                { weight: '500g', price: 2000.00 },
+                            ]
+                        },
+                          {
+                            id: '🍓🔥 Straw Kush',
+                            flag: '🇲🇦',
+                            name: '🍓🔥 Straw Kush',
+                            farm: '✨ KAVIAR FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSK.jpg',
+                            video: 'VideoSK.mov',
+                            description: 'Là aussi on est sur une qualité Frozen ❄️ sans mytho 🤝\n Mais toujours en mode clean avec vous : \n\n  💎 Un 120u d’excellence\n 🔥 Avec une qualité qui se rapproche du Frozen \n\n  👃 Odeur sucrée & kushy 🍓\n  🌿 Riche en terpènes – goût intense\n💥 Défonce 10/10 – relax profond 🧠💨\n\n 💸 Le meilleur dans tout ça :\n 👉 Frozen au prix du 120u 😳🔥\n 💎 Encore un très gros niveau pour du 120u\n\n 👉 Faites-vous plaisir la team 🚀🔥',                           
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 160.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 450.00 },
+                                { weight: '500g', price: 2000.00 },
+                            ]
+                        },
+                    ]
+                },
+
                 // 3. DRY SIFT HASH ⚡️ 
                 {
                     id: 'FILTRED',
@@ -852,7 +898,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: '🥇 X3 90u',
                             flag: '🇲🇦',
                             name: '🥇 X3 90u',
-                            farm: '🟡 Kaviar Farm',
+                            farm: '✨ KAVIAR FARMZ ✨',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductX3.jpg',
@@ -962,7 +1008,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Og',
                             flag: '🇪🇸',
                             name: 'Mousseux 🧽',
-                            farm: '🟡 Kaviar Farm',
+                            farm: '✨ KAVIAR FARMZ ✨',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductOg1.jpg',
@@ -978,13 +1024,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
 
-                   // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
-                {
-                    id: '120U_PREMIUM',
-                    name: '120U PREMIUM 🛖',
-                    image: '',
-                    badgeText: 'Top Qualité',
-                    products: [
                        /*  {
                             id: '120u',
                             flag: '🇲🇦',
@@ -1099,8 +1138,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 450.00 },
                             ]
                         }, */
-                    ]
-                },
+              
 
 
             ]
