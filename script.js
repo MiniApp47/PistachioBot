@@ -298,6 +298,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'IMPORT DROP',
                     products: [
                             {
+                                id: '🍋 Gelonade',
+                                flag: '🇺🇸',
+                                name: '🍋 Gelonade',
+                                farm: '🦅 Cali Plate USA 🗽', // Apparaît en petit sous le nom
+                                promoEligible: true,
+                                type: 'FrozenUsa',
+                                image: 'ProductGelo.jpg', // ⚠️ Mets ton image
+                                video: 'VideoGelo.mov', 
+                                description: '🌿✨ Superbe Frozen 🇺🇸 | 70/130u\n\n 💎 Texture fondante aux reflets dorés ❄️, extraction propre et maîtrisée. Le 70/130u met en avant des trichomes de haute qualité.\n\n 👃 Nez puissant : agrumes frais 🍋, notes candy 🍬, légère touche crémeuse 🥛. Une odeur qui tape direct.\n\n 👅 En bouche : doux, citronné, sucré 🍊 avec une belle longueur équilibrée 🔥\n\n 🏆 Une frozen premium 🇺🇸, riche en terpènes, qualité au rendez-vous 😮‍🔥',
+                                tarifs: [
+                                    { weight: '2g', price: 60.00 },
+                                    { weight: '5g', price: 140.00 },
+                                    { weight: '10g', price: 250.00 }
+                                ]
+                            },
+                            {
                                 id: 'Gold Crown ✨🌟',
                                 flag: '🇺🇸',
                                 name: 'Gold Crown ✨🌟',
