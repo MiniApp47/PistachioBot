@@ -123,8 +123,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '10g', price: 90.00 },
                                 { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 350.00 },
-                                { weight: '100g', price: 580.00 },
+                                { weight: '50g', price: 320.00 },
+                                { weight: '100g', price: 550.00 },
                             ]
                         },
                         {
@@ -140,8 +140,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '10g', price: 90.00 },
                                 { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 350.00 },
-                                { weight: '100g', price: 580.00 },
+                                { weight: '50g', price: 320.00 },
+                                { weight: '100g', price: 550.00 },
                             ]
                         },
                         {
