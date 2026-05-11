@@ -495,6 +495,60 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                         {
+                            id: 'Clémentine 🍊',
+                            flag: '🇲🇦',
+                            name: 'Clémentine 🍊',
+                            farm: '🏠 FROZEN NO FARMZ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCl.jpg',
+                            video: 'VideoCl.mp4', 
+                            description: '💎🇲🇦 Moroccan Refinery – Frozen 190/73u ❄️\n\n Extérieur huileux et ultra fondant ✨\n Intérieur sec et pétant 💥\n ne odeur waahou dès l’ouverture 🍊🔥\n\n Profil ultra terpy, propre et puissant 🧼💨\n 🏆 Clairement une très belle pièce.',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },               
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 260.00 },
+                                { weight: '50g', price: 420.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
+                        {
+                            id: '24k x Spritzer 🌟',
+                            flag: '🇲🇦',
+                            name: '24k x Spritzer 🌟',
+                            farm: '🏠 FROZEN NO FARMZ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'Product24.jpg',
+                            video: 'Video24.mp4', 
+                            description: '💎🇲🇦 Moroccan Refinery – Frozen 190/73u ❄️\n\n Extérieur huileux et ultra fondant ✨\n Intérieur sec et pétant 💥\n Une odeur waahou dès l’ouverture 🍬🍇🔥\n\n 🍭 Les terpènes sont vraiment incroyables sur celui-là, profil ultra riche et gourmand du début à la fin 😮‍💨💨\n\n Le goût en fumette est exceptionnel 🔥\n Et la défonce… lourde, propre et bien présente 😵‍💫💨\n 🏆 Ça faisait longtemps qu’un frozen ne m’avait pas autant plu.',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },               
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 260.00 },
+                                { weight: '50g', price: 420.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
+                        {
+                            id: 'Blood Cherry 🍒',
+                            flag: '🇲🇦',
+                            name: 'Blood Cherry 🍒',
+                            farm: '🏠 FROZEN NO FARMZ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBC.jpg',
+                            video: 'VideoBC.mp4', // Ta 1ère vidéo
+                            description: '💎🇲🇦 Moroccan Refinery – Frozen 190/73u ❄️\n\n Odeur incroyable dès l’ouverture 🍒🔥\n Une fumée 10/10, propre et ultra savoureuse 😮‍💨💨\n\n 🍭 Profil terpy intense, gourmand et parfaitement travaillé ✨\n Rien à dire… tout ce qu’on attend d’un vrai frozen 🏆',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },               
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 260.00 },
+                                { weight: '50g', price: 420.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
+                        {
                             id: '🦍 GG4 🌿',
                             flag: '🇲🇦',
                             name: '🦍 GG4 🌿',
@@ -626,7 +680,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             videos: [
                                 'VideoGrappe.mp4' // Ta 1ère vidéo
                             ],
-                            description: '🏠 No FARMZ incroyable 🏆   \n Vous les connaissait déjà produit plus que satisfaisant 🥇\n  Sec pétante 🫡\n Défonce super présente ces pour les gros pec 🤓\n 130 chez nous 😋😋\n On me chuchote que sa les vend 170 en I.D.F 🤭🤭',
+                            description: '🏠 FARMZ incroyable 🏆   \n Vous les connaissait déjà produit plus que satisfaisant 🥇\n  Sec pétante 🫡\n Défonce super présente ces pour les gros pec 🤓\n 130 chez nous 😋😋\n On me chuchote que sa les vend 170 en I.D.F 🤭🤭',
 
                             // 👇 NOUVELLE STRUCTURE
                             variantTitle: 'Saveurs Frozen ❄️ :',
