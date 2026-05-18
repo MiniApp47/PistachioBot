@@ -110,6 +110,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '', // ⚠️ Mets une image ici
                     badgeText: 'Exclusif',
                     products: [
+                         {
+                            id: '🍬⛽ Candy Heart — Terps au MAX ⛽🍬',
+                            flag: '🇺🇸',
+                            name: '🍬⛽ Candy Heart — Terps au MAX ⛽🍬',
+                            farm: '🇺🇸 CALI US',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductHer.jpg',
+                            video: 'VideoHer.mov',
+                            description: '🌈 Explosion de saveurs sucrées & fruitées\n 🍓 Notes candy crémeuses avec un fond bien gazeux\n ❄️ Têtes ultra givrées et collantes\n 💨 Fumée épaisse, douce et très parfumée\n 🔥 Cali premium chargée en terpènes\n 😮‍💨 High euphorique puis relaxation profonde\n\n 💎 Du goût du début à la fin\n 🧃 Chaque puff laisse une vraie trace en bouche 🍬',
+                            tarifs: [
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 320.00 },
+                                { weight: '100g', price: 560.00 },
+                            ]
+                        },
+                        {
+                            id: '🟣❄️ Purple ICE ❄️🟣',
+                            flag: '🇺🇸',
+                            name: '🟣❄️ Purple ICE ❄️🟣',
+                            farm: '🇺🇸 CALI US',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductPurple.jpg',
+                            video: 'VideoPurple.mov',
+                            description: '💨 Terps glacés & ultra parfumés\n 🍇 Notes raisin sucré, fruits noirs & creamy gas\n ❄️ Têtes violettes givrées de résine\n 🔥 Cali lourde avec une fumée froide et intense\n 🌌 Effet puissant, euphorique puis knockout relaxant\n 🧊 Texture sticky, buds compactes et visuel premium\n\n 💎 Une frappe givrée pleine de saveur\n ⛽🍬 Purple vibes & gas au max ⛽🍇',
+                            tarifs: [
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 320.00 },
+                                { weight: '100g', price: 560.00 },
+                            ]
+                        },
                         {
                             id: '🍋🍒 Lemon Cherry Gelato 🍦',
                             flag: '🇨🇦',
