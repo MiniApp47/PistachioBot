@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 550.00 },
                             ]
                         },
-                        {
+                      /*   {
                             id: 'PurpleBud',
                             flag: '🇨🇦',
                             name: '_Purple Bud 🦄♒️',
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 330.00 },
                                 { weight: '100g', price: 630.00 },
                             ]
-                        }
+                        } */
                     ]
                 },
 
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     { weight: '8 bags 3,5g', price: 330.00 },
                                 ]
                         },
-                        {
+                       /*  {
                             id: 'WaterMelon',
                             flag: '🇺🇸',
                             name: '🌊 WaterMelon',
@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 300.00 },
                                 { weight: '100g', price: 580.00 },
                             ]
-                        },
+                        }, */
                       /*   {
                             id: 'Toxic',
                             flag: '🇺🇸',
@@ -497,7 +497,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
                 // 8. EXCTRACTION 🇺🇸
-                {
+              /*   {
                     id: 'ExctraUsa',
                     name: 'EXCTRACTION 🇺🇸',
                     image: '',
@@ -520,7 +520,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         }
                     ]
-                },
+                }, */
                 // 5. FROZEN PREMIUM ❄️
                 {
                     id: 'FROZEN',
@@ -532,7 +532,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Clémentine 🍊',
                             flag: '🇲🇦',
                             name: 'Clémentine 🍊',
-                            farm: '🏠 FROZEN NO FARMZ',
+                            farm: '🧨 MORROCAN REFINERY',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductCl.jpg',
@@ -550,7 +550,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: '24k x Spritzer 🌟',
                             flag: '🇲🇦',
                             name: '24k x Spritzer 🌟',
-                            farm: '🏠 FROZEN NO FARMZ',
+                            farm: '🧨 MORROCAN REFINERY',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'Product24.jpg',
@@ -568,7 +568,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Blood Cherry 🍒',
                             flag: '🇲🇦',
                             name: 'Blood Cherry 🍒',
-                            farm: '🏠 FROZEN NO FARMZ',
+                            farm: '🧨 MORROCAN REFINERY',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductBC.jpg',
@@ -582,7 +582,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 750.00 },
                             ]
                         },
-                        {
+                      /*   {
                             id: '🦍 GG4 🌿',
                             flag: '🇲🇦',
                             name: '🦍 GG4 🌿',
@@ -599,7 +599,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 550.00 },
                                 { weight: '100g', price: 750.00 },
                             ]
-                        },
+                        },*/
                         {
                             id: '🌿 Sourcherry 🍒',
                             flag: '🇲🇦',
@@ -617,8 +617,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 550.00 },
                                 { weight: '100g', price: 750.00 },
                             ]
-                        },
-                        {
+                        }, 
+                   /*      {
                             id: '🌅 Pink Sunset 🌿',
                             flag: '🇲🇦',
                             name: '🌅 Pink Sunset 🌿',
@@ -635,8 +635,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 550.00 },
                                 { weight: '100g', price: 750.00 },
                             ]
-                        },
-                        {
+                        }, */
+                       /*  {
                             id: '🍭 BUBBLE GUM',
                             flag: '🇲🇦',
                             name: '🍭 BUBBLE GUM',
@@ -673,8 +673,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '🪵x2', price: 250.00 },
                                 { weight: '🪵x4', price: 420.00 },
                             ]
-                        },
-                        {
+                        }, */
+                     /*    {
                             id: 'Buchettes',
                             flag: '🇲🇦',
                             name: 'Buchettes 🪵',
@@ -702,7 +702,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
                             ]
-                        },
+                        }, */
                         {
                             id: 'Frozensift',
                             flag: '🇲🇦',
@@ -848,6 +848,24 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '', // Mets une image de Static
                     badgeText: 'Saison 2026',
                     products: [
+                        {
+                            id: 'WATERMELON 🍉',
+                            flag: '🇲🇦',
+                            name: 'WATERMELON 🍉',
+                            farm: '✨ KAVIAR FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductWa.jpg',
+                            video: 'VideoWa.mov',
+                            description: '💥 Une frappe INCROYABLE 💥\n Prépare-toi à une expérience lourde et intense 😮‍💨🔥\n\n 🌬️ Blindée de terpènes\n Un profil aromatique riche et puissant qui frappe dès l’ouverture 👃🍬\n\n 🤍 Sec & crémeux à l’intérieur\n 💧 Doux & huileux à l’extérieur\n ✨ Recouverte de cristaux scintillants ✨\n\n 🍉 Une saveur Watermelon premium, gourmande et ultra savoureuse 🤤\n\n 😴 Tu fumes… tu dors.\n 🔥 Puissance • Saveur • Qualité 🔥\n\n 🚀 KAVIAR FARMZ – Du lourd, du vrai, du premium 💎',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 530.00 },
+                                { weight: '100g', price: 1000.00 }
+                            ]
+                        },
                         {
                             id: '🍰 Alot Cakez 139/45',
                             flag: '🇲🇦',
@@ -998,7 +1016,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '35u/70u/90u/105u',
                     products: [
-                        {
+                      /*   {
                             id: '🥇 X3 90u',
                             flag: '🇲🇦',
                             name: '🥇 X3 90u',
@@ -1014,7 +1032,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 240.00 },
                                 { weight: '100g', price: 430.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: '❄️ Donna ICE 💙',
                             flag: '🇲🇦',
@@ -1047,7 +1065,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 130.00 },
                             ]
                         },
-                        {
+                    /*     {
                             id: '🌷 35u Mimosa 🌷',
                             flag: '🇲🇦',
                             name: '🌷 35u Mimosa 🌷',
@@ -1060,7 +1078,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 50.00 },
                                 { weight: '10g', price: 90.00 },
                             ]
-                        }
+                        } */
                        
                     ]
                 },
