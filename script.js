@@ -1016,6 +1016,91 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '35u/70u/90u/105u',
                     products: [
+                         {
+                            id: '🍰🌿 Kush Cake ✨',
+                            flag: '🇲🇦',
+                            name: '🍰🌿 Kush Cake ✨',
+                            farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductKC.jpg',
+                            video: 'VideoKC.mov',
+                            description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n 🤍 Rencontre parfaite entre profondeur kush & douceur pâtissière raffinée 🍯\n 👃 Odeur captivante, goût riche & signature crémeuse qui reste longtemps en bouche 💨\n 💥 Une sélection au caractère affirmé, chargée en terpènes et travaillée avec précision.\n 🏆 Drop 2026 solide — élégance, puissance et finition premium signées par une maison qui maîtrise son art 🔴💎',                           
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 400.00 },
+                            ]
+                        },
+                         {
+                            id: '🍏🍌 Apple × Banana ✨',
+                            flag: '🇲🇦',
+                            name: '🍏🍌 Apple × Banana ✨',
+                            farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductAB.jpg',
+                            video: 'VideoAB.mov',
+                            description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n 👃 Odeur puissante, goût exceptionnel & profil aromatique ultra travaillé 🍭\n 🌪️ Rempli de terpènes, avec une intensité qui marque dès l’ouverture.\n\n 🏆 Drop 2026 incroyable — excellence, finesse & qualité premium… la maison ne déçoit jamais 💨💎🔴',                           
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 400.00 },
+                            ]
+                        },
+                         {
+                            id: '🎂 Birthday Cake ✨',
+                            flag: '🇲🇦',
+                            name: '🎂 Birthday Cake ✨',
+                            farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBCC.jpg',
+                            video: 'VideoBC.mov',
+                            description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n 🍰 Profil gourmand aux notes de gâteau sucré, crème vanillée & touche pâtissière raffinée 🤍\n 🏆 Drop 2026 incroyable, porté par excellence, précision et qualité premium.\n 🔥 La maison ne déçoit jamais — une sélection travaillée avec caractère, richesse aromatique et finition d’exception 💨💎✨',                           
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 400.00 },
+                            ]
+                        },
+                         {
+                            id: '🍮 Pannacota ✨',
+                            flag: '🇲🇦',
+                            name: '🍮 Pannacota ✨',
+                            farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPaan.jpg',
+                            video: 'VideoPaan.mov',
+                            description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n 🤍 Douceur crémeuse & notes dessert gourmandes, au profil riche et élégant 🍯\n 💎 Excellence, finesse & qualité premium au cœur de cette sélection d’exception.\n 🔥 Texture raffinée, terpènes expressifs & savoir-faire précis pour une expérience propre, intense et savoureuse 💨✨',                           
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 400.00 },
+                            ]
+                        },
+                        {
+                            id: '🍈 Melon Candy 🍬',
+                            flag: '🇲🇦',
+                            name: '🍈 Melon Candy 🍬',
+                            farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductMC.jpg',
+                            video: 'VideoMC.mov',
+                            description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n Notes sucrées et candy gourmandes avec une belle fraîcheur fruitée ✨\n 🔥 Texture raffinée, sélection premium & terpènes expressifs pour une expérience propre et savoureuse 💨💎',                           
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 400.00 },
+                            ]
+                        },
                       /*   {
                             id: '🥇 X3 90u',
                             flag: '🇲🇦',
