@@ -1212,6 +1212,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Classique',
                     products: [
                         {
+                            id: '🧈🍯 Oreoz × Permanent Marker 🍯🧈',
+                            flag: '🇪🇸',
+                            name: '🧈🍯 Oreoz × Permanent Marker 🍯🧈',
+                            farm: '✨ KAVIAR FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductOPM.jpg',
+                            video: 'VideoOPM.mov',
+                            description: '😍 Voilà le jaune qu’on aime voir et qu’on ne croise plus assez souvent !\n\n 🟡 Texture ultra crémeuse, couleur bien jaune 🌕💛 et une explosion de terpènes dès l’ouverture 🍋⛽🔥\n\n 🚀💨 Gros goût, grosse détente et une puissance incroyable. Tout ce qu’on attend d’un vrai jaune de qualité. 🤤💎\n\n 👑 Encore une fois, Kaviar FARMZ nous régale cette année avec une pépite qui met tout le monde d’accord. 💛🔥\n 🙏 Merci Kaviar FARMZ pour ce bijou. 🟡✨\n\n #KaviarFARMZ #Oreoz #PermanentMarker #JauneCrémeux 💛🍯🔥⛽🚀💨💎👑🟡✨',
+                            tarifs: [
+                                { weight: '10g', price: 50.00 },
+                                { weight: '25g', price: 110.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 300.00 },
+                            ]
+                        },
+                        {
                             id: 'Og',
                             flag: '🇪🇸',
                             name: 'Mousseux 🧽',
