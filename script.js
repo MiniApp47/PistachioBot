@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 name: '🍋 Gelonade',
                                 farm: '🦅 Cali Plate USA 🗽', // Apparaît en petit sous le nom
                                 promoEligible: true,
-                                type: 'FrozenUsa',
+                                type: '👨‍🔬 Frozen USA',
                                 image: 'ProductGelo.jpg', // ⚠️ Mets ton image
                                 video: 'VideoGelo.mov', 
                                 description: '🌿✨ Superbe Frozen 🇺🇸 | 70/130u\n\n 💎 Texture fondante aux reflets dorés ❄️, extraction propre et maîtrisée. Le 70/130u met en avant des trichomes de haute qualité.\n\n 👃 Nez puissant : agrumes frais 🍋, notes candy 🍬, légère touche crémeuse 🥛. Une odeur qui tape direct.\n\n 👅 En bouche : doux, citronné, sucré 🍊 avec une belle longueur équilibrée 🔥\n\n 🏆 Une frozen premium 🇺🇸, riche en terpènes, qualité au rendez-vous 😮‍🔥',
@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 name: 'Gold Crown ✨🌟',
                                 farm: '🍁 Frozen Premium Hash USA 🗽', // Apparaît en petit sous le nom
                                 promoEligible: true,
-                                type: 'FrozenUsa',
+                                type: '👨‍🔬 Frozen USA',
                                 image: 'ProductGoldC.jpg', // ⚠️ Mets ton image
                                 video: 'VideoGoldC.mov', 
                                 description: '💛 Un goût exceptionnel, riche et profond, qui enrobe les papilles dès la première taffe 😮‍🔥 \n 💥 Une puissance immédiate, une montée propre qui te propulse loin, avec une défonce intense et maîtrisée 🌈🚀  \n\n  🌴 Arômes californiens ultra prononcés, une odeur qui remplit la pièce et annonce direct la qualité 🔥 \n ✨ Une texture parfaite, une couleur dorée éclatante, digne des meilleurs produits premium 🍯👑  \n\n 😎 Pas juste un hash… une vraie expérience, réservée à ceux qui savent reconnaître le haut niveau 💎🔥',
@@ -370,7 +370,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 name: '70/130u ✨💎',
                                 farm: '🦅 Cali Plate USA 🗽', // Apparaît en petit sous le nom
                                 promoEligible: true,
-                                type: 'FrozenUsa',
+                                type: '👨‍🔬 Frozen USA',
                                 image:'Product70.jpg',
                                 images:['Product701.jpg','Product702.jpg',],
                                 video: 'Video70.mov',
@@ -396,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '⛽🌴 West Coast Gaz',
                             farm: '🔥 MR Miyagi Hash Co 🔥',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'STATIC USA 🇺🇸',
                             image: 'ProductWG.jpg',
                             video: 'VideoWG.mov',
                             description: '✨💎 STATIC SIFT USA 🇺🇸 — 139/73u 💎✨ \n\n Doré, brillant ✨ texture ultra sableuse qui devient crémeuse au toucher — un tri propre, précis, sans défaut. \n\n 💥 Ouverture sucrée & pétillante façon champagne, rapidement suivie d’une lourde vague gazeuse typique West Coast ⛽🌴\n 🌿 Fond clean, naturel, zéro parasite.\n\n 💨 Fumée douce & dense, goût pur, longue tenue en bouche 🔥\n Un static qui parle direct aux connaisseurs.\n\n 🏆 MR Miyagi Hash Co : référence mondiale, connue pour sa pureté extrême 🧪\n Sélection drastique, extraction maîtrisée — que du clean & terpènes\n\n 🚨 Très rare en IDF\n\n  🥜 Bienvenue chez PISTACHIO 🫡',
@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🍾❄️ Champagne Ice',
                             farm: '🔥 MR Miyagi Hash Co 🔥',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'STATIC USA 🇺🇸',
                             image: 'ProductCI.jpg',
                             video: 'VideoCI.mov',
                             description: '✨💎 STATIC SIFT USA 🇺🇸 — 139/73u 💎✨ \n\n Doré, brillant ✨ texture ultra sableuse qui devient crémeuse au toucher — un tri propre, précis, sans défaut. \n\n 💥 Ouverture sucrée & pétillante façon champagne, rapidement suivie d’une lourde vague gazeuse typique West Coast ⛽🌴\n 🌿 Fond clean, naturel, zéro parasite.\n\n 💨 Fumée douce & dense, goût pur, longue tenue en bouche 🔥\n Un static qui parle direct aux connaisseurs.\n\n 🏆 MR Miyagi Hash Co : référence mondiale, connue pour sa pureté extrême 🧪\n Sélection drastique, extraction maîtrisée — que du clean & terpènes\n\n 🚨 Très rare en IDF\n\n  🥜 Bienvenue chez PISTACHIO 🫡',
@@ -429,7 +429,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🇺🇸⚡️ StaticUsa ⚡️🇺🇸',
                             farm: 'CALITEFARM 🇺🇸🇨🇭',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'STATIC USA 🇺🇸',
                             image: 'ProductSift1.jpeg',
                             images:['ProductSift4.jpeg','ProductSift3.jpeg', 'ProductSift2.jpeg'],
                             video: 'VideoSift.mp4',
@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🦀 SASHIMI 🍣',
                             farm: 'HASHIVA STATIC 💙',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'STATIC USA 🇺🇸',
                             image: 'ProductSashimi.jpg',
                             images:['ProductSashimi.jpg','ProductSashimi1.jpg'],
                             video: 'VideoSashimi.mp4',
@@ -466,7 +466,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '💎 CANDY BEZELS 💎',
                             farm: 'HASHIVA STATIC 💙',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'STATIC USA 🇺🇸',
                             image: 'ProductBezels.jpg',
                             video: 'VideoBezels.mov',
                             description: '💎 HASHIVA STATIC USA 💎 \n Straight from USA 🇺🇸, ce static sift d’élite affiche une robe dorée brillante ✨🍯, résultat d’un tri ultra-clean et d’un savoir-faire top-shelf 🧬.\n\n Profil terpènique candy luxury 🍬🍭 : \n 🍓 fruits sucrés \n 🍬 bonbon haut de gamme \n ⛽ touche gazzy crémeuse signature US',
@@ -534,7 +534,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: 'Clémentine 🍊',
                             farm: '🧨 MORROCAN REFINERY',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FROZEN PREMIUM ❄️',
                             image: 'ProductCl.jpg',
                             video: 'VideoCl.mp4', 
                             description: '💎🇲🇦 Moroccan Refinery – Frozen 190/73u ❄️\n\n Extérieur huileux et ultra fondant ✨\n Intérieur sec et pétant 💥\n ne odeur waahou dès l’ouverture 🍊🔥\n\n Profil ultra terpy, propre et puissant 🧼💨\n 🏆 Clairement une très belle pièce.',
@@ -552,7 +552,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '24k x Spritzer 🌟',
                             farm: '🧨 MORROCAN REFINERY',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FROZEN PREMIUM ❄️',
                             image: 'Product24.jpg',
                             video: 'Video24.mp4', 
                             description: '💎🇲🇦 Moroccan Refinery – Frozen 190/73u ❄️\n\n Extérieur huileux et ultra fondant ✨\n Intérieur sec et pétant 💥\n Une odeur waahou dès l’ouverture 🍬🍇🔥\n\n 🍭 Les terpènes sont vraiment incroyables sur celui-là, profil ultra riche et gourmand du début à la fin 😮‍💨💨\n\n Le goût en fumette est exceptionnel 🔥\n Et la défonce… lourde, propre et bien présente 😵‍💫💨\n 🏆 Ça faisait longtemps qu’un frozen ne m’avait pas autant plu.',
@@ -570,7 +570,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: 'Blood Cherry 🍒',
                             farm: '🧨 MORROCAN REFINERY',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FROZEN PREMIUM ❄️',
                             image: 'ProductBC.jpg',
                             video: 'VideoBC.mp4', // Ta 1ère vidéo
                             description: '💎🇲🇦 Moroccan Refinery – Frozen 190/73u ❄️\n\n Odeur incroyable dès l’ouverture 🍒🔥\n Une fumée 10/10, propre et ultra savoureuse 😮‍💨💨\n\n 🍭 Profil terpy intense, gourmand et parfaitement travaillé ✨\n Rien à dire… tout ce qu’on attend d’un vrai frozen 🏆',
@@ -606,7 +606,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🌿 Sourcherry 🍒',
                             farm: '🏠 La SourceXdirhamFarm $',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FROZEN PREMIUM ❄️',
                             image: 'ProductS.jpg',
                             video: 'VideoS.mov', // Ta 1ère vidéo
                             description: '📦💨 Format : 25g \n\n 👃🔥 Une odeur fruitée, intense et sucrée qui te frappe direct 🍒🍬\n 💨😮‍💨 Une fumette douce, propre et super agréable, ça glisse tout seul\n\n 🎯💎 Qualité au top, gros taf sur ce produit 👏\n  🚀💯 Un vrai plaisir du début à la fin !',
@@ -709,7 +709,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🫒 Frozen sift ⚡️🏆',
                             farm: '✨ KAVIAR FARMZ ✨',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FROZEN PREMIUM ❄️',
                             image: 'ProductGrappe.jpg',
                             videos: [
                                 'VideoGrappe.mp4' // Ta 1ère vidéo
@@ -812,7 +812,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '⛽️ Mula Fuel 🛢️',
                             farm: '✨ KAVIAR FARMZ ✨',
                             promoEligible: true,
-                            type: 'FreshFrozen',
+                            type: 'FRESH FROZEN 🌊',
                             image: 'ProductMula.jpeg',
                             video: 'VideoMula.mp4',
                             description: '💪 Puissant & Gazeux 🫧 \n\n\n ❄️ Vrai Fresh Frozen d’exception \n\n 👃 Odeur intense et envoûtante \n  👅 Goût riche, profond et raffiné \n 🧊 Texture fondante, propre, parfaitement maîtrisée\n\n 💎 Un produit premium, rare, réservé aux connaisseurs.\n Pure qualité. Pure élégance.',
@@ -822,7 +822,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '20g', price: 250.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Panna',
                             flag: '🇲🇦',
                             name: '🍮 Pannacotta',
@@ -837,7 +837,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 130.00 },
                                 { weight: '20g', price: 250.00 },
                             ]
-                        }
+                        } */
                     ]
                 },
 
@@ -854,7 +854,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: 'WATERMELON 🍉',
                             farm: '✨ KAVIAR FARMZ ✨',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'STATIC MOROCCO 🇲🇦',
                             image: 'ProductWa.jpg',
                             video: 'VideoWa.mov',
                             description: '💥 Une frappe INCROYABLE 💥\n Prépare-toi à une expérience lourde et intense 😮‍💨🔥\n\n 🌬️ Blindée de terpènes\n Un profil aromatique riche et puissant qui frappe dès l’ouverture 👃🍬\n\n 🤍 Sec & crémeux à l’intérieur\n 💧 Doux & huileux à l’extérieur\n ✨ Recouverte de cristaux scintillants ✨\n\n 🍉 Une saveur Watermelon premium, gourmande et ultra savoureuse 🤤\n\n 😴 Tu fumes… tu dors.\n 🔥 Puissance • Saveur • Qualité 🔥\n\n 🚀 KAVIAR FARMZ – Du lourd, du vrai, du premium 💎',
@@ -872,7 +872,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🍰 Alot Cakez 139/45',
                             farm: 'DR FRENCH 💎',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'STATIC MOROCCO 🇲🇦',
                             image: 'ProductDr1.jpg',
                             images: ['ProductDr2.jpg',],
                             video: 'VideoDr1.mov',
@@ -890,7 +890,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🔵 ALL BLUE 139/45',
                             farm: 'DR FRENCH 💎',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'STATIC MOROCCO 🇲🇦',
                             image: 'ProductDr.jpg',
                             video: 'VideoDr.mov',
                             description: 'Sélection ultra premium \n\n ❄️ Static Sift\n Extraction sèche haut de gamme, pureté maximale  \n\n 👃 Profil aromatique : \n Une claque de terpènes, odeur puissante, fraîche et ultra travaillée  \n\n  👅 Goût : \n Riche, propre, avec une intensité qui reste longtemps en bouche  \n\n 💨 Effet : \n Une vraie tuerie, montée rapide et effet bien lourd ⚡️',
@@ -901,7 +901,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 450.00 }
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Donny Burger',
                             flag: '🇲🇦',
                             name: 'Donny Burger 🍔',
@@ -915,14 +915,14 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 90.00 },
                                 { weight: '10g', price: 170.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'Permanent Marker 🖊️',
                             flag: '🇲🇦',
                             name: 'Permanent Marker 🖊️',
                             farm: '✨ Gaz N Fruit 🌿',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'STATIC MOROCCO 🇲🇦',
                             image: 'ProductStaPre.jpg',
                             images: ['ProductStaPre1.jpg'],
                             video: 'VideoStaPre.mov',
@@ -976,7 +976,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🍫💣 Bomba Bomba',
                             farm: '✨ KAVIAR FARMZ ✨',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: '120U PREMIUM 🛖',
                             image: 'ProductBB.jpg',
                             video: 'VideoBB.mov',
                             description: 'Franchement… qualité Frozen ❄️ sans mentir 🤝\n Mais on reste honnête avec vous la team :\n\n 💎 Un 120u d’excellence\n 🔥 Avec un rendu digne d’un Frozen\n\n  👃 Odeur incroyable – ça te frappe direct\n  🌿 Blindé de terpènes – ultra savoureux \n 💥 Défonce 10/10 – lourde et efficace \n\n 💸 Et là où ça devient fou : \n 👉 Le Frozen au prix du 120u 😳🔥\n\n  💎 Clairement un des meilleurs 120u qu’on a eu \n   👉 Profitez-en la team 🚀💯',                           
@@ -994,7 +994,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🍓🔥 Straw Kush',
                             farm: '✨ KAVIAR FARMZ ✨',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: '120U PREMIUM 🛖',
                             image: 'ProductSK.jpg',
                             video: 'VideoSK.mov',
                             description: 'Là aussi on est sur une qualité Frozen ❄️ sans mytho 🤝\n Mais toujours en mode clean avec vous : \n\n  💎 Un 120u d’excellence\n 🔥 Avec une qualité qui se rapproche du Frozen \n\n  👃 Odeur sucrée & kushy 🍓\n  🌿 Riche en terpènes – goût intense\n💥 Défonce 10/10 – relax profond 🧠💨\n\n 💸 Le meilleur dans tout ça :\n 👉 Frozen au prix du 120u 😳🔥\n 💎 Encore un très gros niveau pour du 120u\n\n 👉 Faites-vous plaisir la team 🚀🔥',                           
@@ -1022,7 +1022,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🍰🌿 Kush Cake ✨',
                             farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FILTRED ⚡️',
                             image: 'ProductKC.jpg',
                             video: 'VideoKC.mov',
                             description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n 🤍 Rencontre parfaite entre profondeur kush & douceur pâtissière raffinée 🍯\n 👃 Odeur captivante, goût riche & signature crémeuse qui reste longtemps en bouche 💨\n 💥 Une sélection au caractère affirmé, chargée en terpènes et travaillée avec précision.\n 🏆 Drop 2026 solide — élégance, puissance et finition premium signées par une maison qui maîtrise son art 🔴💎',                           
@@ -1039,7 +1039,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🍏🍌 Apple × Banana ✨',
                             farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FILTRED ⚡️',
                             image: 'ProductAB.jpg',
                             video: 'VideoAB.mov',
                             description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n 👃 Odeur puissante, goût exceptionnel & profil aromatique ultra travaillé 🍭\n 🌪️ Rempli de terpènes, avec une intensité qui marque dès l’ouverture.\n\n 🏆 Drop 2026 incroyable — excellence, finesse & qualité premium… la maison ne déçoit jamais 💨💎🔴',                           
@@ -1056,7 +1056,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🎂 Birthday Cake ✨',
                             farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FILTRED ⚡️',
                             image: 'ProductBCC.jpg',
                             video: 'VideoBC.mov',
                             description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n 🍰 Profil gourmand aux notes de gâteau sucré, crème vanillée & touche pâtissière raffinée 🤍\n 🏆 Drop 2026 incroyable, porté par excellence, précision et qualité premium.\n 🔥 La maison ne déçoit jamais — une sélection travaillée avec caractère, richesse aromatique et finition d’exception 💨💎✨',                           
@@ -1073,7 +1073,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🍮 Pannacota ✨',
                             farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FILTRED ⚡️',
                             image: 'ProductPaan.jpg',
                             video: 'VideoPaan.mov',
                             description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n 🤍 Douceur crémeuse & notes dessert gourmandes, au profil riche et élégant 🍯\n 💎 Excellence, finesse & qualité premium au cœur de cette sélection d’exception.\n 🔥 Texture raffinée, terpènes expressifs & savoir-faire précis pour une expérience propre, intense et savoureuse 💨✨',                           
@@ -1090,7 +1090,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🍈 Melon Candy 🍬',
                             farm: '🔴✨ 𝗚𝗼𝗹𝗱𝗲𝗻 𝗙𝗔𝗥𝗠𝗭 × 𝗗𝗿𝘆 𝗧𝗲𝗰𝗵 ✨🔴',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'FILTRED ⚡️',
                             image: 'ProductMC.jpg',
                             video: 'VideoMC.mov',
                             description: '💎 𝗗𝗿𝘆 𝗦𝗶𝗳𝘁 𝟭𝟴𝟬/𝟯𝟵𝘂 💎 \n\n Notes sucrées et candy gourmandes avec une belle fraîcheur fruitée ✨\n 🔥 Texture raffinée, sélection premium & terpènes expressifs pour une expérience propre et savoureuse 💨💎',                           
@@ -1118,7 +1118,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 430.00 },
                             ]
                         }, */
-                        {
+                       /*  {
                             id: '❄️ Donna ICE 💙',
                             flag: '🇲🇦',
                             name: '❄️ Donna ICE 💙',
@@ -1149,7 +1149,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 70.00 },
                                 { weight: '10g', price: 130.00 },
                             ]
-                        },
+                        }, */
                     /*     {
                             id: '🌷 35u Mimosa 🌷',
                             flag: '🇲🇦',
@@ -1183,7 +1183,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '💥🍯 CALI MOUSSE 🇺🇸🍯💥',
                             farm: '✨ US Quality ✨',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'CALI MOUSSE 🧬',
                             image: 'ProductCaliM.jpg', // Image du produit
                             video: 'VideoCaliM.mp4',
                             description: '🇺🇸🍯 Mousse US \n  🤯 Incroyable odeur \n 🫠 Texture premium \n ✈️💤 Mode avion activé',
@@ -1217,7 +1217,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: '🧈🍯 Oreoz × Permanent Marker 🍯🧈',
                             farm: '✨ KAVIAR FARMZ ✨',
                             promoEligible: true,
-                            type: 'Hash',
+                            type: 'JAUNE CRÉMEUX 🍯',
                             image: 'ProductOPM.jpg',
                             video: 'VideoOPM.mov',
                             description: '😍 Voilà le jaune qu’on aime voir et qu’on ne croise plus assez souvent !\n\n 🟡 Texture ultra crémeuse, couleur bien jaune 🌕💛 et une explosion de terpènes dès l’ouverture 🍋⛽🔥\n\n 🚀💨 Gros goût, grosse détente et une puissance incroyable. Tout ce qu’on attend d’un vrai jaune de qualité. 🤤💎\n\n 👑 Encore une fois, Kaviar FARMZ nous régale cette année avec une pépite qui met tout le monde d’accord. 💛🔥\n 🙏 Merci Kaviar FARMZ pour ce bijou. 🟡✨\n\n #KaviarFARMZ #Oreoz #PermanentMarker #JauneCrémeux 💛🍯🔥⛽🚀💨💎👑🟡✨',
@@ -1228,7 +1228,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 300.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Og',
                             flag: '🇪🇸',
                             name: 'Mousseux 🧽',
@@ -1244,7 +1244,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 200.00 },
                                 { weight: '100g', price: 300.00 },
                             ]
-                        }
+                        } */
                     ]
                 },
 
@@ -2446,9 +2446,9 @@ function renderProductListSimple(categoryId) {
         renderCart();
     }
 
-  // --- FORMATAGE DU MESSAGE WHATSAPP (STYLE PRO & EMOJIS) ---
+ // --- FORMATAGE DU MESSAGE WHATSAPP (STYLE PRO & EMOJIS) ---
   function formatOrderMessage() {
-    // --- 1. CALCULS (Inchangés) ---
+    // --- 1. CALCULS ---
     let subTotal = cart.reduce((sum, item) => sum + item.totalPrice, 0);
     let discount = 0;
     let discountableAmount = 0;
@@ -2474,19 +2474,20 @@ function renderProductListSimple(categoryId) {
     if (discount > subTotal) discount = subTotal;
     const totalPrice = subTotal - discount;
 
-    // --- 2. CONSTRUCTION DU MESSAGE (NOUVEAU DESIGN) ---
-    
-    // En-tête
+    // --- 2. CONSTRUCTION DU MESSAGE ---
     let message = "*🛒 DÉTAIL DE LA COMMANDE:*\n\n";
 
     // Boucle sur les articles
     cart.forEach((item, index) => {
-        // On nettoie le nom (enlève les sauts de ligne techniques si variante)
-        // On met en majuscules pour faire comme sur ta capture
+        // 👇 NOUVEAU : Récupération du type de produit
+        const product = getProductById(item.productId);
+        const itemType = product && product.type ? product.type.toUpperCase() : "PRODUIT";
+
+        // Nettoyage du nom
         let cleanName = item.name.replace(/\n/g, ' ').toUpperCase();
 
-        // Ligne 1 : Numéro + Nom du produit (en Gras *)
-        message += `*${index + 1}. ${cleanName}*\n`;
+        // Ligne 1 : Numéro + [TYPE] + Nom du produit (en Gras *)
+        message += `*${index + 1}. [${itemType}] ${cleanName}*\n`;
         
         // Ligne 2 : Quantité
         message += `• Quantité: ${item.quantity}x ${item.weight}\n`;
@@ -2499,7 +2500,6 @@ function renderProductListSimple(categoryId) {
     });
 
     // Résumé financier
-    // Si promo, on affiche le détail, sinon juste le total
     if (discount > 0) {
         message += `Sous-total: ${subTotal.toFixed(2)}€\n`;
         message += `Réduction (${appliedPromo}): -${discount.toFixed(2)}€\n`;
