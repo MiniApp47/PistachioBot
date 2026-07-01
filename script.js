@@ -391,6 +391,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Exclusif',
                     products: [
                         {
+                            id: 'Motor Runtz 👹',
+                            flag: '🇺🇸',
+                            name: 'Motor Runtz 👹',
+                            farm: '🌵🔥 SEÑOR EL MENCHO 🔥🌵',
+                            promoEligible: true,
+                            type: 'STATIC USA 🇺🇸',
+                            image: 'ProductMT.jpg',
+                            video: 'VideoMT.mov',
+                            description: '💎 Type : Double Static Diamond\n\n 🤯 Incroyable profil terpénique !\n Dès l’ouverture de la capsule, tu comprends direct que t’es sur quelque chose de très très lourd 💨🔥.\n\n 👃 Odeur : explosive, intense et ultra gourmande 🍬⛽🍇\n 👅 Goût : fidèle à l’odeur, riche, complexe et qui reste longtemps en bouche 😮‍💨✨\n\n 🇺🇸💎 Franchement, tu peux la poser à la table des meilleurs Static US sans rougir. Le niveau est là, du début à la fin.\n\n 🔥 À l’ouverture :\n 🫙➡️💥\n Une claque de terpènes instantanée !\n\n ✨ Texture propre\n ✨ Extraction premium\n ✨ Saveurs puissantes\n ✨ Finition exceptionnelle\n\n 🏆 Une vraie pépite pour les amateurs de hash haut de gamme.\n\n 💯🔥 Señor El Mencho x Motor Runtz = MASTERCLASS 🔥💯\n\n 🍬⛽🍇💎😮‍💨🚀🔥🏆🇺🇸🌵💨✨🫙💥🤯👌🏻',
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 350.00 },
+                            ]
+                        },
+                        {
                             id: '⛽🌴 West Coast Gaz',
                             flag: '🇺🇸',
                             name: '⛽🌴 West Coast Gaz',
@@ -528,6 +544,31 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'Terps',
                     products: [
+                        {
+                            id: 'Olive 🫒',
+                            flag: '🇲🇦',
+                            name: 'Olive 🫒',
+                            farm: '🌵🔥 SEÑOR EL MENCHO 🔥🌵',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductF.jpg',
+                            images:[ 'ProductF.jpg','ProductG.jpg'],
+                            videos: ['VideoF.mov','VideoG.mov'], 
+                            description: '🤯 Dès l’arrivée en TP, on savait déjà que ça allait être sérieux… mais une fois ouverte, c’est une autre dimension. 💨🔥\n\n 👃 L’odeur est monstrueuse, la pièce se remplit instantanément de terpènes. Entre les notes fruitées de la Forbidden Fraise 🍓 et le côté gazé ultra prononcé de la Forbidden Gas ⛽, le résultat est juste incroyable.\n\n 👅 En bouche, c’est encore plus fort.\n Les saveurs sont puissantes, propres et parfaitement retranscrites. Chaque taf est un vrai plaisir 😮‍💨✨.\n\n 🫒 Texture parfaite, bien grasse et travaillée à la perfection 💎.\n 🏆 Franchement, je pense que ce sont les meilleures olives qu’on a reçues depuis le début. Le niveau des terpènes, l’odeur, le goût et la qualité générale sont au-dessus de ce qu’on voit habituellement. 🔥💯\n\n ✅ Les points forts :\n\n 🔥 Terpènes ultra présents\n 🍓 Profil fruité exceptionnel\n ⛽ Notes gazées puissantes\n 💎 Qualité premium\n 😮‍💨 Saveurs longues en bouche\n 🫒 Texture irréprochable\n\n 🌵 Farmz x Señor El Mencho, encore une fois, une vraie démonstration de savoir-faire.\n\n 💎🏆 Forbidden Fraise 🍓 & Forbidden Gas ⛽ : une masterclass qui mérite largement sa place parmi les meilleures olives du moment. 🔥🫒💨🤯✨🍬⛽🍓🏆💯🌵💎😮‍💨🚀',
+                            variantTitle: 'Saveurs Frozen ❄️ :', 
+                            jars: [
+                                { name: 'Forbidden Fraise', emoji: '🍓⛽', colorClass: 'style-purple' },
+                                { name: 'Forbidden Gas', emoji: '⛽🍬', colorClass: 'style-brown' },
+                            ],
+
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },               
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 260.00 },
+                                { weight: '50g', price: 420.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
                         {
                             id: 'Clémentine 🍊',
                             flag: '🇲🇦',
@@ -970,6 +1011,42 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'Top Qualité',
                     products: [
+                          {
+                            id: '🍏 Apple Ice ❄️',
+                            flag: '🇲🇦',
+                            name: '🍏 Apple Ice ❄️',
+                            farm: '🌾 No Farm 🌾',
+                            promoEligible: true,
+                            type: '120U PREMIUM 🛖',
+                            image: 'ProductAI.jpg',
+                            video: 'VideoAI.mov',
+                            description: '🔥💎 FILTRES PREMIUM 120U 💎🔥\n 🚀 HARD PRODUCT 🚀\n\n ✨ Saveurs disponibles : ✨\n 🍏 Apple Ice ❄️\n\n ━━━━━━━━━━━━━━━\n\n 💎 Qualité Premium\n 🌿 Terpènes ultra parfumés\n 👃 Odeur incroyable\n 😋 Goût exceptionnel\n 🔥 Une qualité qui fait la différence !\n\n ━━━━━━━━━━━━━━━\n\n ✅ Disponible dès maintenant 📦\n 💰 Prix tout doux 💸\n ⭐ Rapport qualité/prix imbattable ⭐\n\n 🤝 Les frérots ne nous ont pas déçus, la qualité est au rendez-vous ! 💯\n ❤️‍🔥 Que demander de plus ? ❤️‍🔥',                           
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 160.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 450.00 },
+                                { weight: '500g', price: 2000.00 },
+                            ]
+                        },
+                          {
+                            id: '🍒 Cherry Bomb 💥',
+                            flag: '🇲🇦',
+                            name: '🍒 Cherry Bomb 💥',
+                            farm: '🌾 No Farm 🌾',
+                            promoEligible: true,
+                            type: '120U PREMIUM 🛖',
+                            image: 'ProductCB.jpg',
+                            video: 'VideoCB.mov',
+                            description: '🔥💎 FILTRES PREMIUM 120U 💎🔥\n 🚀 HARD PRODUCT 🚀\n\n ✨ Saveurs disponibles : ✨\n 🍒 Cherry Bomb 💥\n\n ━━━━━━━━━━━━━━━\n\n 💎 Qualité Premium\n 🌿 Terpènes ultra parfumés\n 👃 Odeur incroyable\n 😋 Goût exceptionnel\n 🔥 Une qualité qui fait la différence !\n\n ━━━━━━━━━━━━━━━\n\n ✅ Disponible dès maintenant 📦\n 💰 Prix tout doux 💸\n ⭐ Rapport qualité/prix imbattable ⭐\n\n 🤝 Les frérots ne nous ont pas déçus, la qualité est au rendez-vous ! 💯\n ❤️‍🔥 Que demander de plus ? ❤️‍🔥',                           
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 160.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 450.00 },
+                                { weight: '500g', price: 2000.00 },
+                            ]
+                        },
                           {
                             id: '🍫💣 Bomba Bomba',
                             flag: '🇲🇦',
