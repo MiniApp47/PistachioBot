@@ -391,6 +391,38 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Exclusif',
                     products: [
                         {
+                            id: '🍊🌫️ SMOKEY SHERBERT',
+                            flag: '🇺🇸',
+                            name: '🍊🌫️ SMOKEY SHERBERT',
+                            farm: '🇺🇸 STATICROOM ®',
+                            promoEligible: true,
+                            type: 'STATIC USA 🇺🇸',
+                            image: 'ProductSST.jpg',
+                            video: 'VideoSST.mov',
+                            description: '💎 Découvrez l’excellence du véritable Static Sift américain.\n\n 🍊🌫️ SMOKEY SHERBERT\n ✨ STATIC SIFT 139u ~ 73u\n 📦 Format 50G\n\n 🌿 Sélectionné parmi les meilleures 🇺🇸 FARMZ américaines, Smokey Sherbert séduit par son profil unique, sa texture fondante et sa qualité irréprochable. Un Static Sift d’exception conçu pour les amateurs des plus belles sélections.\n\n 🔥 Une extraction sans solvant, une pureté remarquable et un niveau de finition qui font de STATICROOM® une référence incontournable du Static Sift USA.\n\n ✅ 🇺🇸 Made in USA\n ✅ 💎 Qualité Premium\n ✅ 🌿 Sélection des meilleures FARMZ\n ✅ ✨ Static Sift 139u ~ 73u\n ✅ 📦 Format 50G\n\n 💚 STATICROOM® — Le meilleur du Static Sift américain.\n ⭐ SMOKEY SHERBERT : une sélection premium, une qualité sans compromis.',
+                            tarifs: [
+                                { weight: '5g', price: 170.00 },
+                                { weight: '10g', price: 320.00 },
+                                { weight: '20g', price: 620.00 },
+                            ]
+                        },
+                        {
+                            id: '🍇 WHITE BERRY',
+                            flag: '🇺🇸',
+                            name: '🍇 WHITE BERRY',
+                            farm: '🇺🇸 STATICROOM ®',
+                            promoEligible: true,
+                            type: 'STATIC USA 🇺🇸',
+                            image: 'ProductWB.jpg',
+                            video: 'VideoWB.mov',
+                            description: '🇺🇸🔥 STATICROOM® – WHITE BERRY 🔥🇺🇸\n 💎 Le meilleur du Static Sift américain est arrivé.\n\n 🍇 WHITE BERRY\n ✨ STATIC SIFT 139u ~ 73u\n 📦 Format 50G\n\n 🌿 Issu d’une sélection rigoureuse des meilleures 🇺🇸 FARMZ américaines, ce Static Sift offre une texture exceptionnelle, une qualité premium et une finition digne des connaisseurs.\n 🔥 Une extraction sans solvant, une pureté remarquable et un savoir-faire qui placent STATICROOM® parmi les références incontournables du Static Sift USA.\n\n ✅ 🇺🇸 Made in USA\n ✅ 💎 Qualité Premium\n ✅ 🌿 Sélection FARMZ\n ✅ ✨ Static Sift 139u~73u\n ✅ 📦 Format 50G\n\n 💚 STATICROOM® — L’excellence du Static Sift.\n ⭐ Une qualité qui fait la différence.',
+                            tarifs: [
+                                { weight: '5g', price: 170.00 },
+                                { weight: '10g', price: 320.00 },
+                                { weight: '20g', price: 620.00 },
+                            ]
+                        },
+                        {
                             id: 'Motor Runtz 👹',
                             flag: '🇺🇸',
                             name: 'Motor Runtz 👹',
@@ -544,6 +576,39 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'Terps',
                     products: [
+                        {
+                            id: '🍊 Orange Z',
+                            flag: '🇺🇸',
+                            name: '🍊 Orange Z',
+                            farm: '🌵🔥 SEÑOR EL MENCHO 🔥🌵',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductCMM.jpg',
+                            video: 'VideoCMM.mov',
+                            description: '🇪🇸🔥 SEGNOR EL MENCHO 🔥🇪🇸\n ❄️ FROZEN SIFT ❄️\n 🍊 Strain : Orange Z\n 🫒 Olive TP • Pas à avaler ⚠️\n 📦 Format Premium\n\n 💥 Comme toujours, SEGNOR EL MENCHO nous régale !\n\n 🍊 Orange Z se distingue par sa texture sèche & pétante 💥, son odeur incroyable 👃✨ et sa belle couleur claire 🤍. Une sélection premium issue des meilleures FARMZ. 🌿💎\n\n ✅ ❄️ Frozen Sift Premium\n ✅ 🌿 Sélection FARMZ\n ✅ 🍊 Orange Z\n ✅ 💎 Qualité exceptionnelle\n\n 👑 SEGNOR EL MENCHO — La qualité qui fait la différence. 🇪🇸',
+                            tarifs: [
+                                { weight: '1 olive (10g)', price: 130.00 },
+                                { weight: '2 olive', price: 250.00 },
+                                { weight: '5 olive', price: 430.00 },
+                                { weight: '10 olive', price: 780.00 },
+                            ]
+                        },
+                        {
+                            id: '🥣 Cereal Milk',
+                            flag: '🇺🇸',
+                            name: '🥣 Cereal Milk',
+                            farm: '🌵🔥 SEÑOR EL MENCHO 🔥🌵',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductCMM.jpg',
+                            video: 'VideoCMM.mov',
+                            description: '🇪🇸🔥 SEGNOR EL MENCHO 🔥🇪🇸\n ❄️ FROZEN SIFT ❄️\n 🥣 Strain : Cereal Milk\n 🫒 Olive TP • Pas à avaler ⚠️\n 📦 Format Premium\n\n 💥 Comme toujours, SEGNOR EL MENCHO nous régale !\n\n 🥛 Cereal Milk offre une qualité exceptionnelle, une texture fondante et une sélection premium issue des meilleures FARMZ. 🌿💎\n\n ✅ ❄️ Frozen Sift Premium\n ✅ 🌿 Sélection FARMZ\n ✅ 🥣 Cereal Milk\n ✅ 💎 Qualité exceptionnelle\n\n 👑 SEGNOR EL MENCHO — La qualité qui fait la différence. 🇪🇸🔥',
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 350.00 },
+                            ]
+                        },
                         {
                             id: 'Olive 🫒',
                             flag: '🇲🇦',
