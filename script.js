@@ -1159,6 +1159,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '35u/70u/90u/105u',
                     products: [
                          {
+                            id: '🍒 Cherry Gelato',
+                            flag: '🇲🇦',
+                            name: '🍒 Cherry Gelato',
+                            farm: 'Magic Mountain Farmz ⛰️💜',
+                            promoEligible: true,
+                            type: 'FILTRED ⚡️',
+                            image: 'ProductCG.jpg',
+                            video: 'VideoCG.mov',
+                            description: '✨🚨 NOUVEAUTÉ LA TEAM ! 🚨✨\n 🍒 Cherry Gelato by MMF – Magic Mountain Farmz ⛰️💜\n\n 🔥 Un filtre de malade avec une qualité qui fait la différence !\n 💎 Résine premium • 🌿 Arômes intenses • 👌 Texture exceptionnelle\n\n 📍 Disponible dès maintenant chez PISTACHIO 💚\n\n ⚡ Ne passez pas à côté de cette pépite !\n 🍒🌿💨 #MMF #MagicMountainFarmz #CherryGelato #Pistachio #Premium #Qualité #Nouveauté',                           
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 380.00 },
+                            ]
+                        },
+                         {
                             id: '🍰🌿 Kush Cake ✨',
                             flag: '🇲🇦',
                             name: '🍰🌿 Kush Cake ✨',
