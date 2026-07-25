@@ -602,9 +602,10 @@ document.addEventListener('DOMContentLoaded', function () {
 ⚡ DES ARÔMES QUI MARQUENT LES ESPRITS.
 ⚡ LE PREMIUM DANS SA PLUS BELLE EXPRESSION.`,
                             tarifs: [
-                                { weight: '5g', price: 80.00 },
-                                { weight: '10g', price: 150.00 },
-                                { weight: '25g', price: 350.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 730.00 },
                             ]
                         },
                         {
@@ -895,84 +896,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 130.00 },
                                 { weight: '25g', price: 250.00 },
                                 { weight: '50g', price: 370.00 },
-                            ]
-                        } */
-                    ]
-                },
-                {
-                    id: 'FreshFrozen',
-                    name: 'FRESH FROZEN 🌊',
-                    image: '',
-                    badgeText: 'KAVIAR',
-                    products: [
-                       /*  {
-                            id: 'GMO 🔬',
-                            flag: '🇲🇦',
-                            name: 'GMO 🔬',
-                            farm: '🏠 FROZEN NO FARMZ',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductP1.jpg',
-                            video: 'VideoP1.mp4',
-                            description: '❄️🔥 FRESH FROZEN – SINGLE SOURCE – P420 🔥❄️ \n\n 🌱 Produit 100% Single Source \n ➡️ De la plante à l’extraction, maîtrise totale \n ❄️ Extraction Fresh Frozen pour garder tous les arômes & terpènes \n 💎 Qualité premium, goût intense, texture onctueuse \n\n  🔬 GMO \n  ⛽🧄 Ultra puissant, gazzy, lourd en bouche \n 👉 Parfait pour les amateurs de sensations fortes \n\n  💸🤝 Pas cher la team \n 🔥 On arrange MAX sur les prix \n 📦 Qualité au top, dispo limitée \n\n 🚀💨 Du vrai fire, pour les vrais connaisseurs 💨🚀',
-                   
- 
-                            tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 300.00 },
-                                { weight: '100g', price: 600.00 },
-                            ]
-                        },
-                        {
-                            id: 'Lamponie 🍓',
-                            flag: '🇲🇦',
-                            name: 'Lamponie 🍓',
-                            farm: '🏠 FROZEN NO FARMZ',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductP.jpg',
-                            video: 'VideoP.mp4',
-                            description: '❄️🔥 FRESH FROZEN – SINGLE SOURCE – P420 🔥❄️ \n\n 🌱 Produit 100% Single Source \n ➡️ De la plante à l’extraction, maîtrise totale \n ❄️ Extraction Fresh Frozen pour garder tous les arômes & terpènes \n 💎 Qualité premium, goût intense, texture onctueuse \n\n  🍓 Lamponie \n 🍬 Fruité, sucré, notes de framboise \n 👉 Smooth, gourmand, super parfumé \n\n 💸🤝 Pas cher la team \n 🔥 On arrange MAX sur les prix \n 📦 Qualité au top, dispo limitée \n\n 🚀💨 Du vrai fire, pour les vrais connaisseurs 💨🚀',
-                         
- 
-                            tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 300.00 },
-                                { weight: '100g', price: 600.00 },
-                            ]
-                        }, */
-                        {
-                            id: 'Fuel',
-                            flag: '🇲🇦',
-                            name: '⛽️ Mula Fuel 🛢️',
-                            farm: '✨ KAVIAR FARMZ ✨',
-                            promoEligible: true,
-                            type: 'FRESH FROZEN 🌊',
-                            image: 'ProductMula.jpeg',
-                            video: 'VideoMula.mp4',
-                            description: '💪 Puissant & Gazeux 🫧 \n\n\n ❄️ Vrai Fresh Frozen d’exception \n\n 👃 Odeur intense et envoûtante \n  👅 Goût riche, profond et raffiné \n 🧊 Texture fondante, propre, parfaitement maîtrisée\n\n 💎 Un produit premium, rare, réservé aux connaisseurs.\n Pure qualité. Pure élégance.',
-                            tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 130.00 },
-                                { weight: '20g', price: 250.00 },
-                            ]
-                        },
-                       /*  {
-                            id: 'Panna',
-                            flag: '🇲🇦',
-                            name: '🍮 Pannacotta',
-                            farm: '✨ KAVIAR FARMZ ✨',
-                            promoEligible: true,
-                            type: 'FreshFrozen',
-                            image: 'ProductPanna.png',
-                            video: 'VideoPanne.mp4',
-                            description: '🍦 Crémeux & Gourmand 🍔 \n\n\n ❄️ Vrai Fresh Frozen d’exception \n\n 👃 Odeur intense et envoûtante \n  👅 Goût riche, profond et raffiné \n 🧊 Texture fondante, propre, parfaitement maîtrisée\n\n 💎 Un produit premium, rare, réservé aux connaisseurs.\n Pure qualité. Pure élégance.',
-                            tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 130.00 },
-                                { weight: '20g', price: 250.00 },
                             ]
                         } */
                     ]
