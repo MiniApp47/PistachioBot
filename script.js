@@ -577,6 +577,37 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                         {
+                            id: '🍋❄️ LEMON CHERRY 🍒',
+                            flag: '🇺🇸',
+                            name: '🍋❄️ LEMON CHERRY 🍒',
+                            farm: '🏠 FROZEN NO FARMZ',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductLL.jpg',
+                            video: 'VideoLL.mov',
+                            description: `FROZEN SIFT 135~90µ
+✨ Gold Curing
+
+💎 Sélection Premium
+🧊 Extraction à froid
+🔥 Terps MAX
+🌿 Résine ultra raffinée
+🍯 Texture sèche, grasse & pétante
+🍋 Citron frais éclatant
+🍒 Cherry sucrée & gourmande
+👃 Profil aromatique riche et intense
+✨ Finition Gold Curing pour une qualité exceptionnelle
+
+⚡ UNE OUVERTURE QUI PARLE D’ELLE-MÊME.
+⚡ DES ARÔMES QUI MARQUENT LES ESPRITS.
+⚡ LE PREMIUM DANS SA PLUS BELLE EXPRESSION.`,
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 350.00 },
+                            ]
+                        },
+                        {
                             id: '🍊 Orange Z',
                             flag: '🇺🇸',
                             name: '🍊 Orange Z',
