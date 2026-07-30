@@ -909,6 +909,34 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Saison 2026',
                     products: [
                         {
+                            id: '🔥🥭 DOUBLE STATIC — TERPS INDUSTRY 🥭🔥',
+                            flag: '🇲🇦',
+                            name: '🔥🥭 PAPAYA 🥭🔥',
+                            farm: 'TERPS INDUSTRY 🏭',
+                            promoEligible: true,
+                            type: 'STATIC MOROCCO 🇲🇦',
+                            image: 'ProductPA.jpg',
+                            video: 'VideoPA.mov',
+                            description: `🔥🥭 DOUBLE STATIC — TERPS INDUSTRY 🥭🔥
+
+Une Papaya au profil aromatique particulièrement intense 🤯👃💨  
+Des terps puissants et expressifs qui mettent en avant des notes fruitées, tropicales et bien marquées 🍑🥭🍍✨
+
+🌴 Aromatique généreuse  
+👃 Odeur très prononcée  
+💥 Profil terpénique intense  
+🔥 Une variété qui ne passe clairement pas inaperçue
+
+Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 470.00 },
+                                { weight: '100g', price: 850.00 }
+                            ]
+                        },
+                        {
                             id: 'WATERMELON 🍉',
                             flag: '🇲🇦',
                             name: 'WATERMELON 🍉',
