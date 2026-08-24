@@ -1141,6 +1141,38 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                     badgeText: '35u/70u/90u/105u',
                     products: [
                          {
+                            id: '🍫💚 PERMANENT MARKER 💚🍫',
+                            flag: '🇲🇦',
+                            name: '🍫💚 PERMANENT MARKER 💚🍫',
+                            farm: '🏠 FILTRED NO FARM',
+                            promoEligible: true,
+                            type: 'FILTRED ⚡️',
+                            image: 'ProductSN.jpg',
+                            video: 'VideoSN.mov',
+                            description: '🍫💚 SNICKERS — PERMANENT MARKER 💚🍫\n 💎 120U • FORMAT 50G\n 🔥 Profil aromatique intense & marqué\n 🥜✨ Notes gourmandes • Signature distinctive\n\n 🌿💚 PISTACHIO 💚🌿\n ✨ Sélection & présentation premium ✨',                           
+                            tarifs: [
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 430.00 },
+                            ]
+                        },
+                         {
+                            id: '🍫💜 GELATO × BURGER 💜🍫',
+                            flag: '🇲🇦',
+                            name: '🍫💜 GELATO × BURGER 💜🍫',
+                            farm: '🏠 FILTRED NO FARM',
+                            promoEligible: true,
+                            type: 'FILTRED ⚡️',
+                            image: 'ProductKK.jpg',
+                            video: 'VideoKK.mov',
+                            description: '🍫💜 KITKAT — GELATO × BURGER 💜🍫\n 💎 120U • FORMAT 50G\n 🍨✨ Profil riche & complexe\n 🔥 Notes gourmandes • Arômes prononcés\n\n 🌿💚 PISTACHIO 💚🌿\n ✨ Sélection & présentation premium ✨',                           
+                            tarifs: [
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 430.00 },
+                            ]
+                        },
+                         {
                             id: '🍒 Cherry Gelato',
                             flag: '🇲🇦',
                             name: '🍒 Cherry Gelato',
