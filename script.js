@@ -422,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '20g', price: 620.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Motor Runtz 👹',
                             flag: '🇺🇸',
                             name: 'Motor Runtz 👹',
@@ -524,7 +524,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 330.00 },
 
                             ]
-                        }/* ,
+                        } *//* ,
                         {
                             id: 'StaticUSA',
                             flag: '🇺🇸',
@@ -666,7 +666,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 750.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Clémentine 🍊',
                             flag: '🇲🇦',
                             name: 'Clémentine 🍊',
@@ -719,7 +719,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 420.00 },
                                 { weight: '100g', price: 750.00 },
                             ]
-                        },
+                        }, */
                       /*   {
                             id: '🦍 GG4 🌿',
                             flag: '🇲🇦',
@@ -738,7 +738,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 750.00 },
                             ]
                         },*/
-                        {
+                        /* {
                             id: '🌿 Sourcherry 🍒',
                             flag: '🇲🇦',
                             name: '🌿 Sourcherry 🍒',
@@ -755,7 +755,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 550.00 },
                                 { weight: '100g', price: 750.00 },
                             ]
-                        }, 
+                        },  */
                    /*      {
                             id: '🌅 Pink Sunset 🌿',
                             flag: '🇲🇦',
@@ -841,7 +841,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         }, */
-                        {
+                       /*  {
                             id: 'Frozensift',
                             flag: '🇲🇦',
                             name: '🫒 Frozen sift ⚡️🏆',
@@ -865,7 +865,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '🫒x3', price: 350.00 },
                                 { weight: '🫒x5', price: 500.00 },
                             ]
-                        },
+                        }, */
                         
                       /*   {
                             id: 'FrozenSource',
@@ -954,7 +954,7 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                                 { weight: '100g', price: 1000.00 }
                             ]
                         },
-                        {
+                       /*  {
                             id: '🍰 Alot Cakez 139/45',
                             flag: '🇲🇦',
                             name: '🍰 Alot Cakez 139/45',
@@ -988,7 +988,7 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                                 { weight: '25g', price: 270.00 },
                                 { weight: '50g', price: 450.00 }
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'Donny Burger',
                             flag: '🇲🇦',
@@ -1004,7 +1004,7 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                                 { weight: '10g', price: 170.00 },
                             ]
                         }, */
-                        {
+                        /* {
                             id: 'Permanent Marker 🖊️',
                             flag: '🇲🇦',
                             name: 'Permanent Marker 🖊️',
@@ -1019,7 +1019,7 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                                 { weight: '5g', price: 90.00 },
                                 { weight: '10g', price: 170.00 },
                             ]
-                        },
+                        }, */
                   /*       {
                             id: '220u',
                             flag: '🇲🇦',
@@ -1094,7 +1094,7 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                                 { weight: '500g', price: 2000.00 },
                             ]
                         },
-                          {
+                         /*  {
                             id: '🍫💣 Bomba Bomba',
                             flag: '🇲🇦',
                             name: '🍫💣 Bomba Bomba',
@@ -1129,7 +1129,7 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                                 { weight: '100g', price: 450.00 },
                                 { weight: '500g', price: 2000.00 },
                             ]
-                        },
+                        }, */
                     ]
                 },
 
@@ -1151,9 +1151,9 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                             video: 'VideoSN.mov',
                             description: '🍫💚 SNICKERS — PERMANENT MARKER 💚🍫\n 💎 120U • FORMAT 50G\n 🔥 Profil aromatique intense & marqué\n 🥜✨ Notes gourmandes • Signature distinctive\n\n 🌿💚 PISTACHIO 💚🌿\n ✨ Sélection & présentation premium ✨',                           
                             tarifs: [
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 250.00 },
-                                { weight: '100g', price: 430.00 },
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 400.00 },
                             ]
                         },
                          {
@@ -1167,9 +1167,9 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                             video: 'VideoKK.mov',
                             description: '🍫💜 KITKAT — GELATO × BURGER 💜🍫\n 💎 120U • FORMAT 50G\n 🍨✨ Profil riche & complexe\n 🔥 Notes gourmandes • Arômes prononcés\n\n 🌿💚 PISTACHIO 💚🌿\n ✨ Sélection & présentation premium ✨',                           
                             tarifs: [
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 250.00 },
-                                { weight: '100g', price: 430.00 },
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 400.00 },
                             ]
                         },
                          {
