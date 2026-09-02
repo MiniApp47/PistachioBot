@@ -652,8 +652,8 @@ Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qu
                             farm: '🌵🔥 SEÑOR EL MENCHO 🔥🌵',
                             promoEligible: true,
                             type: 'FROZEN PREMIUM ❄️',
-                            image: 'ProductCMM.jpg',
-                            video: 'VideoCMM.mov',
+                            image: 'ProductOZ.jpg',
+                            video: 'VideoOZ.mov',
                             description: '🇪🇸🔥 SEGNOR EL MENCHO 🔥🇪🇸\n ❄️ FROZEN SIFT ❄️\n 🍊 Strain : Orange Z\n 🫒 Olive TP • Pas à avaler ⚠️\n 📦 Format Premium\n\n 💥 Comme toujours, SEGNOR EL MENCHO nous régale !\n\n 🍊 Orange Z se distingue par sa texture sèche & pétante 💥, son odeur incroyable 👃✨ et sa belle couleur claire 🤍. Une sélection premium issue des meilleures FARMZ. 🌿💎\n\n ✅ ❄️ Frozen Sift Premium\n ✅ 🌿 Sélection FARMZ\n ✅ 🍊 Orange Z\n ✅ 💎 Qualité exceptionnelle\n\n 👑 SEGNOR EL MENCHO — La qualité qui fait la différence. 🇪🇸',
                             tarifs: [
                                 { weight: '1 olive (10g)', price: 130.00 },
