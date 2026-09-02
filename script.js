@@ -576,6 +576,43 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'Terps',
                     products: [
+                               {
+                            id: '⛽🍇 FRAPPE GAZ 🍇⛽',
+                            flag: '🇺🇸',
+                            name: '⛽🍇 FRAPPE GAZ 🍇⛽',
+                            farm: '🧊💎 THERPS INDUSTRY 💎🧊',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductFG.jpg',
+                            video: 'VideoFG.mov',
+                            description: `🧊💎  FROZEN SIFT 💎🧊
+✨ FULL MELT 135/90 ✨
+
+🤎 Texture sèche & crémeuse
+Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qui lui donne un rendu vraiment premium ✨
+
+👃 Profil aromatique intense
+⛽ Notes bien gazeuses
+🍇 Petite touche fruitée et sucrée
+🔥 Odeur puissante et persistante
+
+💎 Qualité Therps Industry
+❄️ Frozen Sift
+🫠 Full Melt
+✨ Aspect propre et soigné
+🏆 Sélection pour les amateurs de belles textures
+
+📦 Formats disponibles : 50G & 100G
+
+💚 Disponible chez PISTACHIO
+✨ L’amour du goût ✨`,
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 730.00 },
+                            ]
+                        },
                         {
                             id: '🍋❄️ LEMON CHERRY 🍒',
                             flag: '🇺🇸',
@@ -641,7 +678,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 350.00 },
                             ]
                         },
-                        {
+                        /* {
                             id: 'Olive 🫒',
                             flag: '🇲🇦',
                             name: 'Olive 🫒',
@@ -665,7 +702,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 420.00 },
                                 { weight: '100g', price: 750.00 },
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'Clémentine 🍊',
                             flag: '🇲🇦',
