@@ -946,6 +946,56 @@ Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qu
                     badgeText: 'Saison 2026',
                     products: [
                         {
+                            id: '🍔 ZOAP BURGER',
+                            flag: '🇲🇦',
+                            name: '🍔 ZOAP BURGER',
+                            farm: '💎⛽ THE GAZ SÉLECTION ⛽💎',
+                            promoEligible: true,
+                            type: 'STATIC MOROCCO 🇲🇦',
+                            image: 'ProductZB.jpg',
+                            video: 'VideoZB.mov',
+                            description: `⚡ TYPE : STATIC PLASMA ⚡
+
+💜 Un profil terpénique beaucoup plus funky et complexe.
+On retrouve beaucoup de terpènes, avec une touche crémeuse 🥛 et un fond gaz / fuel ⛽ plus lourd qui apporte une vraie profondeur aromatique.
+
+👃 Nez : riche en terpènes • crème 🥛 • gaz ⛽ • notes funky 🍔
+👅 Goût : riche • crémeux • profond • finale intense
+🔥 Profil : complexe, original et bien marqué
+
+💚 Disponible chez PISTACHIO 💚`,
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: '🍈 GAZ MELON',
+                            flag: '🇲🇦',
+                            name: '🍈 GAZ MELON',
+                            farm: '💎⛽ THE GAZ SÉLECTION ⛽💎',
+                            promoEligible: true,
+                            type: 'STATIC MOROCCO 🇲🇦',
+                            image: 'ProductGM.jpg',
+                            video: 'VideoGM.mov',
+                            description: `⚡ TYPE : STATIC PLASMA ⚡
+
+💚 Un profil terpénique fruité, sucré et bien gazzy.
+Dès l’ouverture, le melon mûr 🍈 ressort fort, accompagné d’une touche crémeuse 🥛 et sucrée 🍬, puis une belle finale fuel / gaz ⛽ qui donne toute sa personnalité.
+
+👃 Nez : melon 🍈 • crème 🥛 • sucre 🍬 • gaz ⛽
+👅 Goût : fruité • rond • gourmand • finale gazzy
+✨ Profil : frais, intense et très aromatique`,
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                            ]
+                        },
+                        {
                             id: '🔥🥭 DOUBLE STATIC — TERPS INDUSTRY 🥭🔥',
                             flag: '🇲🇦',
                             name: '🔥🥭 PAPAYA 🥭🔥',
