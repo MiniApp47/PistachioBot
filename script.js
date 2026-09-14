@@ -212,8 +212,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'THE CALI CONNECTION 🇺🇸',
                             promoEligible: false,
                             type: 'CALI USA 🇺🇸',
-                            image: 'ProductCR.jpg',
-                            images:['ProductCR2.jpg'],
+                            image: 'ProductCR2.jpg',
+                            images:['ProductCR.jpg'],
                             video: 'VideoCR.mov',
                             description: `🌈🍭🍓 Une explosion de parfums avec un mélange fruité, sucré et légèrement floral 🌸.
 ⛽🔥 Derrière cette douceur arrive une vraie touche gassy, plus profonde, qui donne énormément de relief au profil.
@@ -237,8 +237,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'THE CALI CONNECTION 🇺🇸',
                             promoEligible: false,
                             type: 'CALI USA 🇺🇸',
-                            image: 'ProductGP.jpg',
-                            images:['ProductGP2.jpg'],
+                            image: 'ProductGP2.jpg',
+                            images:['ProductGP.jpg'],
                             video: 'VideoGP.mov',
                             description: `🔥⛽ Ici on part sur quelque chose de beaucoup plus intense et caractériel.
 💨 Un gros mélange de notes gas, crémeuses et épicées 🌶️, avec une petite douceur 🍪 qui vient équilibrer l’ensemble.
@@ -262,8 +262,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'THE CALI CONNECTION 🇺🇸',
                             promoEligible: false,
                             type: 'CALI USA 🇺🇸',
-                            image: 'ProductMI.jpg',
-                            images:['ProductMI2.jpg'],
+                            image: 'ProductMI2.jpg',
+                            images:['ProductMI.jpg'],
                             video: 'VideoMI.mov',
                             description: `🍦🍬 Une strain ultra gourmande et crémeuse, avec un profil qui rappelle les desserts américains bien riches.
 💜 Des notes sucrées, vanillées et légèrement fruitées, accompagnées d’un petit fond gas ⛽ qui donne beaucoup de caractère.
