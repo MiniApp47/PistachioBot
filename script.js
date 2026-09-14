@@ -206,6 +206,81 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Wizard Trees & co',
                     products: [
                         {
+                            id: '🌈💛💚💜 CADILLAC RAINBOWS',
+                            flag: '🇺🇸',
+                            name: '🌈💛💚💜 CADILLAC RAINBOWS',
+                            farm: 'THE CALI CONNECTION 🇺🇸',
+                            promoEligible: false,
+                            type: 'CALI USA 🇺🇸',
+                            image: 'ProductCR.jpg',
+                            images:['ProductCR2.jpg'],
+                            video: 'VideoCR.mov',
+                            description: `🌈🍭🍓 Une explosion de parfums avec un mélange fruité, sucré et légèrement floral 🌸.
+⛽🔥 Derrière cette douceur arrive une vraie touche gassy, plus profonde, qui donne énormément de relief au profil.
+
+🍬🌺🌿 Chaque odeur apporte quelque chose de différent : douceur, fruit, gas et petite touche épicée 🌶️.
+😍💥 Les terpènes sont incroyables, riches, puissants et remplis de nuances.
+
+🌈✨ Une strain très complète, colorée dans ses arômes et avec une identité vraiment particulière.`,
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 110.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                                { weight: '100g', price: 850.00 },
+                            ]
+                        },
+                        {
+                            id: '🔵💙🏀⛽ GARY PAYTON',
+                            flag: '🇺🇸',
+                            name: '🔵💙🏀⛽ GARY PAYTON',
+                            farm: 'THE CALI CONNECTION 🇺🇸',
+                            promoEligible: false,
+                            type: 'CALI USA 🇺🇸',
+                            image: 'ProductGP.jpg',
+                            images:['ProductGP2.jpg'],
+                            video: 'VideoGP.mov',
+                            description: `🔥⛽ Ici on part sur quelque chose de beaucoup plus intense et caractériel.
+💨 Un gros mélange de notes gas, crémeuses et épicées 🌶️, avec une petite douceur 🍪 qui vient équilibrer l’ensemble.
+
+🔵🌿 Le parfum est profond, puissant et très reconnaissable, avec plusieurs couches aromatiques qui arrivent les unes après les autres.
+🤯✨ Les terpènes sont incroyables, super expressifs et vraiment complexes.
+
+🏀💙 Une strain avec énormément de personnalité, parfaite pour les amateurs de profils gas / creamy / spicy.`,
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 110.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                                { weight: '100g', price: 850.00 },
+                            ]
+                        },
+                        {
+                            id: '🟣💜🍡✨ MOCHI',
+                            flag: '🇺🇸',
+                            name: '🟣💜🍡✨ MOCHI',
+                            farm: 'THE CALI CONNECTION 🇺🇸',
+                            promoEligible: false,
+                            type: 'CALI USA 🇺🇸',
+                            image: 'ProductMI.jpg',
+                            images:['ProductMI2.jpg'],
+                            video: 'VideoMI.mov',
+                            description: `🍦🍬 Une strain ultra gourmande et crémeuse, avec un profil qui rappelle les desserts américains bien riches.
+💜 Des notes sucrées, vanillées et légèrement fruitées, accompagnées d’un petit fond gas ⛽ qui donne beaucoup de caractère.
+
+🌿💨 À l’ouverture, les arômes ressortent directement : c’est doux, rond, parfumé et très travaillé.
+🤩🔥 Les terpènes sont incroyables, très présents et remplis de nuances.
+
+🍡💜 Une variété élégante, gourmande et vraiment différente, avec un profil aromatique qui reste bien en tête.`,
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 110.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                                { weight: '100g', price: 850.00 },
+                            ]
+                        },
+                        {
                             id: '🐶 UNCLE SNOOP',
                             flag: '🇺🇸',
                             name: '🐶 UNCLE SNOOP',
