@@ -2640,7 +2640,7 @@ function renderProductListSimple(categoryId) {
         contactBtn.classList.remove('secondary-action-btn'); // Enlève le gris
         contactBtn.classList.add('main-action-btn');      // Met le rouge (ou couleur principale)
         contactBtn.disabled = false;                      // Active le clic
-        contactBtn.innerHTML = 'CONFIRMER SUR TELEGRAM 💙'; // Change le texte
+        contactBtn.innerHTML = 'CONFIRMER SUR WHATSAPP ✅'; // Change le texte
     }
 
     showPage('page-confirmation');
@@ -3165,7 +3165,7 @@ function renderProductListSimple(categoryId) {
         }
 
         // Clic sur "Confirmer la commande" (VERSION TELEGRAM DIRECT)
-if (target.closest('#confirm-order-button')) {
+/* if (target.closest('#confirm-order-button')) {
 
     // On prépare le message de commande
     let message = formatOrderMessage();
@@ -3178,9 +3178,9 @@ if (target.closest('#confirm-order-button')) {
 
     // On ouvre Telegram
     tg.openLink(telegramUrl);
-}
+} */
           // Clic sur "Confirmer la commande" (VERSION WHATSAPP DIRECT)
-  /*   if (target.closest('#confirm-order-button')) {
+    if (target.closest('#confirm-order-button')) {
 
         // 1. TON NUMÉRO WHATSAPP (Format international sans le +)
         const myPhoneNumber = '33626127557'; 
@@ -3196,7 +3196,7 @@ if (target.closest('#confirm-order-button')) {
 
         // 5. On ouvre WhatsApp
         tg.openLink(whatsappUrl);
-    } */
+    }
 
 
 
