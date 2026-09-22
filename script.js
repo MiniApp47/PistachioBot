@@ -651,6 +651,78 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'Terps',
                     products: [
+                          {
+                            id: '💜💎 RS11 💎💜',
+                            flag: '🇺🇸',
+                            name: '💜💎 RS11 💎💜',
+                            farm: '🧊💎 THERPS INDUSTRY 💎🧊',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductR.jpg',
+                            images: ['ProductR1.jpg'],
+                            video: 'VideoR.mov',
+                            description: `🫒 OLIVE DE FROZEN — 10G
+❄️ THERPS INDUSTRY — FROZEN EXCELLENCE ❄️
+
+💎 TERPÈNES MAX
+Une RS11 avec un profil aromatique ultra expressif 🤯💨
+🍬 Notes fruitées & sucrées
+⛽ Une belle touche GAS qui vient relever le tout
+🔥 Une odeur qui prend directement au nez
+
+❄️ Concentré de Frozen super intense
+💥 Texture sèche & pétante comme on les aime
+✨ Aspect brillant et travaillé
+👃 Arômes puissants
+👅 Goût intense et persistant
+
+👑 CURÉE À 100 %
+Le travail est terminé… reste plus qu’à déguster 😮‍💨💎
+
+🫒 10G • RS11
+❄️ THERPS INDUSTRY
+💜 Small Batch • Terpènes Max • Frozen Excellence`,
+                            tarifs: [
+                                { weight: '1 olive', price: 130.00 },
+                                { weight: '2 olives', price: 250.00 },
+                            ]
+                        },
+                          {
+                            id: '🤍🍮 PANNACOTA 🍮🤍',
+                            flag: '🇺🇸',
+                            name: '🤍🍮 PANNACOTA 🍮🤍',
+                            farm: '🧊💎 THERPS INDUSTRY 💎🧊',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductPAA.jpg',
+                            images: ['ProductPAA1.jpg'],
+                            video: 'VideoPAA.mov',
+                            description: `🫒 OLIVE DE FROZEN — 10G
+✨ PANNACOTA — LA GOURMANDE ✨
+
+💎 TERPÈNES MAX
+Ici on part sur quelque chose de crémeux, gourmand et ultra parfumé 🤤🔥
+🍦 Notes douces & vanillées
+🍮 Un côté crémeux façon dessert
+🍬 Une petite touche sucrée qui reste en bouche
+
+❄️ Concentré de Frozen super intense
+💥 Sec, pétant et parfaitement travaillé
+✨ Texture magnifique
+👃 Une odeur gourmande dès l’ouverture
+👅 Un profil aromatique riche et généreux
+
+👑 CURÉE À 100 %
+Tout est prêt… reste plus qu’à déguster 🫒✨
+
+🤍 10G • PANNACOTA
+💎 THERPS INDUSTRY
+❄️ Frozen Excellence • Terpènes Max • Qualité Premium`,
+                            tarifs: [
+                                { weight: '1 olive', price: 130.00 },
+                                { weight: '2 olives', price: 250.00 },
+                            ]
+                        },
                                {
                             id: '⛽🍇 FRAPPE GAZ 🍇⛽',
                             flag: '🇺🇸',
