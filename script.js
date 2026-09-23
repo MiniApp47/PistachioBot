@@ -1784,9 +1784,8 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
             quality: '🧸 EDIBLES',
             image: 'CategEdibles.png', 
 
-            // 👇 ICI : On ne met pas de "farms", on met direct "products"
             products: [
-                {
+               /*  {
                     id: 'BEURRE DE MARRAKECH',
                     flag: '🍰',
                     name: '🧈 BEURRE DE MARRAKECH ✨',
@@ -1800,8 +1799,7 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                         { weight: '100g', price: 250.00 },
                         { weight: '200g', price: 450.00 }
                     ]
-                },
-                // Tu peux ajouter d'autres produits à la suite ici...
+                }, */
                 {
                     id: '🍪 Space Cookies',
                     flag: '🍰',
@@ -1809,14 +1807,15 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                     farm: '👨‍🍳 SIGNATURE PISTACHIO', // Apparaît en petit sous le nom
                     promoEligible: true,
                     type: 'Edible',
-                    image:'ProductChocoB.jpeg',
-                    images:['ProductChocoB.jpeg','ProductChocoW.jpeg','ProductRecette.jpeg',],
-                    video: '',
+                    image:'ProductSC.jpg',
+                    images:['ProductSC1.jpg'],
+                    video: 'VideoSC.mp4',
                     description: '•⁠  ⁠Chocolat blanc & coulis framboise \n  •⁠  ⁠Chocolat noir & caramel beurre salé \n  •⁠  ⁠Caramel beurre salé & chocolat blanc  \n\n 📩 Plus d’infos en PV',
                     tarifs: [
-                        { weight: '1 🍪', price: 10.00 },
-                        { weight: '⁠5 🍪', price: 40.00 },
-                        { weight: '10 🍪', price: 80.00 }
+                        { weight: '1 🍪', price: 20.00 },
+                        { weight: '⁠5 🍪', price: 80.00 },
+                        { weight: '10 🍪', price: 150.00 },
+                        { weight: '20 🍪', price: 250.00 }
                     ]
                 }
             ]
