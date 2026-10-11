@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '', // ⚠️ Mets une image ici
                     badgeText: 'Exclusif',
                     products: [
-                         {
+                         /* {
                             id: '🍬⛽ Candy Heart — Terps au MAX ⛽🍬',
                             flag: '🇺🇸',
                             name: '🍬⛽ Candy Heart — Terps au MAX ⛽🍬',
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 320.00 },
                                 { weight: '100g', price: 550.00 },
                             ]
-                        },
+                        }, */
                       /*   {
                             id: 'PurpleBud',
                             flag: '🇨🇦',
