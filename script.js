@@ -1292,6 +1292,33 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                     image: '',
                     badgeText: 'Top Qualité',
                     products: [
+                        {
+                            id: '🍪💎 OREOZ',
+                            flag: '🇲🇦',
+                            name: '🍪💎 OREOZ',
+                            farm: 'NORTH FRENCH FARMZ 🇫🇷',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductO.jpg',
+                            images:[ 'ProductO1.jpg','ProductO2.jpg'],
+                            video: 'VideoO.mov',
+                            description: `❄️ FILTRED 120U ❄️
+
+🤤 Un profil aromatique ultra-gourmand aux notes de biscuit chocolaté, crème vanillée et touches sucrées.
+
+🌿💨 Côté terps, un mélange de nuances boisées, terreuses et légèrement épicées, avec une belle douceur en fond. 🍫🔥
+
+💎 Un véritable dessert côté arômes !
+
+📦 Formats 50G / 100G`,
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },               
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 260.00 },
+                                { weight: '50g', price: 420.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
                           {
                             id: '🍏 Apple Ice ❄️',
                             flag: '🇲🇦',
