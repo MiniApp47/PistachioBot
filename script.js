@@ -1312,11 +1312,11 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
 
 📦 Formats 50G / 100G`,
                             tarifs: [
-                                { weight: '5g', price: 60.00 },               
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 260.00 },
-                                { weight: '50g', price: 420.00 },
-                                { weight: '100g', price: 750.00 },
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 160.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 450.00 },
+                                { weight: '500g', price: 2000.00 },
                             ]
                         },
                           {
@@ -1645,7 +1645,36 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                     image: '',
                     badgeText: 'Classique',
                     products: [
-                        {
+                         {
+                            id: '🍏🍌 APPLE BANANA 🍌🍏',
+                            flag: '🇪🇸',
+                            name: '🍏🍌 APPLE BANANA 🍌🍏',
+                            farm: '💎 THERPS INDUSTRY 💎',
+                            promoEligible: true,
+                            type: '💛🍯 JAUNE CRÉMEUX 🍯💛',
+                            image: 'ProductABB.jpg',
+                            images: ['ProductABB1.jpg','ProductABB2.jpg'],
+                            video: 'VideoABB.mov',
+                            description: `💛🍯 JAUNE CRÉMEUX 🍯💛
+
+🌈 Un mélange aromatique ultra-gourmand !
+
+🍏 Pomme — Fruité et légèrement acidulé
+🍌 Banane — Douce et exotique
+🍯 Crémeux — Des notes rondes et sucrées
+🍬 Terpènes — Un parfum de bonbon fruité !
+
+✨💛 DOUCEUR • FRUITÉ • ONCTUOSITÉ 💛✨
+
+🐿️💚 DISPONIBLE CHEZ PISTACHIO 💚🐿️`,
+                            tarifs: [
+                                { weight: '10g', price: 50.00 },
+                                { weight: '25g', price: 110.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 300.00 },
+                            ]
+                        },
+                       /*  {
                             id: '🧈🍯 Oreoz × Permanent Marker 🍯🧈',
                             flag: '🇪🇸',
                             name: '🧈🍯 Oreoz × Permanent Marker 🍯🧈',
@@ -1661,7 +1690,7 @@ Une signature olfactive riche, fruitée et persistante 🥭🌿💫`,
                                 { weight: '50g', price: 200.00 },
                                 { weight: '100g', price: 300.00 },
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'Og',
                             flag: '🇪🇸',
