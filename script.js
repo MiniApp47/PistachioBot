@@ -651,6 +651,33 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'Terps',
                     products: [
+                         {
+                            id: '🌿 GARY PAYTON 🌿 ',
+                            flag: '🇺🇸',
+                            name: '🌿 GARY PAYTON 🌿 ',
+                            farm: '🧊💎 THERPS INDUSTRY 💎🧊',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductGPP.jpg',
+                            images: ['ProductGPP1.jpg','ProductGPP2.jpg'],
+                            video: 'VideoGPP.mp4',
+                            description: ` 📦 FORMAT : 25G
+
+🔥 Une variété au caractère affirmé, reconnue pour son profil aromatique complexe, mêlant des notes terreuses, épicées et végétales, avec des nuances fraîches et citronnées selon le profil du lot.
+
+❄️ GARY PAYTON, un nom qui se démarque par son identité, son univers aromatique et son caractère distinctif. Une présentation soignée, une finition givrée et l'empreinte visuelle signée FARMZ THERPS INDUSTRY. 💚💜
+
+👑 FARMZ THERPS INDUSTRY  
+📍 DISPONIBLE CHEZ PISTACHIO 🥜🔥
+
+💎 GARY PAYTON — UN NOM, UNE IDENTITÉ, UN CARACTÈRE. 🥶`,
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 730.00 },
+                            ]
+                        },
                           {
                             id: '💜💎 RS11 💎💜',
                             flag: '🇺🇸',
@@ -760,7 +787,7 @@ Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qu
                                 { weight: '100g', price: 730.00 },
                             ]
                         },
-                        {
+                        /* {
                             id: '🍋❄️ LEMON CHERRY 🍒',
                             flag: '🇺🇸',
                             name: '🍋❄️ LEMON CHERRY 🍒',
@@ -791,7 +818,7 @@ Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qu
                                 { weight: '50g', price: 400.00 },
                                 { weight: '100g', price: 730.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: '🍊 Orange Z',
                             flag: '🇺🇸',
