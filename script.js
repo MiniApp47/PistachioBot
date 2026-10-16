@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 110.00 },
                                 { weight: '25g', price: 250.00 },
                                 { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 850.00 },
+                                { weight: '100g', price: 750.00 },
                             ]
                         },
                         {
@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 110.00 },
                                 { weight: '25g', price: 250.00 },
                                 { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 850.00 },
+                                { weight: '100g', price: 750.00 },
                             ]
                         },
                         {
@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 110.00 },
                                 { weight: '25g', price: 250.00 },
                                 { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 850.00 },
+                                { weight: '100g', price: 750.00 },
                             ]
                         },
                         {
