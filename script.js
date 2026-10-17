@@ -1120,6 +1120,40 @@ Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qu
                     badgeText: 'Saison 2026',
                     products: [
                         {
+                            id: 'BLUE MAGIC 🫐💎',
+                            flag: '🇲🇦',
+                            name: '💎🫐 BLUE MAGIC 🫐💎',
+                            farm: '💎🫐 GAZ & FRUIT 🫐💎',
+                            promoEligible: true,
+                            type: 'STATIC MOROCCO 🇲🇦',
+                            image: 'ProductBM.jpg',
+                            images: ['ProductBM1.jpg'],
+                            video: 'VideoBM.mov',
+                            description: `🥶🔵 DOUBLE STATIC 🔵🥶
+
+🔥 UN TRAVAIL DE HASH MAKER QUI MÉRITE LE RESPECT ! 🔥
+
+On vous présente BLUE MAGIC, un Double Static qui met à l’honneur le savoir-faire de notre hash maker. 💎🤝
+
+🫐🍇 CÔTÉ TERPS, ON EST SUR UNE SIGNATURE GAZ & FRUIT ! ⛽🍓
+
+💨 Des notes fruitées qui rencontrent un profil plus gazeux, une identité aromatique qui joue sur les contrastes et un nom qui annonce la couleur. 🔵✨
+
+👑 DU TRAVAIL, DU SAVOIR-FAIRE ET UNE IDENTITÉ QUI SE DÉMARQUE.
+
+💚🌰 DISPONIBLE UNIQUEMENT CHEZ PISTACHIO 🌰💚
+
+🚨🔥 BLUE MAGIC — DOUBLE STATIC. LE NOM EST POSÉ. 🔥🚨
+
+📍 PISTACHIO — ON CULTIVE NOTRE PROPRE IDENTITÉ. 💎`,
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 480.00 },
+                            ]
+                        },
+                        /* {
                             id: '🍔 ZOAP BURGER',
                             flag: '🇲🇦',
                             name: '🍔 ZOAP BURGER',
@@ -1144,7 +1178,7 @@ On retrouve beaucoup de terpènes, avec une touche crémeuse 🥛 et un fond gaz
                                 { weight: '25g', price: 250.00 },
                                 { weight: '50g', price: 450.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: '🍈 GAZ MELON',
                             flag: '🇲🇦',
