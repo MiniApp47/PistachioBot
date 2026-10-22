@@ -661,7 +661,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             image: 'ProductPBF.jpg',
                             images: ['ProductPBF1.jpg','ProductPBF2.jpg'],
                             video: 'VideoPBF.mp4',
-                            description: ` 🚨💎🦋 NEW DROP — PEANUT BUTTER FLY 🦋💎🚨
+                            description: ` 🚨💎🦋 NEW DROP 🦋💎🚨
 
 🥶❄️ FROZEN SIFT — PREMIUM QUALITY ❄️🥶
 
