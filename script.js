@@ -652,6 +652,50 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                          {
+                            id: 'PEANUT BUTTER FLY 🦋💎🚨',
+                            flag: '🇺🇸',
+                            name: 'PEANUT BUTTER FLY 🦋💎🚨',
+                            farm: '🏠 FROZEN NO FARMZ',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductPBF.jpg',
+                            images: ['ProductPBF1.jpg','ProductPBF2.jpg'],
+                            video: 'VideoPBF.mp4',
+                            description: ` 🚨💎🦋 NEW DROP — PEANUT BUTTER FLY 🦋💎🚨
+
+🥶❄️ FROZEN SIFT — PREMIUM QUALITY ❄️🥶
+
+🔥 UN TRAVAIL DE HASH MAKER QUI MÉRITE LE RESPECT ! 🔥
+
+On vous présente le PEANUT BUTTER FLY, un Frozen Sift qui met à l’honneur le savoir-faire et le travail de précision. 💎🤝
+
+🥜🧈 CÔTÉ TERPS, PLACE À LA GOURMANDISE ! 🍯🔥
+
+Un profil aromatique aux notes de beurre de cacahuète, avec une identité gourmande qui porte parfaitement son nom ! 🦋✨
+
+❄️💥 SEC ET PÉTANT COMME ON LES AIME !
+
+💎 Une texture travaillée, un aspect cristallisé et une présentation qui ne passe pas inaperçue !
+
+📦 FORMAT 100G
+👑 SMALL BATCH
+💎 PREMIUM QUALITY
+
+🔥 DU SAVOIR-FAIRE, DE LA PRÉCISION ET UNE IDENTITÉ QUI SE DÉMARQUE ! 🔥
+
+💚🌰 PISTACHIO 420 🌰💚
+
+🚨🦋 PEANUT BUTTER FLY — LE PAPILLON A DÉPLOYÉ SES AILES ! 🦋🚨
+
+💎 PISTACHIO — ON CULTIVE NOTRE PROPRE IDENTITÉ. 💎`,
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 730.00 },
+                            ]
+                        },
+                         {
                             id: '🌿 GARY PAYTON 🌿 ',
                             flag: '🇺🇸',
                             name: '🌿 GARY PAYTON 🌿 ',
@@ -750,7 +794,7 @@ Tout est prêt… reste plus qu’à déguster 🫒✨
                                 { weight: '2 olives', price: 250.00 },
                             ]
                         },
-                               {
+                               /* {
                             id: '⛽🍇 FRAPPE GAZ 🍇⛽',
                             flag: '🇺🇸',
                             name: '⛽🍇 FRAPPE GAZ 🍇⛽',
@@ -786,7 +830,7 @@ Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qu
                                 { weight: '50g', price: 400.00 },
                                 { weight: '100g', price: 730.00 },
                             ]
-                        },
+                        }, */
                         /* {
                             id: '🍋❄️ LEMON CHERRY 🍒',
                             flag: '🇺🇸',
