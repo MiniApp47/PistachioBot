@@ -92,6 +92,91 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- DONNÉES DE L'APPLICATION (PISTACHIOBOT) ---
     const appData = [
 
+         {
+            id: 'Vape THC 💨',
+            name: 'Vape THC 💨',
+            type: 'Vape THC 💨',
+            quality: 'Vape THC 💨',
+            image: 'CategVape.png', 
+
+            products: [
+                 {
+                    id: '💎 90 % THC',
+                    flag: '🌬️',
+                    name: '💎 90 % THC',
+                    farm: '👨‍🍳 SIGNATURE PISTACHIO', // Apparaît en petit sous le nom
+                    promoEligible: true,
+                    type: 'Vape THC 💨',
+                    image:'Product90.jpg',
+                    images:['Product901.jpg','Product902.jpg'],
+                    video: '',
+                    description: `💚🌰 PISTACHIO — NEW VAPE COLLECTION 🌰💚
+
+💨⚡ 4 STRAINS — 4 IDENTITÉS ⚡💨
+
+💎 1000 MG • 90 % THC (valeurs annoncées sur le visuel)
+
+🍰💛 KUSH CAKE — Une identité gourmande inspirée de la pâtisserie.
+
+🍦💜 ICE CREAM CAKE — Un univers crémeux et dessert glacé.
+
+🧊💙 KUSH MINTZ — Une signature inspirée de la fraîcheur mentholée.
+
+🔥❤️ OG KUSH — Un grand classique aux inspirations terreuses et résineuses.
+
+👑 PISTACHIO — 4 UNIVERS À DÉCOUVRIR.`,
+  // 👇 NOUVELLE STRUCTURE
+                            variantTitle: 'Choisis ton goût 🥣 :',
+                            jars: [
+                                { name: 'OG KUSH', emoji: '🔥❤️', colorClass: 'style-passion' },
+                                { name: 'KUSH MINTZ ', emoji: '🧊💙', colorClass: 'style-melon' },
+                                { name: 'ICE CREAM CAKE', emoji: '🍦💜', colorClass: 'style-purple' },
+                                { name: 'KUSH CAKE', emoji: '🍰💛', colorClass: 'style-brown' },
+
+                            ],
+
+                    tarifs: [
+                        { weight: '1', price: 50.00 },
+                        { weight: '3', price: 140.00 },
+                        { weight: '5', price: 200.00 },
+                    ]
+                }
+               /*  {
+                    id: 'BEURRE DE MARRAKECH',
+                    flag: '🍰',
+                    name: '🧈 BEURRE DE MARRAKECH ✨',
+                    farm: '👨‍🍳 SIGNATURE PISTACHIO', // Apparaît en petit sous le nom
+                    promoEligible: true,
+                    type: 'Edible',
+                    image: 'ProductBeure.jpeg', // ⚠️ Mets ton image
+                    video: 'VideoBeurre.mp4', 
+                    description: '👨‍🍳🔥 Le chef cuistot PISTACHIO n’a clairement pas rigolé… \n Regardez-moi ce bijou 💎 \n\n Seulement avec un acompte pour la préparation .',
+                    tarifs: [
+                        { weight: '100g', price: 250.00 },
+                        { weight: '200g', price: 450.00 }
+                    ]
+                }, */
+               /*  {
+                    id: '🍪 Space Cookies',
+                    flag: '🍰',
+                    name: '🍪 Space Cookies',
+                    farm: '👨‍🍳 SIGNATURE PISTACHIO', // Apparaît en petit sous le nom
+                    promoEligible: true,
+                    type: 'Edible',
+                    image:'ProductSC.jpg',
+                    images:['ProductSC1.jpg'],
+                    video: 'VideoSC.mp4',
+                    description: '•⁠  ⁠Chocolat blanc & coulis framboise \n  •⁠  ⁠Chocolat noir & caramel beurre salé \n  •⁠  ⁠Caramel beurre salé & chocolat blanc  \n\n 📩 Plus d’infos en PV',
+                    tarifs: [
+                        { weight: '1 🍪', price: 20.00 },
+                        { weight: '⁠5 🍪', price: 80.00 },
+                        { weight: '10 🍪', price: 150.00 },
+                        { weight: '20 🍪', price: 250.00 }
+                    ]
+                } */
+            ]
+        },
+
         // ============================================================
         // CATEGORIE 1 : WEED 🌿
         // ============================================================
@@ -655,7 +740,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'PEANUT BUTTER FLY 🦋💎🚨',
                             flag: '🇺🇸',
                             name: 'PEANUT BUTTER FLY 🦋💎🚨',
-                            farm: '🏠 FROZEN NO FARMZ',
+                            farm: '🧊💎 THERPS INDUSTRY 💎🧊',
                             promoEligible: true,
                             type: 'FROZEN PREMIUM ❄️',
                             image: 'ProductPBF.jpg',
