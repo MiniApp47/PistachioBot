@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: '💎 90 % THC',
                     flag: '🌬️',
                     name: '💎 90 % THC',
-                    farm: '👨‍🍳 SIGNATURE PISTACHIO', // Apparaît en petit sous le nom
+                    farm: '👨‍🍳 KATRINA', // Apparaît en petit sous le nom
                     promoEligible: true,
                     type: 'Vape THC 💨',
                     image:'Product90.jpg',
