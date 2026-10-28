@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const tg = window.Telegram.WebApp;
     tg.ready();
     tg.expand();
-    tg.setHeaderColor('#2c2c2e');
-    tg.setBackgroundColor('#1c1c1d');
+    tg.setHeaderColor('#241226'); // 🎃 Halloween : violet nuit
+    tg.setBackgroundColor('#140c16'); // 🎃 Halloween : fond sombre
 
     const progressBar = document.getElementById("myBar");
     const loader = document.getElementById("page-loader");

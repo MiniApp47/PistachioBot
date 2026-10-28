@@ -30,7 +30,7 @@
             padding: 0;
             overscroll-behavior-y: none;
             /* FOND D'ÉCRAN */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Fondecran.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('FondecranA.png');
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
@@ -990,10 +990,160 @@
         .image-modal { display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9); align-items: center; justify-content: center; }
         .modal-content { max-width: 90%; max-height: 90%; border-radius: 10px; }
         .close-modal { position: absolute; top: 20px; right: 30px; color: white; font-size: 40px; font-weight: bold; cursor: pointer; }
+
+
+        /* ==========================================================
+           🎃 HALLOWEEN 2026 — DÉCORATION SAISONNIÈRE LÉGÈRE
+           ========================================================== */
+        :root {
+            --halloween-orange: #ff7a00;
+            --halloween-purple: #8a2be2;
+            --halloween-deep: #140c16;
+            --halloween-glow: rgba(255, 122, 0, 0.55);
+        }
+
+        /* Léger voile sombre / violet sans masquer le fond existant */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+            background:
+                radial-gradient(circle at 15% 15%, rgba(255, 122, 0, 0.09), transparent 26%),
+                radial-gradient(circle at 85% 28%, rgba(138, 43, 226, 0.11), transparent 30%),
+                linear-gradient(180deg, rgba(20, 12, 22, 0.05), rgba(20, 12, 22, 0.18));
+        }
+
+        .page, .bottom-nav, #notification-toast { position: relative; z-index: 2; }
+        .bottom-nav { position: fixed; }
+
+        /* Petite bannière Halloween sur l'accueil */
+        .halloween-banner {
+            margin: 10px 15px 0;
+            padding: 9px 12px;
+            border-radius: 14px;
+            text-align: center;
+            font-family: Marker Felt, fantasy;
+            font-size: 0.92rem;
+            letter-spacing: 0.8px;
+            color: #fff3df;
+            background: linear-gradient(100deg, rgba(255,122,0,.80), rgba(93,31,138,.84), rgba(255,122,0,.72));
+            border: 1px solid rgba(255, 166, 77, 0.70);
+            box-shadow: 0 0 14px rgba(255,122,0,.28), inset 0 0 18px rgba(0,0,0,.22);
+            animation: halloweenPulse 3.2s ease-in-out infinite;
+        }
+
+        @keyframes halloweenPulse {
+            0%, 100% { box-shadow: 0 0 12px rgba(255,122,0,.24), inset 0 0 18px rgba(0,0,0,.22); }
+            50% { box-shadow: 0 0 22px rgba(255,122,0,.46), 0 0 10px rgba(138,43,226,.35), inset 0 0 18px rgba(0,0,0,.22); }
+        }
+
+        /* Décorations fixes — pointer-events:none pour ne jamais bloquer les boutons */
+        .halloween-decor {
+            position: fixed;
+            z-index: 60;
+            pointer-events: none;
+            user-select: none;
+            filter: drop-shadow(0 3px 8px rgba(0,0,0,.55));
+        }
+
+        .halloween-pumpkin-left {
+            left: 7px;
+            bottom: 76px;
+            font-size: 30px;
+            animation: pumpkinFloat 3.4s ease-in-out infinite;
+        }
+
+        .halloween-pumpkin-right {
+            right: 7px;
+            bottom: 76px;
+            font-size: 27px;
+            animation: pumpkinFloat 3.4s ease-in-out infinite reverse;
+        }
+
+        @keyframes pumpkinFloat {
+            0%, 100% { transform: translateY(0) rotate(-3deg); }
+            50% { transform: translateY(-7px) rotate(4deg); }
+        }
+
+        .halloween-web-left,
+        .halloween-web-right {
+            top: 0;
+            font-size: 42px;
+            opacity: 0.70;
+        }
+        .halloween-web-left { left: -6px; transform: rotate(-10deg); }
+        .halloween-web-right { right: -6px; transform: scaleX(-1) rotate(-10deg); }
+
+        /* Chauves-souris discrètes qui traversent l'écran */
+        .halloween-bat {
+            position: fixed;
+            left: -45px;
+            z-index: 58;
+            pointer-events: none;
+            font-size: 21px;
+            opacity: 0;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,.7));
+            animation: batFly 12s linear infinite;
+        }
+        .halloween-bat.bat-1 { top: 17%; animation-delay: 0s; }
+        .halloween-bat.bat-2 { top: 31%; animation-delay: 4.2s; font-size: 17px; }
+        .halloween-bat.bat-3 { top: 54%; animation-delay: 8s; font-size: 19px; }
+
+        @keyframes batFly {
+            0% { transform: translateX(-50px) translateY(0) rotate(-8deg); opacity: 0; }
+            8% { opacity: .72; }
+            35% { transform: translateX(38vw) translateY(-18px) rotate(7deg); }
+            65% { transform: translateX(72vw) translateY(16px) rotate(-5deg); opacity: .72; }
+            100% { transform: translateX(calc(100vw + 100px)) translateY(-10px) rotate(8deg); opacity: 0; }
+        }
+
+        /* Petites touches orange sur les éléments clés, sans refaire tout le thème */
+        #page-home .home-header {
+            box-shadow: inset 0 -1px 0 rgba(255,122,0,.22);
+        }
+
+        #page-home .cart-button,
+        .nav-item.active {
+            box-shadow: 0 0 10px rgba(255,122,0,.38), 0 0 14px rgba(209,0,105,.28);
+        }
+
+        .category-card img,
+        .product-card {
+            transition: transform .2s ease, box-shadow .25s ease, border-color .25s ease;
+        }
+
+        .product-card {
+            box-shadow: 0 4px 16px rgba(0,0,0,.28), 0 0 9px rgba(255,122,0,.10);
+        }
+
+        .product-card:active {
+            transform: scale(.985);
+            border-color: rgba(255,122,0,.78);
+            box-shadow: 0 0 15px rgba(255,122,0,.26), 0 4px 16px rgba(0,0,0,.35);
+        }
+
+        /* Accessibilité : coupe les animations si le téléphone le demande */
+        @media (prefers-reduced-motion: reduce) {
+            .halloween-banner,
+            .halloween-decor,
+            .halloween-bat { animation: none !important; }
+            .halloween-bat { display: none; }
+        }
+
     </style>
 </head>
 
 <body>
+    <!-- 🎃 Décoration Halloween 2026 -->
+    <div class="halloween-decor halloween-web-left">🕸️</div>
+    <div class="halloween-decor halloween-web-right">🕸️</div>
+    <div class="halloween-decor halloween-pumpkin-left">🎃</div>
+    <div class="halloween-decor halloween-pumpkin-right">🎃</div>
+    <div class="halloween-bat bat-1">🦇</div>
+    <div class="halloween-bat bat-2">🦇</div>
+    <div class="halloween-bat bat-3">🦇</div>
     <div id="page-contact" class="page">
         <div class="page-content">
             <img src="LogoReel.png" alt="Logo" class="contact-logo">
@@ -1255,6 +1405,7 @@
 
             </div>
         </div>
+        <div class="halloween-banner">🎃 HALLOWEEN EDITION • PISTACHIO AFTER DARK 🦇</div>
         <div class="home-header">
             <img src="LogoReel2.png" alt="Logo" class="home-logo">
             <button class="cart-button" id="home-cart-button">
