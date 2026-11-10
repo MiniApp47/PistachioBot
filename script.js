@@ -737,6 +737,67 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                          {
+                            id: '🫒 OLIVE DE FROZEN',
+                            flag: '🇺🇸',
+                            name: '🫒 OLIVE DE FROZEN',
+                            farm: '🧊💎 THERPS INDUSTRY 💎🧊',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductOF.jpg',
+                            images: ['ProductOF1.jpg'],
+                            video: 'VideoOF.mov',
+                            description: ` 🥶💎 NEW DROP — THERPS INDUSTRY 💎🥶
+
+🫒 OLIVE DE FROZEN SIFT — 5G
+🏁 ÉDITION REDBULL X YAMAHA 🏁
+
+✨ 3 STRAINS — 3 PROFILS AROMATIQUES ✨
+
+🍓 STRAWBERRY — LA GOURMANDE 🍓
+
+💎 Profil fruité aux notes de fraise
+🍬 Une touche douce et sucrée
+🍓 Une identité aromatique gourmande
+
+🫐 BLUEBERRY — LA FRUITÉE 🫐
+
+💎 Notes de myrtille et de fruits des bois
+🍭 Un côté sucré légèrement acidulé
+🫐 Un profil aromatique riche et fruité
+
+🍊 MANDARINA — L’AGRUME 🍊
+
+💎 Notes de mandarine et d’agrumes
+🍊 Un côté zesté et acidulé
+🌿 Une signature fraîche et fruitée
+
+━━━━━━━━━━━━━━━━
+
+❄️ FROZEN SIFT — THERPS INDUSTRY 💎
+
+🫒 Format olive de 5G
+💎 Texture travaillée et présentation soignée
+🥶 Trois profils aromatiques distincts
+👑 Une collection aux inspirations fruitées
+
+━━━━━━━━━━━━━━━━
+
+💚 PISTACHIO.420 🌰
+💎 L’AMOUR DU GOÛT DEPUIS 2019 💎`,
+                            variantTitle: 'Saveurs Frozen ❄️ :', 
+                            jars: [
+                                { name: 'MANDARINA', emoji: '🍊', colorClass: 'style-purple' },
+                                { name: 'STRAWBERRY', emoji: '🍓', colorClass: 'style-brown' },
+                                { name: 'BLUEBERRY', emoji: '🫐', colorClass: 'style-grappe' },
+
+                            ],
+                            tarifs: [
+                                { weight: '1 olive', price: 70.00 },
+                                { weight: '2 olives', price: 130.00 },
+                                { weight: '4 olives', price: 250.00 },
+                            ]
+                        },
+                         {
                             id: 'PEANUT BUTTER FLY 🦋💎🚨',
                             flag: '🇺🇸',
                             name: 'PEANUT BUTTER FLY 🦋💎🚨',
@@ -807,7 +868,7 @@ Un profil aromatique aux notes de beurre de cacahuète, avec une identité gourm
                                 { weight: '100g', price: 730.00 },
                             ]
                         },
-                          {
+                        /*   {
                             id: '💜💎 RS11 💎💜',
                             flag: '🇺🇸',
                             name: '💜💎 RS11 💎💜',
@@ -842,7 +903,7 @@ Le travail est terminé… reste plus qu’à déguster 😮‍💨💎
                                 { weight: '1 olive', price: 130.00 },
                                 { weight: '2 olives', price: 250.00 },
                             ]
-                        },
+                        }, */
                           {
                             id: '🤍🍮 PANNACOTA 🍮🤍',
                             flag: '🇺🇸',
@@ -948,7 +1009,7 @@ Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qu
                                 { weight: '100g', price: 730.00 },
                             ]
                         }, */
-                        {
+                        /* {
                             id: '🍊 Orange Z',
                             flag: '🇺🇸',
                             name: '🍊 Orange Z',
@@ -964,7 +1025,7 @@ Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qu
                                 { weight: '5 olive', price: 430.00 },
                                 { weight: '10 olive', price: 780.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: '🥣 Cereal Milk',
                             flag: '🇺🇸',
