@@ -737,9 +737,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: 'Terps',
                     products: [
                          {
-                            id: '🫒 OLIVE DE FROZEN',
+                            id: '🫒 YAMAHA X REDBULL',
                             flag: '🇺🇸',
-                            name: '🫒 OLIVE DE FROZEN',
+                            name: '🫒 YAMAHA X REDBULL',
                             farm: '🧊💎 THERPS INDUSTRY 💎🧊',
                             promoEligible: true,
                             type: 'FROZEN PREMIUM ❄️',
